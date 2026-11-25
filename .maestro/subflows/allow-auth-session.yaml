@@ -1,5 +1,5 @@
 # iOS asks before an app opens a sign-in session in the system browser:
-# "“Bulwark Mobile” Wants to Use “<domain>” to Sign In". Accept it.
+# "“Cobbler Mail” Wants to Use “<domain>” to Sign In". Accept it.
 appId: org.bulwarkmail.mobile
 ---
 - extendedWaitUntil:

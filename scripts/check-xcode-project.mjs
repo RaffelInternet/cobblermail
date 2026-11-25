@@ -10,7 +10,7 @@
 // It also lists, per target, which file each Sources entry compiles (the path
 // relative to ios/), so a test can check that a target builds its own copy.
 //
-//   node scripts/check-xcode-project.mjs ios/BulwarkMobile.xcodeproj/project.pbxproj
+//   node scripts/check-xcode-project.mjs ios/CobblerMail.xcodeproj/project.pbxproj
 //
 // The tests (src/lib/__tests__/ios-xcode-project.test.ts) run the iOS config
 // plugins over Expo's template and use this on the result.

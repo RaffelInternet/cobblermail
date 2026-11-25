@@ -328,7 +328,7 @@
     "signing_out": "Senkronize edilen kişiler ve takvimler bu cihazdan kaldırılıyor…"
   },
   "email_composer": {
-    "attach_bulwark_files": "Bulwark Dosyaları",
+    "attach_bulwark_files": "Cobbler Mail Dosyaları",
     "attach_camera": "Kamera",
     "attach_gallery": "Galeri",
     "attach_this_device": "Bu cihaz",
@@ -402,7 +402,7 @@
     "send_timeout_body": "İleti zaten gönderilmiş olabilir. Yeniden göndermeden önce Gönderilenler klasörünü kontrol edin.",
     "send_timeout_title": "Sunucudan yanıt yok",
     "submission_limit": "Bir sınıra ulaşıldığı için sunucu iletiyi göndermeyi reddetti: {reason}",
-    "submission_quota": "Sunucuda bu hesap için çok fazla gönderilmiş ileti kaydı var. Bulwark kaldırabildiklerini kaldırdı; bu durum sürerse yöneticinizden e-posta gönderim sınırını yükseltmesini isteyin.",
+    "submission_quota": "Sunucuda bu hesap için çok fazla gönderilmiş ileti kaydı var. Cobbler Mail kaldırabildiklerini kaldırdı; bu durum sürerse yöneticinizden e-posta gönderim sınırını yükseltmesini isteyin.",
     "undo_send_label": "{seconds} sn içinde gönderiliyor…",
     "upload_failed_short": "Yükleme başarısız",
     "uploading": "Yükleniyor...",
@@ -656,7 +656,7 @@
       "add_title": "Başka bir hesap ekle",
       "camera_allow": "Kamera erişimine izin ver",
       "camera_disabled": "Kamera erişimi devre dışı. Giriş QR kodunu taramak için Ayarlar'dan etkinleştirin.",
-      "camera_needed": "Bulwark Mail'in giriş QR kodunu taramak için kamera erişimine ihtiyacı var.",
+      "camera_needed": "Cobbler Mail'in giriş QR kodunu taramak için kamera erişimine ihtiyacı var.",
       "choose_subtitle": "Nasıl giriş yapmak istediğinizi seçin.",
       "confirm_check": "Her şeyin doğru olduğunu kontrol edin",
       "confirm_found": "Posta sunucunuz bulundu",
@@ -747,7 +747,7 @@
       "paste_invalid": "Bu bir Bulwark giriş bağlantısı değil",
       "paste_label": "Giriş bağlantısı",
       "paste_title": "Giriş bağlantısını yapıştır",
-      "provider_detail": "Parolanızı sağlayıcının sayfasında yazacaksınız. Bulwark yalnızca istediğiniz zaman iptal edebileceğiniz bir giriş belirteci saklar.",
+      "provider_detail": "Parolanızı sağlayıcının sayfasında yazacaksınız. Cobbler Mail yalnızca istediğiniz zaman iptal edebileceğiniz bir giriş belirteci saklar.",
       "provider_title": "Parolanız sağlayıcınızda kalır",
       "qr_hint": "Ayarlar → Güvenlik → Mobil uygulamayı bağla bir kod gösterir. Kamerayı ona doğrultun.",
       "qr_hint_title": "Bilgisayarınızda Bulwark'ı açın",
@@ -767,7 +767,7 @@
       "username_label": "E-posta veya kullanıcı adı",
       "your_server": "sunucunuz",
       "cancel_sign_in": "Girişi iptal et",
-      "err_client_rejected_detail": "Sunucu, Bulwark'ı giriş istemcisi olarak reddetti. Yöneticinizden buna izin vermesini isteyin veya bir uygulama parolasıyla giriş yapın.",
+      "err_client_rejected_detail": "Sunucu, Cobbler Mail'i giriş istemcisi olarak reddetti. Yöneticinizden buna izin vermesini isteyin veya bir uygulama parolasıyla giriş yapın.",
       "err_client_rejected_title": "{host} uygulamayı kabul etmedi",
       "err_handoff_expired_detail": "Tarayıcı girişi süresi dolduktan sonra geri iletti. Tekrar giriş yapın.",
       "err_handoff_expired_title": "Giriş çok uzun sürdü",
@@ -847,7 +847,7 @@
     "advanced": {
       "about": {
         "deprecated_update": "Güncelleme gerekli: {version}",
-        "mobile_title": "Bulwark Mobile",
+        "mobile_title": "Cobbler Mail",
         "security_update": "Güvenlik güncellemesi: {version}",
         "update_available": "Güncelleme: {version}",
         "update_store_hint": "TestFlight / App Store'da mevcut"
@@ -908,7 +908,7 @@
       "books_hint": "Kendi adres defterleriniz siz kapatmadığınız sürece senkronize edilir; paylaşılanlar yalnızca siz açtığınızda.",
       "books_label": "Adres defterleri",
       "calendars_default": "Kendi takvimleriniz senkronize edilir; paylaşılanlar yalnızca siz seçtiğinizde.",
-      "calendars_hint": "Kendi takvimleriniz siz kapatmadığınız sürece senkronize edilir; paylaşılanlar yalnızca siz açtığınızda. Görev listeleri Bulwark'ta kalır.",
+      "calendars_hint": "Kendi takvimleriniz siz kapatmadığınız sürece senkronize edilir; paylaşılanlar yalnızca siz açtığınızda. Görev listeleri Cobbler Mail'de kalır.",
       "calendars_label": "Takvimler",
       "choose": "Seç",
       "choose_books_title": "Senkronize edilecek adres defterleri",
@@ -919,8 +919,8 @@
       "deletions_message": "Bu cihazda aynı anda çok sayıda öğe silindi, bu nedenle sunucuda silinmediler. Bunları sunucuda da silin veya bu cihaza geri getirin.",
       "deletions_restore": "Geri getir",
       "deletions_title": "Sunucuda da silinsin mi?",
-      "denied_calendar": "Takvimlere erişim olmadan Bulwark takvimlerinizi bu cihaza getiremez.",
-      "denied_contacts": "Kişilere erişim olmadan Bulwark adres defterlerinizi bu cihaza getiremez.",
+      "denied_calendar": "Takvimlere erişim olmadan Cobbler Mail takvimlerinizi bu cihaza getiremez.",
+      "denied_contacts": "Kişilere erişim olmadan Cobbler Mail adres defterlerinizi bu cihaza getiremez.",
       "denied_title": "Senkronizasyon kapalı kalıyor",
       "failed_title": "Senkronizasyon açılamadı",
       "grant_access": "Erişim izni ver",
@@ -928,7 +928,7 @@
       "interval_1h": "Her saat",
       "interval_30m": "Her 30 dakikada bir",
       "interval_6h": "Her 6 saatte bir",
-      "interval_desc": "Android'in kendi kendine ne sıklıkla senkronize edeceği. Bulwark'taki düzenlemeler ve push ile bildirilen değişiklikler daha erken senkronize edilir.",
+      "interval_desc": "Android'in kendi kendine ne sıklıkla senkronize edeceği. Cobbler Mail'deki düzenlemeler ve push ile bildirilen değişiklikler daha erken senkronize edilir.",
       "interval_label": "Senkronizasyon aralığı",
       "interval_manual": "Düzenli senkronizasyon yok",
       "keep_syncing": "Senkronizasyona devam et",
@@ -945,18 +945,18 @@
       "ok": "Tamam",
       "open_app_settings": "Uygulama ayarlarını aç",
       "own_collections": "Size ait",
-      "rationale_calendar": "Takvimlerinizi Takvim uygulamasında göstermek için Bulwark'ın bu cihazdaki takvimlere erişmesi gerekir. Yalnızca kendi hesabının takvimlerini değiştirir.",
-      "rationale_contacts": "Adres defterlerinizi Kişiler uygulamasında göstermek için Bulwark'ın bu cihazdaki kişilere erişmesi gerekir. Yalnızca kendi hesabının kişilerini değiştirir.",
+      "rationale_calendar": "Takvimlerinizi Takvim uygulamasında göstermek için Cobbler Mail'in bu cihazdaki takvimlere erişmesi gerekir. Yalnızca kendi hesabının takvimlerini değiştirir.",
+      "rationale_contacts": "Adres defterlerinizi Kişiler uygulamasında göstermek için Cobbler Mail'in bu cihazdaki kişilere erişmesi gerekir. Yalnızca kendi hesabının kişilerini değiştirir.",
       "rationale_title_calendar": "Takvimlere erişim izni verin",
       "rationale_title_contacts": "Kişilere erişim izni verin",
       "read_only": "Salt okunur",
-      "reminder_owner_bulwark": "Bulwark",
+      "reminder_owner_bulwark": "Cobbler Mail",
       "reminder_owner_device": "Takvim uygulaması",
-      "reminder_question_message": "Senkronize edilen etkinlikler için hatırlatmalar bu cihazdaki takvim uygulamasından veya Bulwark'tan gelebilir. İki kez hatırlatılmamak için birini seçin. Bunu daha sonra değiştirebilirsiniz.",
+      "reminder_question_message": "Senkronize edilen etkinlikler için hatırlatmalar bu cihazdaki takvim uygulamasından veya Cobbler Mail'den gelebilir. İki kez hatırlatılmamak için birini seçin. Bunu daha sonra değiştirebilirsiniz.",
       "reminder_question_title": "Size kim hatırlatsın?",
       "reminders_desc": "Senkronize edilen etkinlikleri size kimin hatırlatacağı. Diğeri sessiz kalır, böylece iki kez hatırlatılmazsınız.",
       "reminders_label": "Hatırlatıcılar",
-      "reminders_nobody": "Bulwark'ın etkinlik bildirimleri kapalı, bu nedenle senkronize edilen etkinlikleri size hiçbir şey hatırlatmaz.",
+      "reminders_nobody": "Cobbler Mail'in etkinlik bildirimleri kapalı, bu nedenle senkronize edilen etkinlikleri size hiçbir şey hatırlatmaz.",
       "remove": "Kaldır",
       "remove_from_device": "Bu cihazdan kaldır",
       "remove_message": "Hesabın kişileri ve takvimleri bu cihazdan kaldırılır. Burada yapılan ve sunucuya ulaşmamış değişiklikler kaybolur.",
@@ -993,7 +993,7 @@
       "turn_off_failed_title": "Senkronizasyon kapatılamadı",
       "turn_off_pending": "{count, plural, one {Bu cihazda yapılan # değişiklik henüz sunucuya ulaşmadı. Senkronizasyonu şimdi kapatırsanız kaybolur.} other {Bu cihazda yapılan # değişiklik henüz sunucuya ulaşmadı. Senkronizasyonu şimdi kapatırsanız kaybolur.}}",
       "turn_off_title": "Yine de kapatılsın mı?",
-      "turn_off_unknown": "Bulwark, bu cihazda yapılan değişikliklerin sunucuya ulaşıp ulaşmadığını kontrol edemedi. Senkronizasyonu şimdi kapatırsanız kaybolur.",
+      "turn_off_unknown": "Cobbler Mail, bu cihazda yapılan değişikliklerin sunucuya ulaşıp ulaşmadığını kontrol edemedi. Senkronizasyonu şimdi kapatırsanız kaybolur.",
       "turning_off": "Değişiklikler yükleniyor, ardından veriler bu cihazdan kaldırılıyor…",
       "turning_on": "Ayarlanıyor…"
     },
@@ -1375,8 +1375,8 @@
         "section_title": "İki Faktörlü Kimlik Doğrulama",
         "disable_hint_code": "İki faktörlü kimlik doğrulamayı kapatmak için parolanızı ve kimlik doğrulayıcı uygulamanızdan bir kod girin."
       },
-      "restricted": "Sunucunuz parolayı, iki aşamalı girişi, uygulama parolalarını ve API anahtarlarını yalnızca yöneticisinin onayladığı uygulamaların değiştirmesine izin veriyor. Bulwark bu onay olmadan giriş yaptı; bu yüzden posta, kişiler, takvimler ve dosyalar çalışır, ancak bu ayarlar çalışmaz. Bunları sunucunuzun web arayüzünden veya Bulwark webmail'den değiştirin.",
-      "restricted_sign_in_again": "Bulwark, sunucunuz uygulamaların bu ayarları yönetmesine izin vermeden önce giriş yaptı. Parolayı, iki aşamalı girişi, uygulama parolalarını ve API anahtarlarını burada yönetmek için tekrar giriş yapın.",
+      "restricted": "Sunucunuz parolayı, iki aşamalı girişi, uygulama parolalarını ve API anahtarlarını yalnızca yöneticisinin onayladığı uygulamaların değiştirmesine izin veriyor. Cobbler Mail bu onay olmadan giriş yaptı; bu yüzden posta, kişiler, takvimler ve dosyalar çalışır, ancak bu ayarlar çalışmaz. Bunları sunucunuzun web arayüzünden veya Bulwark webmail'den değiştirin.",
+      "restricted_sign_in_again": "Cobbler Mail, sunucunuz uygulamaların bu ayarları yönetmesine izin vermeden önce giriş yaptı. Parolayı, iki aşamalı girişi, uygulama parolalarını ve API anahtarlarını burada yönetmek için tekrar giriş yapın.",
       "screen_privacy": {
         "block_screenshots": "Ekran görüntülerini engelle",
         "block_screenshots_description": "Uygulamanın ekran görüntülerini ve ekran kayıtlarını engeller, son uygulamalar görünümünde içeriğini gizler.",
@@ -1946,8 +1946,8 @@
       "error": "Bu widget gösterilemedi",
       "loading": "Yükleniyor…",
       "open_app": "Burası boş kalırsa uygulamayı bir kez açın.",
-      "open_to_load": "Yüklemek için Bulwark'ı açın",
-      "signed_out": "Bulwark'ta giriş yapın"
+      "open_to_load": "Yüklemek için Cobbler Mail'i açın",
+      "signed_out": "Cobbler Mail'de giriş yapın"
     },
     "storage": {
       "no_limit": "Depolama sınırı yok",
@@ -1990,5 +1990,14 @@
     "server_error": "{host} sunucusunda sorun var. Yeni postalar gelmeyebilir.",
     "rate_limited": "{host} istekleri sınırlıyor. Yeni postalar gecikebilir.",
     "sign_in_failing": "{host} oturumu yenilenemiyor. Yenilenene kadar yeni posta gelmeyecek."
+  },
+  "vacation_calendar": {
+    "no_calendar": "Takviminiz kapatılamıyor: Cobbler Mail etkinliği ekleyecek bir takvim bulamadı."
+  },
+  "recover_deleted": {
+    "restore_hint": "Geri yüklenen postalar Gelen Kutunuza okunmamış olarak döner ve özgün tarihlerine göre sıralanır, bu yüzden listenin çok altında olabilir. Sunucu bunları arka planda geri yükler. Orada başarısız olursa ileti kaybolur ve Cobbler Mail bunu anlayamaz."
+  },
+  "uxs_login": {
+    "provider_unsupported": "{provider}, Cobbler Mail'in posta sunucularıyla konuştuğu yol olan JMAP'i sunmuyor, bu yüzden Cobbler Mail henüz ona doğrudan bağlanamıyor."
   }
 }

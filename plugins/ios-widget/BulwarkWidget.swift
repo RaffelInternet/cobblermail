@@ -84,7 +84,7 @@ struct Palette {
     background = dark ? Color(hex: "#18181b") : Color(hex: "#ffffff")
     foreground = dark ? Color(hex: "#fafafa") : Color(hex: "#09090b")
     muted = dark ? Color(hex: "#a1a1aa") : Color(hex: "#71717a")
-    accent = Color(hex: "#db2d54")
+    accent = dark ? Color(hex: "#1DA96E") : Color(hex: "#442B72")
   }
 }
 
@@ -215,10 +215,10 @@ struct InboxWidgetView: View {
       }
     } else {
       VStack(alignment: .leading, spacing: 6) {
-        Text("Bulwark Mail")
+        Text("Cobbler Mail")
           .font(.system(size: 15, weight: .semibold))
           .foregroundColor(palette.foreground)
-        Text(entry.snapshot?.strings.signedOut ?? "Open Bulwark to load your inbox.")
+        Text(entry.snapshot?.strings.signedOut ?? "Open Cobbler Mail to load your inbox.")
           .font(.system(size: 13))
           .foregroundColor(palette.muted)
       }

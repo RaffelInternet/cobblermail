@@ -1156,7 +1156,7 @@ export function AccountSecuritySettings() {
           {signInFixes ? (
             <View style={{ gap: spacing.md, alignItems: 'flex-start' }}>
               <Text style={styles.emptyText}>
-                {t('settings.security.restricted_sign_in_again', 'Bulwark signed in before your server let apps manage these settings. Sign in again to manage the password, two-factor sign-in, app passwords and API keys here.')}
+                {t('settings.security.restricted_sign_in_again', 'Cobbler Mail signed in before your server let apps manage these settings. Sign in again to manage the password, two-factor sign-in, app passwords and API keys here.')}
               </Text>
               {activeAccountId ? (
                 <Button size="sm" onPress={() => { void signInAgain(activeAccountId); }}>
@@ -1166,7 +1166,7 @@ export function AccountSecuritySettings() {
             </View>
           ) : (
             <Text style={styles.emptyText}>
-              {t('settings.security.restricted', "Your server lets only apps its administrator approved change the password, two-factor sign-in, app passwords and API keys. Bulwark signed in without that approval, so mail, contacts, calendars and files work, but these settings don't. Change them in your server's web interface or the Bulwark webmail.")}
+              {t('settings.security.restricted', "Your server lets only apps its administrator approved change the password, two-factor sign-in, app passwords and API keys. Cobbler Mail signed in without that approval, so mail, contacts, calendars and files work, but these settings don't. Change them in your server's web interface or the Bulwark webmail.")}
             </Text>
           )}
         </SettingsSection>

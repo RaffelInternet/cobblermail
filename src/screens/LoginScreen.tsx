@@ -376,7 +376,7 @@ export default function LoginScreen({ onLogin, isAddMode = false, onCancel }: Lo
     const provider = unsupportedProvider(emailDomain(value));
     if (provider) {
       setNotice({
-        title: t('uxs_login.provider_unsupported', "{provider} doesn't offer JMAP, the way Bulwark talks to mail servers, so Bulwark can't connect to it directly yet.", { provider }),
+        title: t('uxs_login.provider_unsupported', "{provider} doesn't offer JMAP, the way Cobbler Mail talks to mail servers, so Cobbler Mail can't connect to it directly yet.", { provider }),
         tone: 'info',
       });
       return;

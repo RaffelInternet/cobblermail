@@ -48,7 +48,7 @@ export function VacationCalendarBlock({ hasDates, accountId }: { hasDates: boole
       <Text style={styles.note}>
         {accountId
           ? t('vacation_calendar.no_access_managed', 'The calendar of this account can’t be blocked: you don’t have write access to it.')
-          : t('vacation_calendar.no_calendar', 'Your calendar can’t be blocked: Bulwark found no calendar to add the event to.')}
+          : t('vacation_calendar.no_calendar', 'Your calendar can’t be blocked: Cobbler Mail found no calendar to add the event to.')}
       </Text>
     );
   }

@@ -328,7 +328,7 @@
     "signing_out": "A szinkronizált névjegyek és naptárak eltávolítása erről az eszközről…"
   },
   "email_composer": {
-    "attach_bulwark_files": "Bulwark-fájlok",
+    "attach_bulwark_files": "Cobbler Mail-fájlok",
     "attach_camera": "Kamera",
     "attach_gallery": "Galéria",
     "attach_this_device": "Ez az eszköz",
@@ -397,7 +397,7 @@
     "send_timeout_body": "Lehet, hogy az üzenet már elment. Mielőtt újra elküldenéd, nézd meg az Elküldött mappát.",
     "send_timeout_title": "Nem érkezett válasz a szervertől",
     "submission_limit": "A kiszolgáló elutasította az üzenet küldését, mert elért egy korlátot: {reason}",
-    "submission_quota": "A kiszolgáló túl sok elküldött üzenetről szóló bejegyzést tárol ehhez a fiókhoz. A Bulwark eltávolította, amit tudott; ha ez továbbra is előfordul, kérje meg a rendszergazdát, hogy emelje meg az e-mail-küldési korlátot.",
+    "submission_quota": "A kiszolgáló túl sok elküldött üzenetről szóló bejegyzést tárol ehhez a fiókhoz. A Cobbler Mail eltávolította, amit tudott; ha ez továbbra is előfordul, kérje meg a rendszergazdát, hogy emelje meg az e-mail-küldési korlátot.",
     "undo_send_label": "Küldés {seconds} mp múlva…",
     "upload_failed_short": "Sikertelen feltöltés",
     "uploading": "Feltöltés...",
@@ -651,7 +651,7 @@
       "add_title": "Másik fiók hozzáadása",
       "camera_allow": "Kamera-hozzáférés engedélyezése",
       "camera_disabled": "A kamera-hozzáférés le van tiltva. Engedélyezd a Beállításokban a bejelentkezési QR-kód beolvasásához.",
-      "camera_needed": "A Bulwark Mailnek kamera-hozzáférésre van szüksége a bejelentkezési QR-kód beolvasásához.",
+      "camera_needed": "A Cobbler Mailnek kamera-hozzáférésre van szüksége a bejelentkezési QR-kód beolvasásához.",
       "choose_subtitle": "Válaszd ki, hogyan szeretnél bejelentkezni.",
       "confirm_check": "Ellenőrizd, hogy minden stimmel-e",
       "confirm_found": "Megtaláltuk a levelezőszerveredet",
@@ -742,7 +742,7 @@
       "paste_invalid": "Ez nem Bulwark bejelentkezési hivatkozás",
       "paste_label": "Bejelentkezési hivatkozás",
       "paste_title": "Bejelentkezési hivatkozás beillesztése",
-      "provider_detail": "A szolgáltató oldalán írod be. A Bulwark csak egy bejelentkezési tokent tárol, amelyet bármikor visszavonhatsz.",
+      "provider_detail": "A szolgáltató oldalán írod be. A Cobbler Mail csak egy bejelentkezési tokent tárol, amelyet bármikor visszavonhatsz.",
       "provider_title": "A jelszavad a szolgáltatódnál marad",
       "qr_hint": "A Beállítások → Biztonság → Mobilalkalmazás összekapcsolása egy kódot jelenít meg. Irányítsd rá a kamerát.",
       "qr_hint_title": "Nyisd meg a Bulwarkot a számítógépeden",
@@ -762,7 +762,7 @@
       "username_label": "E-mail vagy felhasználónév",
       "your_server": "a szervered",
       "cancel_sign_in": "Bejelentkezés megszakítása",
-      "err_client_rejected_detail": "A szerver nem fogadta el a Bulwarkot bejelentkezési kliensként. Kérd meg a rendszergazdát, hogy engedélyezze, vagy jelentkezz be alkalmazásjelszóval.",
+      "err_client_rejected_detail": "A szerver nem fogadta el a Cobbler Mailt bejelentkezési kliensként. Kérd meg a rendszergazdát, hogy engedélyezze, vagy jelentkezz be alkalmazásjelszóval.",
       "err_client_rejected_title": "{host} nem fogadta el az alkalmazást",
       "err_handoff_expired_detail": "A böngésző már a lejárata után adta vissza a bejelentkezést. Jelentkezz be újra.",
       "err_handoff_expired_title": "A bejelentkezés túl sokáig tartott",
@@ -842,7 +842,7 @@
     "advanced": {
       "about": {
         "deprecated_update": "Frissítés szükséges: {version}",
-        "mobile_title": "Bulwark Mobile",
+        "mobile_title": "Cobbler Mail",
         "security_update": "Biztonsági frissítés: {version}",
         "update_available": "Frissítés: {version}",
         "update_store_hint": "elérhető a TestFlightban / App Store-ban"
@@ -903,7 +903,7 @@
       "books_hint": "A saját címjegyzékeid szinkronizálódnak, hacsak ki nem kapcsolod őket; a megosztottak csak akkor, ha bekapcsolod őket.",
       "books_label": "Címjegyzékek",
       "calendars_default": "A saját naptáraid szinkronizálódnak, a megosztottak csak akkor, ha kiválasztod őket.",
-      "calendars_hint": "A saját naptáraid szinkronizálódnak, hacsak ki nem kapcsolod őket; a megosztottak csak akkor, ha bekapcsolod őket. A feladatlisták a Bulwarkban maradnak.",
+      "calendars_hint": "A saját naptáraid szinkronizálódnak, hacsak ki nem kapcsolod őket; a megosztottak csak akkor, ha bekapcsolod őket. A feladatlisták a Cobbler Mailben maradnak.",
       "calendars_label": "Naptárak",
       "choose": "Kiválasztás",
       "choose_books_title": "Szinkronizálandó címjegyzékek",
@@ -914,8 +914,8 @@
       "deletions_message": "Ezen az eszközön egyszerre sok elemet töröltek, ezért a szerveren nem lettek törölve. Töröld őket ott is, vagy állítsd vissza őket ezen az eszközön.",
       "deletions_restore": "Visszaállítás",
       "deletions_title": "A szerveren is törlöd őket?",
-      "denied_calendar": "A naptárakhoz való hozzáférés nélkül a Bulwark nem tudja a naptáraidat erre az eszközre hozni.",
-      "denied_contacts": "A névjegyekhez való hozzáférés nélkül a Bulwark nem tudja a címjegyzékeidet erre az eszközre hozni.",
+      "denied_calendar": "A naptárakhoz való hozzáférés nélkül a Cobbler Mail nem tudja a naptáraidat erre az eszközre hozni.",
+      "denied_contacts": "A névjegyekhez való hozzáférés nélkül a Cobbler Mail nem tudja a címjegyzékeidet erre az eszközre hozni.",
       "denied_title": "A szinkronizálás kikapcsolva marad",
       "failed_title": "Nem sikerült bekapcsolni a szinkronizálást",
       "grant_access": "Hozzáférés megadása",
@@ -923,7 +923,7 @@
       "interval_1h": "Óránként",
       "interval_30m": "30 percenként",
       "interval_6h": "6 óránként",
-      "interval_desc": "Milyen gyakran szinkronizál az Android magától. A Bulwarkban végzett szerkesztések és a push útján jelzett módosítások hamarabb szinkronizálódnak.",
+      "interval_desc": "Milyen gyakran szinkronizál az Android magától. A Cobbler Mailben végzett szerkesztések és a push útján jelzett módosítások hamarabb szinkronizálódnak.",
       "interval_label": "Szinkronizálási időköz",
       "interval_manual": "Nincs rendszeres szinkronizálás",
       "keep_syncing": "Szinkronizálás folytatása",
@@ -940,18 +940,18 @@
       "ok": "OK",
       "open_app_settings": "Beállítások megnyitása",
       "own_collections": "Saját",
-      "rationale_calendar": "Ahhoz, hogy a naptáraid megjelenjenek a Naptár alkalmazásban, a Bulwarknak hozzá kell férnie az eszköz naptáraihoz. Csak a saját fiókja naptárait módosítja.",
-      "rationale_contacts": "Ahhoz, hogy a címjegyzékeid megjelenjenek a Névjegyek alkalmazásban, a Bulwarknak hozzá kell férnie az eszköz névjegyeihez. Csak a saját fiókja névjegyeit módosítja.",
+      "rationale_calendar": "Ahhoz, hogy a naptáraid megjelenjenek a Naptár alkalmazásban, a Cobbler Mailnek hozzá kell férnie az eszköz naptáraihoz. Csak a saját fiókja naptárait módosítja.",
+      "rationale_contacts": "Ahhoz, hogy a címjegyzékeid megjelenjenek a Névjegyek alkalmazásban, a Cobbler Mailnek hozzá kell férnie az eszköz névjegyeihez. Csak a saját fiókja névjegyeit módosítja.",
       "rationale_title_calendar": "Hozzáférés engedélyezése a naptárakhoz",
       "rationale_title_contacts": "Hozzáférés engedélyezése a névjegyekhez",
       "read_only": "Csak olvasható",
-      "reminder_owner_bulwark": "Bulwark",
+      "reminder_owner_bulwark": "Cobbler Mail",
       "reminder_owner_device": "Naptár alkalmazás",
-      "reminder_question_message": "A szinkronizált eseményekre az eszköz naptáralkalmazása vagy a Bulwark emlékeztethet. Válassz egyet, hogy ne kapj kétszer emlékeztetőt. Később módosíthatod.",
+      "reminder_question_message": "A szinkronizált eseményekre az eszköz naptáralkalmazása vagy a Cobbler Mail emlékeztethet. Válassz egyet, hogy ne kapj kétszer emlékeztetőt. Később módosíthatod.",
       "reminder_question_title": "Ki emlékeztessen?",
       "reminders_desc": "Ki emlékeztet a szinkronizált eseményekre. A másik csendben marad, így nem kapsz kétszer emlékeztetőt.",
       "reminders_label": "Emlékeztetők",
-      "reminders_nobody": "A Bulwark eseményértesítései ki vannak kapcsolva, így semmi sem emlékeztet a szinkronizált eseményekre.",
+      "reminders_nobody": "A Cobbler Mail eseményértesítései ki vannak kapcsolva, így semmi sem emlékeztet a szinkronizált eseményekre.",
       "remove": "Eltávolítás",
       "remove_from_device": "Eltávolítás erről az eszközről",
       "remove_message": "A fiók névjegyei és naptárai törlődnek erről az eszközről. Az itt végzett, a szerverre még el nem jutott módosítások elvesznek.",
@@ -988,7 +988,7 @@
       "turn_off_failed_title": "Nem sikerült kikapcsolni a szinkronizálást",
       "turn_off_pending": "{count, plural, one {Ezen az eszközön # módosítás még nem jutott el a szerverre. Elvész, ha most kikapcsolod a szinkronizálást.} other {Ezen az eszközön # módosítás még nem jutott el a szerverre. Elvesznek, ha most kikapcsolod a szinkronizálást.}}",
       "turn_off_title": "Mindenképp kikapcsolod?",
-      "turn_off_unknown": "A Bulwark nem tudta ellenőrizni, hogy az ezen az eszközön végzett módosítások eljutottak-e a szerverre. Elvesznek, ha most kikapcsolod a szinkronizálást.",
+      "turn_off_unknown": "A Cobbler Mail nem tudta ellenőrizni, hogy az ezen az eszközön végzett módosítások eljutottak-e a szerverre. Elvesznek, ha most kikapcsolod a szinkronizálást.",
       "turning_off": "Módosítások feltöltése, majd az adatok eltávolítása erről az eszközről…",
       "turning_on": "Beállítás folyamatban…"
     },
@@ -1370,8 +1370,8 @@
         "section_title": "Kétfaktoros hitelesítés",
         "disable_hint_code": "A kétfaktoros hitelesítés kikapcsolásához add meg a jelszavad és egy kódot a hitelesítő alkalmazásodból."
       },
-      "restricted": "A szervered csak a rendszergazda által jóváhagyott alkalmazásoknak engedi módosítani a jelszót, a kétfaktoros bejelentkezést, az alkalmazásjelszavakat és az API-kulcsokat. A Bulwark e jóváhagyás nélkül jelentkezett be, ezért a levelek, névjegyek, naptárak és fájlok működnek, ezek a beállítások azonban nem. Módosítsd őket a szervered webes felületén vagy a Bulwark webmailben.",
-      "restricted_sign_in_again": "A Bulwark azelőtt jelentkezett be, hogy a szervered engedte volna az alkalmazásoknak ezeknek a beállításoknak a kezelését. Jelentkezz be újra, hogy itt kezelhesd a jelszót, a kétfaktoros bejelentkezést, az alkalmazásjelszavakat és az API-kulcsokat.",
+      "restricted": "A szervered csak a rendszergazda által jóváhagyott alkalmazásoknak engedi módosítani a jelszót, a kétfaktoros bejelentkezést, az alkalmazásjelszavakat és az API-kulcsokat. A Cobbler Mail e jóváhagyás nélkül jelentkezett be, ezért a levelek, névjegyek, naptárak és fájlok működnek, ezek a beállítások azonban nem. Módosítsd őket a szervered webes felületén vagy a Bulwark webmailben.",
+      "restricted_sign_in_again": "A Cobbler Mail azelőtt jelentkezett be, hogy a szervered engedte volna az alkalmazásoknak ezeknek a beállításoknak a kezelését. Jelentkezz be újra, hogy itt kezelhesd a jelszót, a kétfaktoros bejelentkezést, az alkalmazásjelszavakat és az API-kulcsokat.",
       "screen_privacy": {
         "block_screenshots": "Képernyőképek tiltása",
         "block_screenshots_description": "Megakadályozza a képernyőképeket és képernyőfelvételeket az alkalmazásról, és elrejti a tartalmát a legutóbbi alkalmazások nézetben.",
@@ -1941,8 +1941,8 @@
       "error": "Nem sikerült megjeleníteni ezt a widgetet",
       "loading": "Betöltés…",
       "open_app": "Ha üres marad, nyisd meg egyszer az alkalmazást.",
-      "open_to_load": "A betöltéshez nyisd meg a Bulwarkot",
-      "signed_out": "Jelentkezz be a Bulwarkba"
+      "open_to_load": "A betöltéshez nyisd meg a Cobbler Mailt",
+      "signed_out": "Jelentkezz be a Cobbler Mailbe"
     },
     "storage": {
       "no_limit": "Nincs tárhelykorlát",
@@ -1985,5 +1985,14 @@
     "server_error": "A(z) {host} hibásan működik. Előfordulhat, hogy az új levelek nem érkeznek meg.",
     "rate_limited": "A(z) {host} korlátozza a kéréseket. Az új levelek késhetnek.",
     "sign_in_failing": "A(z) {host} bejelentkezése nem újítható meg. Új levelek addig nem érkeznek, amíg ez nem sikerül."
+  },
+  "vacation_calendar": {
+    "no_calendar": "A naptár nem foglalható: a Cobbler Mail nem talált naptárt az eseményhez."
+  },
+  "recover_deleted": {
+    "restore_hint": "A visszaállított levelek olvasatlanként kerülnek vissza a Beérkező levelek közé, az eredeti dátumuk szerint rendezve, így messze lent is lehetnek a listában. A szerver a háttérben állítja vissza őket. Ha ez ott nem sikerül, az üzenet elvész, és a Cobbler Mail ezt nem tudja észlelni."
+  },
+  "uxs_login": {
+    "provider_unsupported": "A(z) {provider} nem kínál JMAP-ot, azt a módot, ahogyan a Cobbler Mail a levelezőszerverekkel beszél, ezért a Cobbler Mail még nem tud közvetlenül csatlakozni hozzá."
   }
 }

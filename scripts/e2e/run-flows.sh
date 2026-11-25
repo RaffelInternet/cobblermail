@@ -139,7 +139,7 @@ find "$DEBUG_DIR" -type f | sed "s|$DEBUG_DIR/||" > "$OUT/debug-files.txt" 2>/de
 
 # --info: console.log of the JS lands at info level.
 xcrun simctl spawn "$UDID" log show --last 90m --style compact --info \
-  --predicate 'process == "BulwarkMobile" AND (subsystem == "com.facebook.react.log" OR messageType >= 16)' \
+  --predicate 'process == "CobblerMail" AND (subsystem == "com.facebook.react.log" OR messageType >= 16)' \
   > "$OUT/app.log" 2>&1 || true
 
 # Push: what iOS did with the notification (the extension's own log, and

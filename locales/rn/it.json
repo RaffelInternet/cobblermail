@@ -328,7 +328,7 @@
     "signing_out": "Rimozione dei contatti e dei calendari sincronizzati da questo dispositivo…"
   },
   "email_composer": {
-    "attach_bulwark_files": "File di Bulwark",
+    "attach_bulwark_files": "File di Cobbler Mail",
     "attach_camera": "Fotocamera",
     "attach_gallery": "Galleria",
     "attach_this_device": "Questo dispositivo",
@@ -403,7 +403,7 @@
     "send_timeout_body": "Il messaggio potrebbe essere già stato inviato. Controlla la cartella Inviati prima di inviarlo di nuovo.",
     "send_timeout_title": "Nessuna risposta dal server",
     "submission_limit": "Il server ha rifiutato di inviare il messaggio perché è stato raggiunto un limite: {reason}",
-    "submission_quota": "Il server conserva troppi record di messaggi inviati per questo account. Bulwark ha rimosso quelli che poteva; se il problema si ripete, chieda all'amministratore di aumentare il limite di invii di posta.",
+    "submission_quota": "Il server conserva troppi record di messaggi inviati per questo account. Cobbler Mail ha rimosso quelli che poteva; se il problema si ripete, chieda all'amministratore di aumentare il limite di invii di posta.",
     "undo_send_label": "Invio tra {seconds} s…",
     "upload_failed_short": "Caricamento non riuscito",
     "uploading": "Caricamento in corso...",
@@ -657,7 +657,7 @@
       "add_title": "Aggiungi un altro account",
       "camera_allow": "Consenti l'accesso alla fotocamera",
       "camera_disabled": "L'accesso alla fotocamera è disattivato. Attivalo nelle Impostazioni per scansionare un codice QR di accesso.",
-      "camera_needed": "Bulwark Mail ha bisogno dell'accesso alla fotocamera per scansionare un codice QR di accesso.",
+      "camera_needed": "Cobbler Mail ha bisogno dell'accesso alla fotocamera per scansionare un codice QR di accesso.",
       "choose_subtitle": "Scegli come vuoi accedere.",
       "confirm_check": "Controlla che sia tutto corretto",
       "confirm_found": "Abbiamo trovato il tuo server di posta",
@@ -748,7 +748,7 @@
       "paste_invalid": "Questo non è un link di accesso Bulwark",
       "paste_label": "Link di accesso",
       "paste_title": "Incolla link di accesso",
-      "provider_detail": "La digiterai nella loro pagina. Bulwark salva solo un token di accesso, che puoi revocare in qualsiasi momento.",
+      "provider_detail": "La digiterai nella loro pagina. Cobbler Mail salva solo un token di accesso, che puoi revocare in qualsiasi momento.",
       "provider_title": "La tua password resta al tuo provider",
       "qr_hint": "Impostazioni → Sicurezza → Collega l'app mobile mostra un codice. Inquadralo con la fotocamera.",
       "qr_hint_title": "Apri Bulwark sul computer",
@@ -768,7 +768,7 @@
       "username_label": "Email o nome utente",
       "your_server": "il tuo server",
       "cancel_sign_in": "Annulla l'accesso",
-      "err_client_rejected_detail": "Il server ha rifiutato Bulwark come client di accesso. Chiedi all'amministratore di consentirlo, oppure accedi con una password per le app.",
+      "err_client_rejected_detail": "Il server ha rifiutato Cobbler Mail come client di accesso. Chiedi all'amministratore di consentirlo, oppure accedi con una password per le app.",
       "err_client_rejected_title": "{host} non ha accettato l'app",
       "err_handoff_expired_detail": "Il browser ha restituito l'accesso dopo che era scaduto. Accedi di nuovo.",
       "err_handoff_expired_title": "L'accesso ha richiesto troppo tempo",
@@ -848,7 +848,7 @@
     "advanced": {
       "about": {
         "deprecated_update": "Aggiornamento obbligatorio: {version}",
-        "mobile_title": "Bulwark Mobile",
+        "mobile_title": "Cobbler Mail",
         "security_update": "Aggiornamento di sicurezza: {version}",
         "update_available": "Aggiornamento: {version}",
         "update_store_hint": "disponibile su TestFlight / App Store"
@@ -909,7 +909,7 @@
       "books_hint": "Le tue rubriche vengono sincronizzate a meno che tu non le disattivi; quelle condivise solo se le attivi.",
       "books_label": "Rubriche",
       "calendars_default": "I tuoi calendari vengono sincronizzati; quelli condivisi solo se li scegli.",
-      "calendars_hint": "I tuoi calendari vengono sincronizzati a meno che tu non li disattivi; quelli condivisi solo se li attivi. Gli elenchi di attività restano in Bulwark.",
+      "calendars_hint": "I tuoi calendari vengono sincronizzati a meno che tu non li disattivi; quelli condivisi solo se li attivi. Gli elenchi di attività restano in Cobbler Mail.",
       "calendars_label": "Calendari",
       "choose": "Scegli",
       "choose_books_title": "Rubriche da sincronizzare",
@@ -920,8 +920,8 @@
       "deletions_message": "Molti elementi sono stati eliminati contemporaneamente su questo dispositivo, quindi non sono stati eliminati sul server. Eliminali anche lì o ripristinali su questo dispositivo.",
       "deletions_restore": "Ripristina",
       "deletions_title": "Eliminarli anche sul server?",
-      "denied_calendar": "Senza l'accesso ai calendari, Bulwark non può portare i tuoi calendari su questo dispositivo.",
-      "denied_contacts": "Senza l'accesso ai contatti, Bulwark non può portare le tue rubriche su questo dispositivo.",
+      "denied_calendar": "Senza l'accesso ai calendari, Cobbler Mail non può portare i tuoi calendari su questo dispositivo.",
+      "denied_contacts": "Senza l'accesso ai contatti, Cobbler Mail non può portare le tue rubriche su questo dispositivo.",
       "denied_title": "La sincronizzazione resta disattivata",
       "failed_title": "Impossibile attivare la sincronizzazione",
       "grant_access": "Consenti l'accesso",
@@ -929,7 +929,7 @@
       "interval_1h": "Ogni ora",
       "interval_30m": "Ogni 30 minuti",
       "interval_6h": "Ogni 6 ore",
-      "interval_desc": "La frequenza con cui Android sincronizza da solo. Le modifiche fatte in Bulwark e quelle notificate via push vengono sincronizzate prima.",
+      "interval_desc": "La frequenza con cui Android sincronizza da solo. Le modifiche fatte in Cobbler Mail e quelle notificate via push vengono sincronizzate prima.",
       "interval_label": "Intervallo di sincronizzazione",
       "interval_manual": "Nessuna sincronizzazione periodica",
       "keep_syncing": "Continua a sincronizzare",
@@ -946,18 +946,18 @@
       "ok": "OK",
       "open_app_settings": "Apri impostazioni app",
       "own_collections": "Personali",
-      "rationale_calendar": "Per mostrare i tuoi calendari nell'app Calendario, Bulwark ha bisogno dell'accesso ai calendari di questo dispositivo. Modifica solo i calendari del proprio account.",
-      "rationale_contacts": "Per mostrare le tue rubriche nell'app Contatti, Bulwark ha bisogno dell'accesso ai contatti di questo dispositivo. Modifica solo i contatti del proprio account.",
+      "rationale_calendar": "Per mostrare i tuoi calendari nell'app Calendario, Cobbler Mail ha bisogno dell'accesso ai calendari di questo dispositivo. Modifica solo i calendari del proprio account.",
+      "rationale_contacts": "Per mostrare le tue rubriche nell'app Contatti, Cobbler Mail ha bisogno dell'accesso ai contatti di questo dispositivo. Modifica solo i contatti del proprio account.",
       "rationale_title_calendar": "Consenti l'accesso ai calendari",
       "rationale_title_contacts": "Consenti l'accesso ai contatti",
       "read_only": "Sola lettura",
-      "reminder_owner_bulwark": "Bulwark",
+      "reminder_owner_bulwark": "Cobbler Mail",
       "reminder_owner_device": "App Calendario",
-      "reminder_question_message": "I promemoria degli eventi sincronizzati possono arrivare dall'app di calendario di questo dispositivo o da Bulwark. Scegline uno per non riceverli due volte. Puoi cambiare idea in seguito.",
+      "reminder_question_message": "I promemoria degli eventi sincronizzati possono arrivare dall'app di calendario di questo dispositivo o da Cobbler Mail. Scegline uno per non riceverli due volte. Puoi cambiare idea in seguito.",
       "reminder_question_title": "Chi deve inviarti i promemoria?",
       "reminders_desc": "Chi ti ricorda gli eventi sincronizzati. L'altro resta in silenzio, così non ricevi due promemoria.",
       "reminders_label": "Promemoria",
-      "reminders_nobody": "Le notifiche degli eventi di Bulwark sono disattivate, quindi niente ti ricorda gli eventi sincronizzati.",
+      "reminders_nobody": "Le notifiche degli eventi di Cobbler Mail sono disattivate, quindi niente ti ricorda gli eventi sincronizzati.",
       "remove": "Rimuovi",
       "remove_from_device": "Rimuovi da questo dispositivo",
       "remove_message": "I contatti e i calendari dell'account vengono rimossi da questo dispositivo. Le modifiche fatte qui che non hanno raggiunto il server andranno perse.",
@@ -994,7 +994,7 @@
       "turn_off_failed_title": "Impossibile disattivare la sincronizzazione",
       "turn_off_pending": "{count, plural, one {# modifica fatta su questo dispositivo non ha ancora raggiunto il server. Andrà persa se disattivi ora la sincronizzazione.} other {# modifiche fatte su questo dispositivo non hanno ancora raggiunto il server. Andranno perse se disattivi ora la sincronizzazione.}}",
       "turn_off_title": "Disattivare comunque?",
-      "turn_off_unknown": "Bulwark non è riuscito a verificare se le modifiche fatte su questo dispositivo hanno raggiunto il server. Andranno perse se disattivi ora la sincronizzazione.",
+      "turn_off_unknown": "Cobbler Mail non è riuscito a verificare se le modifiche fatte su questo dispositivo hanno raggiunto il server. Andranno perse se disattivi ora la sincronizzazione.",
       "turning_off": "Caricamento delle modifiche, poi rimozione dei dati da questo dispositivo…",
       "turning_on": "Configurazione…"
     },
@@ -1376,8 +1376,8 @@
         "section_title": "Autenticazione a due fattori",
         "disable_hint_code": "Inserisci la password e un codice dell'app di autenticazione per disattivare l'autenticazione a due fattori."
       },
-      "restricted": "Il tuo server consente di modificare password, autenticazione a due fattori, password per le app e chiavi API solo alle app approvate dal suo amministratore. Bulwark ha effettuato l'accesso senza questa approvazione: posta, contatti, calendari e file funzionano, ma queste impostazioni no. Modificale nell'interfaccia web del tuo server o nella webmail Bulwark.",
-      "restricted_sign_in_again": "Bulwark ha effettuato l'accesso prima che il tuo server consentisse alle app di gestire queste impostazioni. Accedi di nuovo per gestire qui password, autenticazione a due fattori, password per le app e chiavi API.",
+      "restricted": "Il tuo server consente di modificare password, autenticazione a due fattori, password per le app e chiavi API solo alle app approvate dal suo amministratore. Cobbler Mail ha effettuato l'accesso senza questa approvazione: posta, contatti, calendari e file funzionano, ma queste impostazioni no. Modificale nell'interfaccia web del tuo server o nella webmail Bulwark.",
+      "restricted_sign_in_again": "Cobbler Mail ha effettuato l'accesso prima che il tuo server consentisse alle app di gestire queste impostazioni. Accedi di nuovo per gestire qui password, autenticazione a due fattori, password per le app e chiavi API.",
       "screen_privacy": {
         "block_screenshots": "Blocca gli screenshot",
         "block_screenshots_description": "Impedisce screenshot e registrazioni dello schermo dell'app e ne nasconde il contenuto nella vista delle app recenti.",
@@ -1947,8 +1947,8 @@
       "error": "Impossibile mostrare questo widget",
       "loading": "Caricamento…",
       "open_app": "Apri l'app una volta se resta vuoto.",
-      "open_to_load": "Apri Bulwark per caricarlo",
-      "signed_out": "Accedi a Bulwark"
+      "open_to_load": "Apri Cobbler Mail per caricarlo",
+      "signed_out": "Accedi a Cobbler Mail"
     },
     "storage": {
       "no_limit": "Nessun limite di spazio",
@@ -1991,5 +1991,14 @@
     "server_error": "{host} ha dei problemi. I nuovi messaggi potrebbero non arrivare.",
     "rate_limited": "{host} sta limitando le richieste. I nuovi messaggi potrebbero arrivare in ritardo.",
     "sign_in_failing": "Impossibile rinnovare l'accesso a {host}. I nuovi messaggi non arriveranno finché non verrà rinnovato."
+  },
+  "vacation_calendar": {
+    "no_calendar": "Impossibile bloccare il calendario: Cobbler Mail non ha trovato un calendario a cui aggiungere l’evento."
+  },
+  "recover_deleted": {
+    "restore_hint": "La posta ripristinata torna nella Posta in arrivo come non letta, ordinata per data originale, quindi può trovarsi molto in basso nell'elenco. Il server la ripristina in background. Se lì non riesce, il messaggio va perso e Cobbler Mail non può saperlo."
+  },
+  "uxs_login": {
+    "provider_unsupported": "{provider} non offre JMAP, il modo in cui Cobbler Mail parla con i server di posta, quindi Cobbler Mail non può ancora collegarsi direttamente."
   }
 }

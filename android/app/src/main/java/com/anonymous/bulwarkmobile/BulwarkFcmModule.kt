@@ -74,7 +74,7 @@ class BulwarkFcmModule(reactContext: ReactApplicationContext)
         val groupKey = options.takeIf { it.hasKey("groupKey") }?.getString("groupKey")
             ?: accountId?.let { "bulwark-mail:$it" }
         val groupTitle = options.takeIf { it.hasKey("groupTitle") }?.getString("groupTitle")
-            ?: accountId ?: "Bulwark Mail"
+            ?: accountId ?: "Cobbler Mail"
 
         val preview = options.takeIf { it.hasKey("preview") }?.getString("preview")
         val markReadLabel = options.takeIf { it.hasKey("markReadLabel") }?.getString("markReadLabel")
@@ -636,7 +636,7 @@ class BulwarkFcmModule(reactContext: ReactApplicationContext)
                     archiveLabel, copyCode,
                 )
                 if (groupKey != null) {
-                    postGroupSummary(context, groupKey, groupTitle ?: "Bulwark Mail", bgColorHex, accountId)
+                    postGroupSummary(context, groupKey, groupTitle ?: "Cobbler Mail", bgColorHex, accountId)
                 }
             }
         }

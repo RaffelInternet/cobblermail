@@ -2282,7 +2282,7 @@ export default function ComposeScreen({ route, navigation }: Props) {
     // server's Files apart.
     { label: t('email_composer.attach_this_device', 'This device'), icon: <Smartphone size={18} color={c.textSecondary} />, onPress: () => { void pickFileAttachments(); } },
     ...(hasServerFiles ? [{
-      label: t('email_composer.attach_bulwark_files', 'Bulwark Files'),
+      label: t('email_composer.attach_bulwark_files', 'Cobbler Mail Files'),
       icon: <FolderOpen size={18} color={c.textSecondary} />,
       onPress: () => { if (!refuseAttachAfterSwitch()) setFilesPickerOpen(true); },
     }] : []),

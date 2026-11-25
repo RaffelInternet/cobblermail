@@ -45,7 +45,7 @@ runs:
       run: |
         mkdir -p "$RUNNER_TEMP/app"
         tar -C "$RUNNER_TEMP/app" -xzf "$RUNNER_TEMP/simulator-app.tar.gz"
-        echo "APP=$RUNNER_TEMP/app/BulwarkMobile.app" >> "$GITHUB_ENV"
+        echo "APP=$RUNNER_TEMP/app/CobblerMail.app" >> "$GITHUB_ENV"
 
     - name: Boot a simulator
       shell: bash

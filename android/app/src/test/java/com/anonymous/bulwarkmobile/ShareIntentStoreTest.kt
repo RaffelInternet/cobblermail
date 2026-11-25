@@ -8,7 +8,7 @@ import org.junit.Test
 // The same cases as src/lib/__tests__/share-intent-private-files.test.ts: a
 // file shared into the app is accepted only from another app's provider.
 class ShareIntentStoreTest {
-    private val pkg = "com.anonymous.bulwarkmobile"
+    private val pkg = "com.anonymous.cobblermail"
     private val playPkg = "org.bulwarkmail.mobile"
 
     private fun accepted(uris: List<String>) = uris.filter { ShareIntentStore.isForeignContentUri(it) }
@@ -69,7 +69,7 @@ class ShareIntentStoreTest {
             "content://com.android.providers.downloads.documents/document/42",
             "content://com.other.app.FileSystemFileProvider/expo_files/shared.pdf",
             "content://0@com.google.android.apps.photos.contentprovider/1/2/x",
-            "content://com.anonymous.bulwarkmobilex.files/x",
+            "content://com.anonymous.cobblermailx.files/x",
         )
         assertEquals(foreign, accepted(foreign))
         assertTrue(ShareIntentStore.isForeignContentUri("content://media/external/images/media/1"))

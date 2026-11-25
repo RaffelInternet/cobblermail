@@ -31,7 +31,7 @@ export function sendFailureMessage(error: unknown, t: Translate): string {
     return error.countsRecords
       ? t(
         'email_composer.submission_quota',
-        'The server has too many sent-message records for this account. Bulwark removed the ones it could; if this keeps happening, ask your administrator to raise the email submission limit.',
+        'The server has too many sent-message records for this account. Cobbler Mail removed the ones it could; if this keeps happening, ask your administrator to raise the email submission limit.',
       )
       : t(
         'email_composer.submission_limit',

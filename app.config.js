@@ -31,8 +31,8 @@ const APS_ENVIRONMENT = process.env.APS_ENVIRONMENT === 'development' ? 'develop
 
 module.exports = {
   expo: {
-    name: 'Bulwark Mobile',
-    slug: 'bulwark-mobile',
+    name: 'Cobbler Mail',
+    slug: 'cobbler-mail',
     // mailto: lets Android/iOS offer the app for mail links in other apps;
     // bulwarkmail: is the webmail's sign-in link (bulwarkmail://pair?...).
     // org.bulwarkmail.mobile: is where Stalwart 1.0 sends the browser sign-in
@@ -49,7 +49,7 @@ module.exports = {
       resizeMode: 'contain',
       backgroundColor: '#ffffff',
       dark: {
-        image: './assets/splash-icon.png',
+        image: './assets/splash-icon-dark.png',
         backgroundColor: '#09090b',
       },
     },
@@ -72,11 +72,11 @@ module.exports = {
     android: {
       adaptiveIcon: {
         foregroundImage: './assets/adaptive-icon.png',
-        backgroundColor: '#db2d54',
+        backgroundColor: '#ffffff',
       },
       edgeToEdgeEnabled: true,
       predictiveBackGestureEnabled: false,
-      package: 'com.anonymous.bulwarkmobile',
+      package: 'com.anonymous.cobblermail',
       // The AsyncStorage database holds cached message bodies, the outbox and
       // the account registry; the platform backup would ship all of it to the
       // user's Google account. Credentials live in SecureStore (excluded by
@@ -98,7 +98,7 @@ module.exports = {
         'expo-camera',
         {
           cameraPermission:
-            'Bulwark Mail uses the camera to scan sign-in QR codes shown in webmail.',
+            'Cobbler Mail uses the camera to scan sign-in QR codes shown in webmail.',
           // QR scanning never records audio; leaving the mic entry in would be
           // an unexplained permission in App Review.
           microphonePermission: false,
@@ -108,7 +108,7 @@ module.exports = {
         'expo-image-picker',
         {
           photosPermission:
-            'Bulwark Mail needs access to your photos so you can attach them to emails and set contact photos.',
+            'Cobbler Mail needs access to your photos so you can attach them to emails and set contact photos.',
           // Only launchImageLibraryAsync is used - no in-app capture.
           cameraPermission: false,
           microphonePermission: false,
@@ -155,8 +155,8 @@ module.exports = {
     extra: {
       commit: COMMIT,
       // Settings → About → Source code. A modified build sets SOURCE_CODE_URL
-      // to where its own source is (AGPL §13); the default is upstream.
-      sourceCodeUrl: process.env.SOURCE_CODE_URL || 'https://github.com/bulwarkmail/native',
+      // to where its own source is (AGPL §13); the default is this fork.
+      sourceCodeUrl: process.env.SOURCE_CODE_URL || 'https://github.com/RaffelInternet/cobblermail',
       // src/lib/ios-push-shared.ts
       iosSharedKeychainGroup: `${APPLE_TEAM_ID}.org.bulwarkmail.shared`,
       iosAppKeychainGroup: `${APPLE_TEAM_ID}.org.bulwarkmail.mobile`,

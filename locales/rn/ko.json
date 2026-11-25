@@ -328,7 +328,7 @@
     "signing_out": "동기화된 연락처와 캘린더를 이 기기에서 삭제하는 중…"
   },
   "email_composer": {
-    "attach_bulwark_files": "Bulwark 파일",
+    "attach_bulwark_files": "Cobbler Mail 파일",
     "attach_camera": "카메라",
     "attach_gallery": "갤러리",
     "attach_this_device": "이 기기",
@@ -399,7 +399,7 @@
     "send_timeout_body": "메시지가 이미 발송되었을 수 있어요. 다시 보내기 전에 보낸편지함을 확인해 주세요.",
     "send_timeout_title": "서버에서 응답이 없어요",
     "submission_limit": "한도에 도달하여 서버가 메시지 전송을 거부했습니다: {reason}",
-    "submission_quota": "서버에 이 계정의 보낸 메시지 기록이 너무 많습니다. Bulwark가 삭제할 수 있는 기록은 삭제했습니다. 이 문제가 계속되면 관리자에게 메일 발송 한도를 늘려 달라고 요청하세요.",
+    "submission_quota": "서버에 이 계정의 보낸 메시지 기록이 너무 많습니다. Cobbler Mail이 삭제할 수 있는 기록은 삭제했습니다. 이 문제가 계속되면 관리자에게 메일 발송 한도를 늘려 달라고 요청하세요.",
     "undo_send_label": "{seconds}초 후 전송…",
     "upload_failed_short": "업로드 실패",
     "uploading": "업로드 중...",
@@ -653,7 +653,7 @@
       "add_title": "다른 계정 추가",
       "camera_allow": "카메라 접근 허용",
       "camera_disabled": "카메라 접근이 꺼져 있어요. 로그인 QR 코드를 스캔하려면 설정에서 켜 주세요.",
-      "camera_needed": "로그인 QR 코드를 스캔하려면 Bulwark Mail에 카메라 접근 권한이 필요해요.",
+      "camera_needed": "로그인 QR 코드를 스캔하려면 Cobbler Mail에 카메라 접근 권한이 필요해요.",
       "choose_subtitle": "로그인 방법을 선택해 주세요.",
       "confirm_check": "내용이 맞는지 확인해 주세요",
       "confirm_found": "메일 서버를 찾았어요",
@@ -744,7 +744,7 @@
       "paste_invalid": "Bulwark 로그인 링크가 아니에요",
       "paste_label": "로그인 링크",
       "paste_title": "로그인 링크 붙여넣기",
-      "provider_detail": "비밀번호는 제공업체의 페이지에서 입력해요. Bulwark는 로그인 토큰만 저장하며, 언제든지 해지할 수 있어요.",
+      "provider_detail": "비밀번호는 제공업체의 페이지에서 입력해요. Cobbler Mail은 로그인 토큰만 저장하며, 언제든지 해지할 수 있어요.",
       "provider_title": "비밀번호는 제공업체에만 전달돼요",
       "qr_hint": "설정 → 보안 → 모바일 앱 연결에서 코드가 표시돼요. 카메라를 코드에 비춰 주세요.",
       "qr_hint_title": "컴퓨터에서 Bulwark를 열어 주세요",
@@ -764,7 +764,7 @@
       "username_label": "이메일 또는 사용자 이름",
       "your_server": "내 서버",
       "cancel_sign_in": "로그인 취소",
-      "err_client_rejected_detail": "서버에서 Bulwark를 로그인 클라이언트로 허용하지 않았어요. 관리자에게 허용을 요청하거나 앱 비밀번호로 로그인해 주세요.",
+      "err_client_rejected_detail": "서버에서 Cobbler Mail을 로그인 클라이언트로 허용하지 않았어요. 관리자에게 허용을 요청하거나 앱 비밀번호로 로그인해 주세요.",
       "err_client_rejected_title": "{host}에서 앱을 허용하지 않았어요",
       "err_handoff_expired_detail": "브라우저에서 로그인을 넘겨받았을 때 이미 만료된 상태였어요. 다시 로그인해 주세요.",
       "err_handoff_expired_title": "로그인 시간이 너무 오래 걸렸어요",
@@ -844,7 +844,7 @@
     "advanced": {
       "about": {
         "deprecated_update": "업데이트 필요: {version}",
-        "mobile_title": "Bulwark Mobile",
+        "mobile_title": "Cobbler Mail",
         "security_update": "보안 업데이트: {version}",
         "update_available": "업데이트: {version}",
         "update_store_hint": "TestFlight / App Store에서 받을 수 있어요"
@@ -905,7 +905,7 @@
       "books_hint": "내 주소록은 끄지 않는 한 동기화되고, 공유된 주소록은 켠 경우에만 동기화돼요.",
       "books_label": "주소록",
       "calendars_default": "내 캘린더는 동기화되고, 공유된 캘린더는 선택한 경우에만 동기화돼요.",
-      "calendars_hint": "내 캘린더는 끄지 않는 한 동기화되고, 공유된 캘린더는 켠 경우에만 동기화돼요. 할 일 목록은 Bulwark에 남아요.",
+      "calendars_hint": "내 캘린더는 끄지 않는 한 동기화되고, 공유된 캘린더는 켠 경우에만 동기화돼요. 할 일 목록은 Cobbler Mail에 남아요.",
       "calendars_label": "캘린더",
       "choose": "선택",
       "choose_books_title": "동기화할 주소록",
@@ -916,8 +916,8 @@
       "deletions_message": "이 기기에서 많은 항목이 한꺼번에 삭제되어 서버에서는 삭제되지 않았어요. 서버에서도 삭제하거나 이 기기에 다시 복원해 주세요.",
       "deletions_restore": "복원",
       "deletions_title": "서버에서도 삭제할까요?",
-      "denied_calendar": "캘린더 접근 권한이 없으면 Bulwark가 내 캘린더를 이 기기에 추가할 수 없어요.",
-      "denied_contacts": "연락처 접근 권한이 없으면 Bulwark가 내 주소록을 이 기기에 추가할 수 없어요.",
+      "denied_calendar": "캘린더 접근 권한이 없으면 Cobbler Mail이 내 캘린더를 이 기기에 추가할 수 없어요.",
+      "denied_contacts": "연락처 접근 권한이 없으면 Cobbler Mail이 내 주소록을 이 기기에 추가할 수 없어요.",
       "denied_title": "동기화가 꺼진 상태로 유지돼요",
       "failed_title": "동기화를 켤 수 없어요",
       "grant_access": "접근 권한 허용",
@@ -925,7 +925,7 @@
       "interval_1h": "1시간마다",
       "interval_30m": "30분마다",
       "interval_6h": "6시간마다",
-      "interval_desc": "Android가 자동으로 동기화하는 주기예요. Bulwark에서 수정한 내용과 푸시로 알려진 변경 사항은 더 빨리 동기화돼요.",
+      "interval_desc": "Android가 자동으로 동기화하는 주기예요. Cobbler Mail에서 수정한 내용과 푸시로 알려진 변경 사항은 더 빨리 동기화돼요.",
       "interval_label": "동기화 주기",
       "interval_manual": "정기 동기화 안 함",
       "keep_syncing": "계속 동기화",
@@ -942,18 +942,18 @@
       "ok": "확인",
       "open_app_settings": "앱 설정 열기",
       "own_collections": "내 항목",
-      "rationale_calendar": "캘린더 앱에 내 캘린더를 표시하려면 Bulwark에 이 기기의 캘린더 접근 권한이 필요해요. Bulwark는 자기 계정의 캘린더만 변경해요.",
-      "rationale_contacts": "연락처 앱에 내 주소록을 표시하려면 Bulwark에 이 기기의 연락처 접근 권한이 필요해요. Bulwark는 자기 계정의 연락처만 변경해요.",
+      "rationale_calendar": "캘린더 앱에 내 캘린더를 표시하려면 Cobbler Mail에 이 기기의 캘린더 접근 권한이 필요해요. Cobbler Mail은 자기 계정의 캘린더만 변경해요.",
+      "rationale_contacts": "연락처 앱에 내 주소록을 표시하려면 Cobbler Mail에 이 기기의 연락처 접근 권한이 필요해요. Cobbler Mail은 자기 계정의 연락처만 변경해요.",
       "rationale_title_calendar": "캘린더 접근 허용",
       "rationale_title_contacts": "연락처 접근 허용",
       "read_only": "읽기 전용",
-      "reminder_owner_bulwark": "Bulwark",
+      "reminder_owner_bulwark": "Cobbler Mail",
       "reminder_owner_device": "캘린더 앱",
-      "reminder_question_message": "동기화된 일정 알림은 이 기기의 캘린더 앱이나 Bulwark에서 받을 수 있어요. 알림을 두 번 받지 않도록 하나를 선택해 주세요. 나중에 변경할 수 있어요.",
+      "reminder_question_message": "동기화된 일정 알림은 이 기기의 캘린더 앱이나 Cobbler Mail에서 받을 수 있어요. 알림을 두 번 받지 않도록 하나를 선택해 주세요. 나중에 변경할 수 있어요.",
       "reminder_question_title": "어디에서 알림을 받을까요?",
       "reminders_desc": "동기화된 일정 알림을 보내는 앱이에요. 다른 쪽은 알림을 보내지 않아 알림을 두 번 받지 않아요.",
       "reminders_label": "알림",
-      "reminders_nobody": "Bulwark의 일정 알림이 꺼져 있어서 동기화된 일정 알림을 받을 수 없어요.",
+      "reminders_nobody": "Cobbler Mail의 일정 알림이 꺼져 있어서 동기화된 일정 알림을 받을 수 없어요.",
       "remove": "제거",
       "remove_from_device": "이 기기에서 제거",
       "remove_message": "이 계정의 연락처와 캘린더가 이 기기에서 제거돼요. 여기에서 변경한 내용 중 서버에 전달되지 않은 내용은 사라져요.",
@@ -990,7 +990,7 @@
       "turn_off_failed_title": "동기화를 끌 수 없어요",
       "turn_off_pending": "{count, plural, other {이 기기에서 변경한 내용 #개가 아직 서버에 전달되지 않았어요. 지금 동기화를 끄면 사라져요.}}",
       "turn_off_title": "그래도 끌까요?",
-      "turn_off_unknown": "이 기기에서 변경한 내용이 서버에 전달되었는지 Bulwark에서 확인할 수 없었어요. 지금 동기화를 끄면 사라져요.",
+      "turn_off_unknown": "이 기기에서 변경한 내용이 서버에 전달되었는지 Cobbler Mail에서 확인할 수 없었어요. 지금 동기화를 끄면 사라져요.",
       "turning_off": "변경 사항을 업로드한 후 이 기기에서 데이터를 제거하는 중…",
       "turning_on": "설정하는 중…"
     },
@@ -1372,8 +1372,8 @@
         "section_title": "2단계 인증 (2FA)",
         "disable_hint_code": "2단계 인증을 끄려면 비밀번호와 인증 앱의 코드를 입력해 주세요."
       },
-      "restricted": "이 서버에서는 관리자가 승인한 앱만 비밀번호, 2단계 인증, 앱 비밀번호, API 키를 변경할 수 있어요. Bulwark는 승인 없이 로그인했기 때문에 메일, 연락처, 캘린더, 파일은 사용할 수 있지만 이 설정은 사용할 수 없어요. 서버의 웹 인터페이스나 Bulwark 웹메일에서 변경해 주세요.",
-      "restricted_sign_in_again": "서버가 앱에서 이 설정을 관리하도록 허용하기 전에 Bulwark가 로그인했어요. 비밀번호, 2단계 인증, 앱 비밀번호, API 키를 여기서 관리하려면 다시 로그인하세요.",
+      "restricted": "이 서버에서는 관리자가 승인한 앱만 비밀번호, 2단계 인증, 앱 비밀번호, API 키를 변경할 수 있어요. Cobbler Mail은 승인 없이 로그인했기 때문에 메일, 연락처, 캘린더, 파일은 사용할 수 있지만 이 설정은 사용할 수 없어요. 서버의 웹 인터페이스나 Bulwark 웹메일에서 변경해 주세요.",
+      "restricted_sign_in_again": "서버가 앱에서 이 설정을 관리하도록 허용하기 전에 Cobbler Mail이 로그인했어요. 비밀번호, 2단계 인증, 앱 비밀번호, API 키를 여기서 관리하려면 다시 로그인하세요.",
       "screen_privacy": {
         "block_screenshots": "스크린샷 차단",
         "block_screenshots_description": "앱의 스크린샷과 화면 녹화를 막고, 최근 앱 화면에서 내용을 숨겨요.",
@@ -1943,8 +1943,8 @@
       "error": "이 위젯을 표시할 수 없어요",
       "loading": "불러오는 중…",
       "open_app": "계속 비어 있으면 앱을 한 번 열어 주세요.",
-      "open_to_load": "불러오려면 Bulwark를 열어 주세요",
-      "signed_out": "Bulwark에 로그인"
+      "open_to_load": "불러오려면 Cobbler Mail을 열어 주세요",
+      "signed_out": "Cobbler Mail에 로그인"
     },
     "storage": {
       "no_limit": "저장 공간 제한 없음",
@@ -1987,5 +1987,11 @@
     "server_error": "{host}에 문제가 있어요. 새 메일이 도착하지 않을 수 있어요.",
     "rate_limited": "{host}에서 요청을 제한하고 있어요. 새 메일이 늦게 도착할 수 있어요.",
     "sign_in_failing": "{host} 로그인을 갱신할 수 없어요. 갱신될 때까지 새 메일이 도착하지 않아요."
+  },
+  "recover_deleted": {
+    "restore_hint": "복원된 메일은 읽지 않은 상태로 받은편지함에 돌아가며 원래 날짜순으로 정렬되므로 목록의 한참 아래에 있을 수 있어요. 복원은 서버가 백그라운드에서 해요. 서버에서 실패하면 메시지가 사라지며 Cobbler Mail은 이를 알 수 없어요."
+  },
+  "uxs_login": {
+    "provider_unsupported": "{provider}은(는) Cobbler Mail이 메일 서버와 통신하는 방식인 JMAP을 제공하지 않아서, Cobbler Mail이 아직 직접 연결할 수 없어요."
   }
 }

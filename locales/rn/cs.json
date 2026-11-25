@@ -328,7 +328,7 @@
     "signing_out": "Odebírání synchronizovaných kontaktů a kalendářů z tohoto zařízení…"
   },
   "email_composer": {
-    "attach_bulwark_files": "Soubory Bulwark",
+    "attach_bulwark_files": "Soubory Cobbler Mail",
     "attach_camera": "Fotoaparát",
     "attach_gallery": "Galerie",
     "attach_this_device": "Toto zařízení",
@@ -401,7 +401,7 @@
     "send_timeout_body": "Zpráva už mohla odejít. Než ji odešlete znovu, zkontrolujte složku Odeslané.",
     "send_timeout_title": "Server neodpovídá",
     "submission_limit": "Server odmítl zprávu odeslat, protože byl dosažen limit: {reason}",
-    "submission_quota": "Server má pro tento účet příliš mnoho záznamů o odeslaných zprávách. Bulwark odstranil ty, které mohl; pokud se to bude opakovat, požádejte správce o zvýšení limitu odesílání e-mailů.",
+    "submission_quota": "Server má pro tento účet příliš mnoho záznamů o odeslaných zprávách. Cobbler Mail odstranil ty, které mohl; pokud se to bude opakovat, požádejte správce o zvýšení limitu odesílání e-mailů.",
     "undo_send_label": "Odeslání za {seconds} s…",
     "upload_failed_short": "Nahrávání selhalo",
     "uploading": "Nahrávání...",
@@ -655,7 +655,7 @@
       "add_title": "Přidat další účet",
       "camera_allow": "Povolit přístup k fotoaparátu",
       "camera_disabled": "Přístup k fotoaparátu je zakázán. Povolte ho v Nastavení, abyste mohli naskenovat přihlašovací QR kód.",
-      "camera_needed": "Bulwark Mail potřebuje přístup k fotoaparátu, aby mohl naskenovat přihlašovací QR kód.",
+      "camera_needed": "Cobbler Mail potřebuje přístup k fotoaparátu, aby mohl naskenovat přihlašovací QR kód.",
       "choose_subtitle": "Vyberte, jak se chcete přihlásit.",
       "confirm_check": "Zkontrolujte, zda vše sedí",
       "confirm_found": "Váš poštovní server byl nalezen",
@@ -746,7 +746,7 @@
       "paste_invalid": "Toto není přihlašovací odkaz Bulwark",
       "paste_label": "Přihlašovací odkaz",
       "paste_title": "Vložit přihlašovací odkaz",
-      "provider_detail": "Zadáte ho na jeho stránce. Bulwark ukládá pouze přihlašovací token, který můžete kdykoli odvolat.",
+      "provider_detail": "Zadáte ho na jeho stránce. Cobbler Mail ukládá pouze přihlašovací token, který můžete kdykoli odvolat.",
       "provider_title": "Vaše heslo zůstává u poskytovatele",
       "qr_hint": "V Nastavení → Zabezpečení → Propojit mobilní aplikaci se zobrazí kód. Namiřte na něj fotoaparát.",
       "qr_hint_title": "Otevřete Bulwark na počítači",
@@ -766,7 +766,7 @@
       "username_label": "E-mail nebo uživatelské jméno",
       "your_server": "váš server",
       "cancel_sign_in": "Zrušit přihlášení",
-      "err_client_rejected_detail": "Server odmítl Bulwark jako přihlašovacího klienta. Požádejte správce, aby ho povolil, nebo se přihlaste heslem aplikace.",
+      "err_client_rejected_detail": "Server odmítl Cobbler Mail jako přihlašovacího klienta. Požádejte správce, aby ho povolil, nebo se přihlaste heslem aplikace.",
       "err_client_rejected_title": "{host} aplikaci nepřijal",
       "err_handoff_expired_detail": "Prohlížeč předal přihlášení zpět až po vypršení jeho platnosti. Přihlaste se znovu.",
       "err_handoff_expired_title": "Přihlášení trvalo příliš dlouho",
@@ -846,7 +846,7 @@
     "advanced": {
       "about": {
         "deprecated_update": "Vyžadována aktualizace: {version}",
-        "mobile_title": "Bulwark Mobile",
+        "mobile_title": "Cobbler Mail",
         "security_update": "Bezpečnostní aktualizace: {version}",
         "update_available": "Aktualizace: {version}",
         "update_store_hint": "k dispozici v TestFlight / App Store"
@@ -907,7 +907,7 @@
       "books_hint": "Vaše vlastní adresáře se synchronizují, pokud je nevypnete; sdílené jen tehdy, když je zapnete.",
       "books_label": "Adresáře",
       "calendars_default": "Vaše vlastní kalendáře se synchronizují, sdílené jen tehdy, když je vyberete.",
-      "calendars_hint": "Vaše vlastní kalendáře se synchronizují, pokud je nevypnete; sdílené jen tehdy, když je zapnete. Seznamy úkolů zůstávají v Bulwarku.",
+      "calendars_hint": "Vaše vlastní kalendáře se synchronizují, pokud je nevypnete; sdílené jen tehdy, když je zapnete. Seznamy úkolů zůstávají v Cobbler Mailu.",
       "calendars_label": "Kalendáře",
       "choose": "Vybrat",
       "choose_books_title": "Adresáře k synchronizaci",
@@ -918,8 +918,8 @@
       "deletions_message": "V tomto zařízení bylo najednou smazáno mnoho položek, proto nebyly smazány na serveru. Smažte je i tam, nebo je v tomto zařízení obnovte.",
       "deletions_restore": "Obnovit",
       "deletions_title": "Smazat je i na serveru?",
-      "denied_calendar": "Bez přístupu ke kalendářům nemůže Bulwark přenést vaše kalendáře do tohoto zařízení.",
-      "denied_contacts": "Bez přístupu ke kontaktům nemůže Bulwark přenést vaše adresáře do tohoto zařízení.",
+      "denied_calendar": "Bez přístupu ke kalendářům nemůže Cobbler Mail přenést vaše kalendáře do tohoto zařízení.",
+      "denied_contacts": "Bez přístupu ke kontaktům nemůže Cobbler Mail přenést vaše adresáře do tohoto zařízení.",
       "denied_title": "Synchronizace zůstává vypnutá",
       "failed_title": "Synchronizaci se nepodařilo zapnout",
       "grant_access": "Udělit přístup",
@@ -927,7 +927,7 @@
       "interval_1h": "Každou hodinu",
       "interval_30m": "Každých 30 minut",
       "interval_6h": "Každých 6 hodin",
-      "interval_desc": "Jak často Android synchronizuje sám. Úpravy v Bulwarku a změny oznámené přes push se synchronizují dříve.",
+      "interval_desc": "Jak často Android synchronizuje sám. Úpravy v Cobbler Mailu a změny oznámené přes push se synchronizují dříve.",
       "interval_label": "Interval synchronizace",
       "interval_manual": "Bez pravidelné synchronizace",
       "keep_syncing": "Dál synchronizovat",
@@ -944,18 +944,18 @@
       "ok": "OK",
       "open_app_settings": "Otevřít nastavení",
       "own_collections": "Vlastní",
-      "rationale_calendar": "Aby mohl Bulwark zobrazit vaše kalendáře v aplikaci Kalendář, potřebuje přístup ke kalendářům v tomto zařízení. Mění jen kalendáře svého vlastního účtu.",
-      "rationale_contacts": "Aby mohl Bulwark zobrazit vaše adresáře v aplikaci Kontakty, potřebuje přístup ke kontaktům v tomto zařízení. Mění jen kontakty svého vlastního účtu.",
+      "rationale_calendar": "Aby mohl Cobbler Mail zobrazit vaše kalendáře v aplikaci Kalendář, potřebuje přístup ke kalendářům v tomto zařízení. Mění jen kalendáře svého vlastního účtu.",
+      "rationale_contacts": "Aby mohl Cobbler Mail zobrazit vaše adresáře v aplikaci Kontakty, potřebuje přístup ke kontaktům v tomto zařízení. Mění jen kontakty svého vlastního účtu.",
       "rationale_title_calendar": "Povolit přístup ke kalendářům",
       "rationale_title_contacts": "Povolit přístup ke kontaktům",
       "read_only": "Jen pro čtení",
-      "reminder_owner_bulwark": "Bulwark",
+      "reminder_owner_bulwark": "Cobbler Mail",
       "reminder_owner_device": "Aplikace Kalendář",
-      "reminder_question_message": "Připomenutí synchronizovaných událostí může zobrazovat aplikace kalendáře v tomto zařízení, nebo Bulwark. Vyberte jednu možnost, abyste nedostávali připomenutí dvakrát. Později to můžete změnit.",
+      "reminder_question_message": "Připomenutí synchronizovaných událostí může zobrazovat aplikace kalendáře v tomto zařízení, nebo Cobbler Mail. Vyberte jednu možnost, abyste nedostávali připomenutí dvakrát. Později to můžete změnit.",
       "reminder_question_title": "Kdo vám má připomínat události?",
       "reminders_desc": "Kdo vám připomíná synchronizované události. Druhá možnost mlčí, abyste nedostávali připomenutí dvakrát.",
       "reminders_label": "Připomenutí",
-      "reminders_nobody": "Oznámení událostí v Bulwarku jsou vypnutá, takže vám synchronizované události nic nepřipomene.",
+      "reminders_nobody": "Oznámení událostí v Cobbler Mailu jsou vypnutá, takže vám synchronizované události nic nepřipomene.",
       "remove": "Odebrat",
       "remove_from_device": "Odebrat z tohoto zařízení",
       "remove_message": "Kontakty a kalendáře účtu budou z tohoto zařízení odebrány. Změny provedené zde, které se nedostaly na server, budou ztraceny.",
@@ -992,7 +992,7 @@
       "turn_off_failed_title": "Synchronizaci se nepodařilo vypnout",
       "turn_off_pending": "{count, plural, one {# změna provedená v tomto zařízení se ještě nedostala na server. Pokud teď synchronizaci vypnete, bude ztracena.} few {# změny provedené v tomto zařízení se ještě nedostaly na server. Pokud teď synchronizaci vypnete, budou ztraceny.} many {# změny provedené v tomto zařízení se ještě nedostalo na server. Pokud teď synchronizaci vypnete, budou ztraceny.} other {# změn provedených v tomto zařízení se ještě nedostalo na server. Pokud teď synchronizaci vypnete, budou ztraceny.}}",
       "turn_off_title": "Přesto vypnout?",
-      "turn_off_unknown": "Bulwark nemohl ověřit, zda se změny provedené v tomto zařízení dostaly na server. Pokud teď synchronizaci vypnete, budou ztraceny.",
+      "turn_off_unknown": "Cobbler Mail nemohl ověřit, zda se změny provedené v tomto zařízení dostaly na server. Pokud teď synchronizaci vypnete, budou ztraceny.",
       "turning_off": "Nahrávání změn a poté odebírání dat z tohoto zařízení…",
       "turning_on": "Nastavování…"
     },
@@ -1374,8 +1374,8 @@
         "section_title": "Dvoufázové ověření",
         "disable_hint_code": "Chcete-li vypnout dvoufázové ověření, zadejte heslo a kód z ověřovací aplikace."
       },
-      "restricted": "Váš server dovoluje měnit heslo, dvoufázové přihlášení, hesla aplikací a klíče API jen aplikacím, které schválil správce. Bulwark se přihlásil bez tohoto schválení, takže pošta, kontakty, kalendáře a soubory fungují, ale tato nastavení ne. Změňte je ve webovém rozhraní serveru nebo ve webmailu Bulwark.",
-      "restricted_sign_in_again": "Bulwark se přihlásil dřív, než váš server dovolil aplikacím tato nastavení spravovat. Přihlaste se znovu, abyste tady mohli spravovat heslo, dvoufázové přihlášení, hesla aplikací a klíče API.",
+      "restricted": "Váš server dovoluje měnit heslo, dvoufázové přihlášení, hesla aplikací a klíče API jen aplikacím, které schválil správce. Cobbler Mail se přihlásil bez tohoto schválení, takže pošta, kontakty, kalendáře a soubory fungují, ale tato nastavení ne. Změňte je ve webovém rozhraní serveru nebo ve webmailu Bulwark.",
+      "restricted_sign_in_again": "Cobbler Mail se přihlásil dřív, než váš server dovolil aplikacím tato nastavení spravovat. Přihlaste se znovu, abyste tady mohli spravovat heslo, dvoufázové přihlášení, hesla aplikací a klíče API.",
       "screen_privacy": {
         "block_screenshots": "Blokovat snímky obrazovky",
         "block_screenshots_description": "Zabrání snímkům a nahrávání obrazovky aplikace a skryje její obsah v přehledu posledních aplikací.",
@@ -1945,8 +1945,8 @@
       "error": "Tento widget nelze zobrazit",
       "loading": "Načítání…",
       "open_app": "Pokud zůstává prázdný, jednou otevřete aplikaci.",
-      "open_to_load": "Pro načtení otevřete Bulwark",
-      "signed_out": "Přihlaste se do Bulwarku"
+      "open_to_load": "Pro načtení otevřete Cobbler Mail",
+      "signed_out": "Přihlaste se do Cobbler Mailu"
     },
     "storage": {
       "no_limit": "Bez limitu úložiště",
@@ -1989,5 +1989,14 @@
     "server_error": "{host} má potíže. Nová pošta nemusí dorazit.",
     "rate_limited": "{host} omezuje počet požadavků. Nová pošta může přijít se zpožděním.",
     "sign_in_failing": "Přihlášení k {host} nelze obnovit. Nová pošta nedorazí, dokud se neobnoví."
+  },
+  "vacation_calendar": {
+    "no_calendar": "Kalendář nelze zablokovat: Cobbler Mail nenašel kalendář, kam událost přidat."
+  },
+  "recover_deleted": {
+    "restore_hint": "Obnovená pošta se vrací do složky Doručené jako nepřečtená a řadí se podle původního data, takže může být daleko dole v seznamu. Server ji obnovuje na pozadí. Pokud se to tam nepodaří, zpráva je ztracena a Cobbler Mail to nepozná."
+  },
+  "uxs_login": {
+    "provider_unsupported": "{provider} nenabízí JMAP, způsob, jakým Cobbler Mail komunikuje s poštovními servery, takže se k němu Cobbler Mail zatím nemůže připojit přímo."
   }
 }

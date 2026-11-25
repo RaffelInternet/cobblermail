@@ -331,7 +331,7 @@
     "signing_out": "Fjernar synkroniserte kontaktar og kalendrar frå denne eininga …"
   },
   "email_composer": {
-    "attach_bulwark_files": "Bulwark-filer",
+    "attach_bulwark_files": "Cobbler Mail-filer",
     "attach_camera": "Kamera",
     "attach_gallery": "Galleri",
     "attach_this_device": "Denne eininga",
@@ -410,7 +410,8 @@
     "use_template": "Mal",
     "validation": {
       "subject_required": "Legg til eit emne"
-    }
+    },
+    "submission_quota": "Tenaren har for mange postar med sende meldingar for denne kontoen. Cobbler Mail fjerna dei han kunne; viss dette held fram, be administratoren din auke grensa for e-postinnsending."
   },
   "email_list": {
     "cross_account_move_offline": "Du må vere tilkopla for å flytte mellom kontoar",
@@ -682,7 +683,7 @@
       "add_title": "Legg til ein konto til",
       "camera_allow": "Gje tilgang til kameraet",
       "camera_disabled": "Tilgang til kameraet er slått av. Slå det på i Innstillingar for å skanne ein QR-kode for innlogging.",
-      "camera_needed": "Bulwark Mail treng tilgang til kameraet for å skanne ein QR-kode for innlogging.",
+      "camera_needed": "Cobbler Mail treng tilgang til kameraet for å skanne ein QR-kode for innlogging.",
       "cancel_sign_in": "Avbryt innlogginga",
       "choose_subtitle": "Vel korleis du vil logge inn.",
       "confirm_check": "Sjekk at dette ser rett ut",
@@ -704,7 +705,7 @@
       "err_bad_title": "Det fungerte ikkje",
       "err_cert_detail": "Tryggingssertifikatet til serveren vart avvist. Viss dette er din eigen server, sjekk at sertifikatet er gyldig og ikkje har gått ut.",
       "err_cert_title": "Klarte ikkje stadfeste {host}",
-      "err_client_rejected_detail": "Serveren avviste Bulwark som innloggingsklient. Be administratoren din om å tillate han, eller logg inn med eit appassord.",
+      "err_client_rejected_detail": "Serveren avviste Cobbler Mail som innloggingsklient. Be administratoren din om å tillate han, eller logg inn med eit appassord.",
       "err_client_rejected_title": "{host} godtok ikkje appen",
       "err_code_expired_detail": "Innloggingskodar gjeld i to minutt. Vis ein ny i webmailen og skann igjen.",
       "err_code_expired_or_used_detail": "Vis ein ny i webmailen og skann igjen.",
@@ -788,7 +789,7 @@
       "paste_invalid": "Det er ikkje ei innloggingslenkje for Bulwark",
       "paste_label": "Innloggingslenkje",
       "paste_title": "Lim inn innloggingslenkje",
-      "provider_detail": "Du skriv det inn på sida deira. Bulwark lagrar berre ein innloggingstoken, som du kan trekkje tilbake når som helst.",
+      "provider_detail": "Du skriv det inn på sida deira. Cobbler Mail lagrar berre ein innloggingstoken, som du kan trekkje tilbake når som helst.",
       "provider_title": "Passordet ditt blir verande hos leverandøren",
       "qr_hint": "Innstillingar → Tryggleik → Kople til mobilappen viser ein kode. Rett kameraet mot han.",
       "qr_hint_title": "Opne Bulwark på datamaskina",
@@ -966,7 +967,7 @@
     "advanced": {
       "about": {
         "deprecated_update": "Oppdatering krevst: {version}",
-        "mobile_title": "Bulwark Mobile",
+        "mobile_title": "Cobbler Mail",
         "security_update": "Tryggingsoppdatering: {version}",
         "update_available": "Oppdatering: {version}",
         "update_store_hint": "tilgjengeleg i TestFlight / App Store"
@@ -1047,7 +1048,7 @@
       "books_hint": "Dine eigne adressebøker blir synkroniserte med mindre du slår dei av. Delte berre når du slår dei på.",
       "books_label": "Adressebøker",
       "calendars_default": "Dine eigne kalendrar blir synkroniserte. Delte berre når du vel dei.",
-      "calendars_hint": "Dine eigne kalendrar blir synkroniserte med mindre du slår dei av. Delte berre når du slår dei på. Oppgåvelister blir verande i Bulwark.",
+      "calendars_hint": "Dine eigne kalendrar blir synkroniserte med mindre du slår dei av. Delte berre når du slår dei på. Oppgåvelister blir verande i Cobbler Mail.",
       "calendars_label": "Kalendrar",
       "choose": "Vel",
       "choose_books_title": "Adressebøker som skal synkroniserast",
@@ -1058,8 +1059,8 @@
       "deletions_message": "Mange element vart sletta på denne eininga på ein gong, så dei vart ikkje sletta på serveren. Slett dei der òg, eller hent dei tilbake på denne eininga.",
       "deletions_restore": "Hent dei tilbake",
       "deletions_title": "Slette dei på serveren òg?",
-      "denied_calendar": "Utan tilgang til kalendrar kan ikkje Bulwark leggje kalendrane dine på denne eininga.",
-      "denied_contacts": "Utan tilgang til kontaktar kan ikkje Bulwark leggje adressebøkene dine på denne eininga.",
+      "denied_calendar": "Utan tilgang til kalendrar kan ikkje Cobbler Mail leggje kalendrane dine på denne eininga.",
+      "denied_contacts": "Utan tilgang til kontaktar kan ikkje Cobbler Mail leggje adressebøkene dine på denne eininga.",
       "denied_title": "Synkroniseringa blir verande av",
       "failed_title": "Klarte ikkje slå på synkroniseringa",
       "grant_access": "Gje tilgang",
@@ -1067,7 +1068,7 @@
       "interval_1h": "Kvar time",
       "interval_30m": "Kvart 30. minutt",
       "interval_6h": "Kvar 6. time",
-      "interval_desc": "Kor ofte Android synkroniserer på eiga hand. Endringar i Bulwark og pusha endringar blir synkroniserte raskare.",
+      "interval_desc": "Kor ofte Android synkroniserer på eiga hand. Endringar i Cobbler Mail og pusha endringar blir synkroniserte raskare.",
       "interval_label": "Synkroniseringsintervall",
       "interval_manual": "Inga fast synkronisering",
       "keep_syncing": "Hald fram med å synkronisere",
@@ -1084,18 +1085,18 @@
       "ok": "OK",
       "open_app_settings": "Opne innstillingane for appen",
       "own_collections": "Dine eigne",
-      "rationale_calendar": "For å vise kalendrane dine i Kalender-appen treng Bulwark tilgang til kalendrane på denne eininga. Appen endrar berre kalendrane til sin eigen konto.",
-      "rationale_contacts": "For å vise adressebøkene dine i Kontaktar-appen treng Bulwark tilgang til kontaktane på denne eininga. Appen endrar berre kontaktane til sin eigen konto.",
+      "rationale_calendar": "For å vise kalendrane dine i Kalender-appen treng Cobbler Mail tilgang til kalendrane på denne eininga. Appen endrar berre kalendrane til sin eigen konto.",
+      "rationale_contacts": "For å vise adressebøkene dine i Kontaktar-appen treng Cobbler Mail tilgang til kontaktane på denne eininga. Appen endrar berre kontaktane til sin eigen konto.",
       "rationale_title_calendar": "Gje tilgang til kalendrar",
       "rationale_title_contacts": "Gje tilgang til kontaktar",
       "read_only": "Skriveverna",
-      "reminder_owner_bulwark": "Bulwark",
+      "reminder_owner_bulwark": "Cobbler Mail",
       "reminder_owner_device": "Kalender-appen",
-      "reminder_question_message": "Synkroniserte hendingar kan minne deg på frå kalender-appen på denne eininga eller frå Bulwark. Vel éin, så du ikkje blir mint på to gonger. Du kan endre det seinare.",
+      "reminder_question_message": "Synkroniserte hendingar kan minne deg på frå kalender-appen på denne eininga eller frå Cobbler Mail. Vel éin, så du ikkje blir mint på to gonger. Du kan endre det seinare.",
       "reminder_question_title": "Kven skal minne deg på?",
       "reminders_desc": "Kven som minner deg på synkroniserte hendingar. Den andre er stille, så du ikkje blir mint på to gonger.",
       "reminders_label": "Påminningar",
-      "reminders_nobody": "Hendingsvarsla i Bulwark er slått av, så ingenting minner deg på synkroniserte hendingar.",
+      "reminders_nobody": "Hendingsvarsla i Cobbler Mail er slått av, så ingenting minner deg på synkroniserte hendingar.",
       "remove": "Fjern",
       "remove_from_device": "Fjern frå denne eininga",
       "remove_message": "Kontaktane og kalendrane til kontoen blir fjerna frå denne eininga. Endringar gjorde her som ikkje har nådd serveren, går tapt.",
@@ -1132,7 +1133,7 @@
       "turn_off_failed_title": "Klarte ikkje slå av synkroniseringa",
       "turn_off_pending": "{count, plural, one {# endring gjord på denne eininga har ikkje nådd serveren enno. Ho går tapt viss du slår av synkroniseringa no.} other {# endringar gjorde på denne eininga har ikkje nådd serveren enno. Dei går tapt viss du slår av synkroniseringa no.}}",
       "turn_off_title": "Slå av likevel?",
-      "turn_off_unknown": "Bulwark klarte ikkje sjekke om endringar gjorde på denne eininga har nådd serveren. Dei går tapt viss du slår av synkroniseringa no.",
+      "turn_off_unknown": "Cobbler Mail klarte ikkje sjekke om endringar gjorde på denne eininga har nådd serveren. Dei går tapt viss du slår av synkroniseringa no.",
       "turning_off": "Lastar opp endringar og fjernar så dataa frå denne eininga …",
       "turning_on": "Set opp …"
     },
@@ -1505,8 +1506,8 @@
         "remove_message": "Kryptering i kvile som brukar denne nøkkelen, sluttar å fungere.",
         "remove_title": "Fjerne den offentlege nøkkelen?"
       },
-      "restricted": "Serveren din lèt berre appar som administratoren har godkjent, endre passordet, tofaktorinnlogginga, appassord og API-nøklar. Bulwark logga inn utan den godkjenninga, så e-post, kontaktar, kalendrar og filer fungerer, men desse innstillingane gjer ikkje det. Endre dei i nettgrensesnittet til serveren eller i Bulwark-webmailen.",
-      "restricted_sign_in_again": "Bulwark logga inn før serveren din lét appar administrere desse innstillingane. Logg inn igjen for å administrere passordet, tofaktorinnlogginga, appassord og API-nøklar her.",
+      "restricted": "Serveren din lèt berre appar som administratoren har godkjent, endre passordet, tofaktorinnlogginga, appassord og API-nøklar. Cobbler Mail logga inn utan den godkjenninga, så e-post, kontaktar, kalendrar og filer fungerer, men desse innstillingane gjer ikkje det. Endre dei i nettgrensesnittet til serveren eller i Bulwark-webmailen.",
+      "restricted_sign_in_again": "Cobbler Mail logga inn før serveren din lét appar administrere desse innstillingane. Logg inn igjen for å administrere passordet, tofaktorinnlogginga, appassord og API-nøklar her.",
       "screen_privacy": {
         "block_screenshots": "Blokker skjermbilete",
         "block_screenshots_description": "Hindrar skjermbilete og skjermopptak av appen og skjuler innhaldet i oversikta over nylege appar.",
@@ -1880,8 +1881,8 @@
       "error": "Klarte ikkje vise denne widgeten",
       "loading": "Lastar …",
       "open_app": "Opne appen ein gong viss dette held fram med å vere tomt.",
-      "open_to_load": "Opne Bulwark for å laste dette",
-      "signed_out": "Logg inn på Bulwark"
+      "open_to_load": "Opne Cobbler Mail for å laste dette",
+      "signed_out": "Logg inn på Cobbler Mail"
     },
     "storage": {
       "no_limit": "Inga lagringsgrense",
@@ -1918,5 +1919,14 @@
       "unsupported": "Fråværssvar er ikkje tilgjengeleg",
       "until": "Til {date}"
     }
+  },
+  "vacation_calendar": {
+    "no_calendar": "Kalenderen din kan ikkje blokkerast: Cobbler Mail fann ingen kalender å leggje hendinga til i."
+  },
+  "recover_deleted": {
+    "restore_hint": "Gjenoppretta e-post går tilbake til innboksen din som ulesen, sortert etter opphavleg dato, så han kan ligge langt nede i lista. Tenaren gjenopprettar han i bakgrunnen. Viss det feilar der, er meldinga tapt, og Cobbler Mail kan ikkje sjå det."
+  },
+  "uxs_login": {
+    "provider_unsupported": "{provider} tilbyr ikkje JMAP, slik Cobbler Mail snakkar med tenarar, så Cobbler Mail kan ikkje kople seg til det direkte enno."
   }
 }

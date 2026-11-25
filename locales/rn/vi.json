@@ -331,7 +331,7 @@
     "signing_out": "Đang gỡ danh bạ và lịch đã đồng bộ khỏi thiết bị này…"
   },
   "email_composer": {
-    "attach_bulwark_files": "Tệp Bulwark",
+    "attach_bulwark_files": "Tệp Cobbler Mail",
     "attach_camera": "Máy ảnh",
     "attach_gallery": "Thư viện",
     "attach_this_device": "Thiết bị này",
@@ -410,7 +410,8 @@
     "use_template": "Mẫu",
     "validation": {
       "subject_required": "Thêm tiêu đề"
-    }
+    },
+    "submission_quota": "Máy chủ có quá nhiều bản ghi thư đã gửi cho tài khoản này. Cobbler Mail đã xóa được một số bản ghi; nếu tình trạng này tiếp diễn, hãy yêu cầu quản trị viên tăng giới hạn gửi email."
   },
   "email_list": {
     "cross_account_move_offline": "Cần có kết nối để di chuyển giữa các tài khoản",
@@ -682,7 +683,7 @@
       "add_title": "Thêm tài khoản khác",
       "camera_allow": "Cho phép truy cập máy ảnh",
       "camera_disabled": "Quyền truy cập máy ảnh đang tắt. Hãy bật trong Cài đặt để quét mã QR đăng nhập.",
-      "camera_needed": "Bulwark Mail cần quyền truy cập máy ảnh để quét mã QR đăng nhập.",
+      "camera_needed": "Cobbler Mail cần quyền truy cập máy ảnh để quét mã QR đăng nhập.",
       "cancel_sign_in": "Hủy đăng nhập",
       "choose_subtitle": "Chọn cách bạn muốn đăng nhập.",
       "confirm_check": "Kiểm tra xem thông tin có đúng không",
@@ -704,7 +705,7 @@
       "err_bad_title": "Không thành công",
       "err_cert_detail": "Chứng chỉ bảo mật của máy chủ đã bị từ chối. Nếu đây là máy chủ của bạn, hãy kiểm tra xem chứng chỉ có hợp lệ và chưa hết hạn không.",
       "err_cert_title": "Không thể xác minh {host}",
-      "err_client_rejected_detail": "Máy chủ từ chối Bulwark làm ứng dụng đăng nhập. Hãy nhờ quản trị viên cho phép, hoặc đăng nhập bằng mật khẩu ứng dụng.",
+      "err_client_rejected_detail": "Máy chủ từ chối Cobbler Mail làm ứng dụng đăng nhập. Hãy nhờ quản trị viên cho phép, hoặc đăng nhập bằng mật khẩu ứng dụng.",
       "err_client_rejected_title": "{host} không chấp nhận ứng dụng",
       "err_code_expired_detail": "Mã đăng nhập có hiệu lực trong hai phút. Hãy hiển thị mã mới trong thư điện tử trên web rồi quét lại.",
       "err_code_expired_or_used_detail": "Hãy hiển thị mã mới trong thư điện tử trên web rồi quét lại.",
@@ -788,7 +789,7 @@
       "paste_invalid": "Đó không phải là liên kết đăng nhập Bulwark",
       "paste_label": "Liên kết đăng nhập",
       "paste_title": "Dán liên kết đăng nhập",
-      "provider_detail": "Bạn sẽ nhập mật khẩu trên trang của họ. Bulwark chỉ lưu một mã thông báo đăng nhập mà bạn có thể thu hồi bất cứ lúc nào.",
+      "provider_detail": "Bạn sẽ nhập mật khẩu trên trang của họ. Cobbler Mail chỉ lưu một mã thông báo đăng nhập mà bạn có thể thu hồi bất cứ lúc nào.",
       "provider_title": "Mật khẩu của bạn chỉ nằm ở nhà cung cấp",
       "qr_hint": "Cài đặt → Bảo mật → Liên kết ứng dụng di động sẽ hiển thị một mã. Hãy hướng máy ảnh vào mã đó.",
       "qr_hint_title": "Mở Bulwark trên máy tính của bạn",
@@ -966,7 +967,7 @@
     "advanced": {
       "about": {
         "deprecated_update": "Cần cập nhật: {version}",
-        "mobile_title": "Bulwark Mobile",
+        "mobile_title": "Cobbler Mail",
         "security_update": "Bản cập nhật bảo mật: {version}",
         "update_available": "Bản cập nhật: {version}",
         "update_store_hint": "có trên TestFlight / App Store"
@@ -1047,7 +1048,7 @@
       "books_hint": "Sổ địa chỉ của riêng bạn được đồng bộ trừ khi bạn tắt; sổ được chia sẻ chỉ khi bạn bật.",
       "books_label": "Sổ địa chỉ",
       "calendars_default": "Lịch của riêng bạn được đồng bộ; lịch được chia sẻ chỉ khi bạn chọn.",
-      "calendars_hint": "Lịch của riêng bạn được đồng bộ trừ khi bạn tắt; lịch được chia sẻ chỉ khi bạn bật. Danh sách công việc vẫn ở trong Bulwark.",
+      "calendars_hint": "Lịch của riêng bạn được đồng bộ trừ khi bạn tắt; lịch được chia sẻ chỉ khi bạn bật. Danh sách công việc vẫn ở trong Cobbler Mail.",
       "calendars_label": "Lịch",
       "choose": "Chọn",
       "choose_books_title": "Sổ địa chỉ cần đồng bộ",
@@ -1058,8 +1059,8 @@
       "deletions_message": "Nhiều mục đã bị xóa cùng lúc trên thiết bị này nên chưa bị xóa trên máy chủ. Hãy xóa cả trên máy chủ, hoặc khôi phục chúng trên thiết bị này.",
       "deletions_restore": "Khôi phục",
       "deletions_title": "Xóa cả trên máy chủ?",
-      "denied_calendar": "Không có quyền truy cập lịch thì Bulwark không thể đưa lịch của bạn lên thiết bị này.",
-      "denied_contacts": "Không có quyền truy cập danh bạ thì Bulwark không thể đưa sổ địa chỉ của bạn lên thiết bị này.",
+      "denied_calendar": "Không có quyền truy cập lịch thì Cobbler Mail không thể đưa lịch của bạn lên thiết bị này.",
+      "denied_contacts": "Không có quyền truy cập danh bạ thì Cobbler Mail không thể đưa sổ địa chỉ của bạn lên thiết bị này.",
       "denied_title": "Đồng bộ vẫn tắt",
       "failed_title": "Không thể bật đồng bộ",
       "grant_access": "Cấp quyền truy cập",
@@ -1067,7 +1068,7 @@
       "interval_1h": "Mỗi giờ",
       "interval_30m": "Mỗi 30 phút",
       "interval_6h": "Mỗi 6 giờ",
-      "interval_desc": "Tần suất Android tự đồng bộ. Thay đổi trong Bulwark và thay đổi được đẩy về sẽ đồng bộ sớm hơn.",
+      "interval_desc": "Tần suất Android tự đồng bộ. Thay đổi trong Cobbler Mail và thay đổi được đẩy về sẽ đồng bộ sớm hơn.",
       "interval_label": "Chu kỳ đồng bộ",
       "interval_manual": "Không đồng bộ định kỳ",
       "keep_syncing": "Tiếp tục đồng bộ",
@@ -1084,18 +1085,18 @@
       "ok": "OK",
       "open_app_settings": "Mở cài đặt ứng dụng",
       "own_collections": "Của riêng bạn",
-      "rationale_calendar": "Để hiển thị lịch của bạn trong ứng dụng Lịch, Bulwark cần quyền truy cập lịch trên thiết bị này. Bulwark chỉ thay đổi lịch thuộc tài khoản của chính nó.",
-      "rationale_contacts": "Để hiển thị sổ địa chỉ của bạn trong ứng dụng Danh bạ, Bulwark cần quyền truy cập danh bạ trên thiết bị này. Bulwark chỉ thay đổi liên hệ thuộc tài khoản của chính nó.",
+      "rationale_calendar": "Để hiển thị lịch của bạn trong ứng dụng Lịch, Cobbler Mail cần quyền truy cập lịch trên thiết bị này. Cobbler Mail chỉ thay đổi lịch thuộc tài khoản của chính nó.",
+      "rationale_contacts": "Để hiển thị sổ địa chỉ của bạn trong ứng dụng Danh bạ, Cobbler Mail cần quyền truy cập danh bạ trên thiết bị này. Cobbler Mail chỉ thay đổi liên hệ thuộc tài khoản của chính nó.",
       "rationale_title_calendar": "Cho phép truy cập lịch",
       "rationale_title_contacts": "Cho phép truy cập danh bạ",
       "read_only": "Chỉ đọc",
-      "reminder_owner_bulwark": "Bulwark",
+      "reminder_owner_bulwark": "Cobbler Mail",
       "reminder_owner_device": "Ứng dụng Lịch",
-      "reminder_question_message": "Sự kiện đã đồng bộ có thể nhắc bạn qua ứng dụng lịch trên thiết bị này hoặc qua Bulwark. Hãy chọn một để không bị nhắc hai lần. Bạn có thể đổi sau.",
+      "reminder_question_message": "Sự kiện đã đồng bộ có thể nhắc bạn qua ứng dụng lịch trên thiết bị này hoặc qua Cobbler Mail. Hãy chọn một để không bị nhắc hai lần. Bạn có thể đổi sau.",
       "reminder_question_title": "Ai sẽ nhắc bạn?",
       "reminders_desc": "Nơi nhắc bạn về các sự kiện đã đồng bộ. Nơi còn lại sẽ im lặng để bạn không bị nhắc hai lần.",
       "reminders_label": "Nhắc nhở",
-      "reminders_nobody": "Thông báo sự kiện của Bulwark đang tắt nên không có gì nhắc bạn về các sự kiện đã đồng bộ.",
+      "reminders_nobody": "Thông báo sự kiện của Cobbler Mail đang tắt nên không có gì nhắc bạn về các sự kiện đã đồng bộ.",
       "remove": "Gỡ",
       "remove_from_device": "Gỡ khỏi thiết bị này",
       "remove_message": "Danh bạ và lịch của tài khoản sẽ bị gỡ khỏi thiết bị này. Các thay đổi ở đây chưa đến được máy chủ sẽ bị mất.",
@@ -1132,7 +1133,7 @@
       "turn_off_failed_title": "Không thể tắt đồng bộ",
       "turn_off_pending": "{count, plural, other {# thay đổi trên thiết bị này chưa đến được máy chủ. Các thay đổi đó sẽ mất nếu bạn tắt đồng bộ bây giờ.}}",
       "turn_off_title": "Vẫn tắt?",
-      "turn_off_unknown": "Bulwark không thể kiểm tra xem các thay đổi trên thiết bị này đã đến máy chủ chưa. Chúng sẽ mất nếu bạn tắt đồng bộ bây giờ.",
+      "turn_off_unknown": "Cobbler Mail không thể kiểm tra xem các thay đổi trên thiết bị này đã đến máy chủ chưa. Chúng sẽ mất nếu bạn tắt đồng bộ bây giờ.",
       "turning_off": "Đang tải thay đổi lên, rồi gỡ dữ liệu khỏi thiết bị này…",
       "turning_on": "Đang thiết lập…"
     },
@@ -1505,8 +1506,8 @@
         "remove_message": "Mã hóa khi lưu trữ dùng khóa này sẽ ngừng hoạt động.",
         "remove_title": "Gỡ khóa công khai?"
       },
-      "restricted": "Máy chủ của bạn chỉ cho phép các ứng dụng được quản trị viên phê duyệt thay đổi mật khẩu, đăng nhập hai yếu tố, mật khẩu ứng dụng và khóa API. Bulwark đã đăng nhập mà không có phê duyệt đó, nên thư, danh bạ, lịch và tệp vẫn hoạt động nhưng các cài đặt này thì không. Hãy thay đổi chúng trong giao diện web của máy chủ hoặc trong thư điện tử trên web của Bulwark.",
-      "restricted_sign_in_again": "Bulwark đã đăng nhập trước khi máy chủ của bạn cho phép ứng dụng quản lý các cài đặt này. Hãy đăng nhập lại để quản lý mật khẩu, đăng nhập hai yếu tố, mật khẩu ứng dụng và khóa API tại đây.",
+      "restricted": "Máy chủ của bạn chỉ cho phép các ứng dụng được quản trị viên phê duyệt thay đổi mật khẩu, đăng nhập hai yếu tố, mật khẩu ứng dụng và khóa API. Cobbler Mail đã đăng nhập mà không có phê duyệt đó, nên thư, danh bạ, lịch và tệp vẫn hoạt động nhưng các cài đặt này thì không. Hãy thay đổi chúng trong giao diện web của máy chủ hoặc trong thư điện tử trên web của Bulwark.",
+      "restricted_sign_in_again": "Cobbler Mail đã đăng nhập trước khi máy chủ của bạn cho phép ứng dụng quản lý các cài đặt này. Hãy đăng nhập lại để quản lý mật khẩu, đăng nhập hai yếu tố, mật khẩu ứng dụng và khóa API tại đây.",
       "screen_privacy": {
         "block_screenshots": "Chặn chụp màn hình",
         "block_screenshots_description": "Ngăn chụp và quay màn hình ứng dụng, đồng thời ẩn nội dung của ứng dụng trong màn hình ứng dụng gần đây.",
@@ -1880,8 +1881,8 @@
       "error": "Không thể hiển thị tiện ích này",
       "loading": "Đang tải…",
       "open_app": "Hãy mở ứng dụng một lần nếu tiện ích vẫn trống.",
-      "open_to_load": "Mở Bulwark để tải nội dung này",
-      "signed_out": "Đăng nhập vào Bulwark"
+      "open_to_load": "Mở Cobbler Mail để tải nội dung này",
+      "signed_out": "Đăng nhập vào Cobbler Mail"
     },
     "storage": {
       "no_limit": "Không giới hạn dung lượng",
@@ -1918,5 +1919,14 @@
       "unsupported": "Không có tính năng trả lời khi vắng mặt",
       "until": "Đến {date}"
     }
+  },
+  "vacation_calendar": {
+    "no_calendar": "Không thể chặn lịch: Cobbler Mail không tìm thấy lịch để thêm sự kiện."
+  },
+  "recover_deleted": {
+    "restore_hint": "Thư đã khôi phục sẽ quay trở lại Hộp thư đến của bạn dưới dạng chưa đọc, được sắp xếp theo ngày ban đầu, do đó, thư này có thể nằm ở xa danh sách. Máy chủ khôi phục nó trong nền. Nếu thất bại ở đó, thư sẽ bị mất và Cobbler Mail không thể biết được."
+  },
+  "uxs_login": {
+    "provider_unsupported": "{provider} không hỗ trợ JMAP, cách Cobbler Mail trao đổi với máy chủ thư, nên Cobbler Mail chưa thể kết nối trực tiếp."
   }
 }
