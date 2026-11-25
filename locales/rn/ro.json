@@ -328,7 +328,7 @@
     "signing_out": "Se elimină de pe acest dispozitiv contactele și calendarele sincronizate…"
   },
   "email_composer": {
-    "attach_bulwark_files": "Fișiere Bulwark",
+    "attach_bulwark_files": "Fișiere Cobbler Mail",
     "attach_camera": "Cameră",
     "attach_gallery": "Galerie",
     "attach_this_device": "Acest dispozitiv",
@@ -401,7 +401,7 @@
     "send_timeout_body": "Este posibil ca mesajul să fi fost deja trimis. Verificați folderul Trimise înainte de a-l trimite din nou.",
     "send_timeout_title": "Serverul nu răspunde",
     "submission_limit": "Serverul a refuzat să trimită mesajul deoarece s-a atins o limită: {reason}",
-    "submission_quota": "Serverul păstrează prea multe înregistrări de mesaje trimise pentru acest cont. Bulwark le-a eliminat pe cele pe care a putut; dacă problema persistă, cereți administratorului să mărească limita de trimiteri de e-mail.",
+    "submission_quota": "Serverul păstrează prea multe înregistrări de mesaje trimise pentru acest cont. Cobbler Mail le-a eliminat pe cele pe care a putut; dacă problema persistă, cereți administratorului să mărească limita de trimiteri de e-mail.",
     "undo_send_label": "Se trimite în {seconds} s…",
     "upload_failed_short": "Încărcarea a eșuat",
     "uploading": "Se încarcă...",
@@ -655,7 +655,7 @@
       "add_title": "Adăugați un alt cont",
       "camera_allow": "Permiteți accesul la cameră",
       "camera_disabled": "Accesul la cameră este dezactivat. Activați-l în Setări pentru a scana un cod QR de autentificare.",
-      "camera_needed": "Bulwark Mail are nevoie de acces la cameră pentru a scana un cod QR de autentificare.",
+      "camera_needed": "Cobbler Mail are nevoie de acces la cameră pentru a scana un cod QR de autentificare.",
       "choose_subtitle": "Alegeți cum doriți să vă autentificați.",
       "confirm_check": "Verificați dacă totul este corect",
       "confirm_found": "Am găsit serverul dvs. de e-mail",
@@ -746,7 +746,7 @@
       "paste_invalid": "Acesta nu este un link de autentificare Bulwark",
       "paste_label": "Link de autentificare",
       "paste_title": "Lipiți linkul de autentificare",
-      "provider_detail": "O veți introduce pe pagina lor. Bulwark stochează doar un token de autentificare, pe care îl puteți revoca oricând.",
+      "provider_detail": "O veți introduce pe pagina lor. Cobbler Mail stochează doar un token de autentificare, pe care îl puteți revoca oricând.",
       "provider_title": "Parola dvs. rămâne la furnizor",
       "qr_hint": "Setări → Securitate → Aplicație mobilă afișează un cod. Îndreptați camera spre el.",
       "qr_hint_title": "Deschideți Bulwark pe computer",
@@ -766,7 +766,7 @@
       "username_label": "E-mail sau nume de utilizator",
       "your_server": "serverul dvs.",
       "cancel_sign_in": "Anulați autentificarea",
-      "err_client_rejected_detail": "Serverul a refuzat Bulwark drept client de autentificare. Cereți administratorului să îl permită sau autentificați-vă cu o parolă pentru aplicații.",
+      "err_client_rejected_detail": "Serverul a refuzat Cobbler Mail drept client de autentificare. Cereți administratorului să îl permită sau autentificați-vă cu o parolă pentru aplicații.",
       "err_client_rejected_title": "{host} nu a acceptat aplicația",
       "err_handoff_expired_detail": "Browserul a returnat autentificarea după ce aceasta expirase. Autentificați-vă din nou.",
       "err_handoff_expired_title": "Autentificarea a durat prea mult",
@@ -846,7 +846,7 @@
     "advanced": {
       "about": {
         "deprecated_update": "Actualizare obligatorie: {version}",
-        "mobile_title": "Bulwark Mobile",
+        "mobile_title": "Cobbler Mail",
         "security_update": "Actualizare de securitate: {version}",
         "update_available": "Actualizare: {version}",
         "update_store_hint": "disponibilă în TestFlight / App Store"
@@ -907,7 +907,7 @@
       "books_hint": "Agendele dvs. de adrese se sincronizează dacă nu le dezactivați; cele partajate doar dacă le activați.",
       "books_label": "Agende de adrese",
       "calendars_default": "Calendarele dvs. se sincronizează; cele partajate doar dacă le alegeți.",
-      "calendars_hint": "Calendarele dvs. se sincronizează dacă nu le dezactivați; cele partajate doar dacă le activați. Listele de sarcini rămân în Bulwark.",
+      "calendars_hint": "Calendarele dvs. se sincronizează dacă nu le dezactivați; cele partajate doar dacă le activați. Listele de sarcini rămân în Cobbler Mail.",
       "calendars_label": "Calendare",
       "choose": "Alegeți",
       "choose_books_title": "Agende de adrese de sincronizat",
@@ -918,8 +918,8 @@
       "deletions_message": "Multe elemente au fost șterse deodată pe acest dispozitiv, așa că nu au fost șterse de pe server. Ștergeți-le și acolo sau readuceți-le pe acest dispozitiv.",
       "deletions_restore": "Readuceți-le",
       "deletions_title": "Le ștergeți și de pe server?",
-      "denied_calendar": "Fără acces la calendare, Bulwark nu poate aduce calendarele dvs. pe acest dispozitiv.",
-      "denied_contacts": "Fără acces la contacte, Bulwark nu poate aduce agendele dvs. de adrese pe acest dispozitiv.",
+      "denied_calendar": "Fără acces la calendare, Cobbler Mail nu poate aduce calendarele dvs. pe acest dispozitiv.",
+      "denied_contacts": "Fără acces la contacte, Cobbler Mail nu poate aduce agendele dvs. de adrese pe acest dispozitiv.",
       "denied_title": "Sincronizarea rămâne dezactivată",
       "failed_title": "Sincronizarea nu a putut fi activată",
       "grant_access": "Acordați acces",
@@ -927,7 +927,7 @@
       "interval_1h": "La fiecare oră",
       "interval_30m": "La fiecare 30 de minute",
       "interval_6h": "La fiecare 6 ore",
-      "interval_desc": "Cât de des sincronizează Android de la sine. Modificările din Bulwark și cele anunțate prin push se sincronizează mai repede.",
+      "interval_desc": "Cât de des sincronizează Android de la sine. Modificările din Cobbler Mail și cele anunțate prin push se sincronizează mai repede.",
       "interval_label": "Interval de sincronizare",
       "interval_manual": "Fără sincronizare periodică",
       "keep_syncing": "Continuați sincronizarea",
@@ -944,18 +944,18 @@
       "ok": "OK",
       "open_app_settings": "Deschideți setările",
       "own_collections": "Ale dvs.",
-      "rationale_calendar": "Pentru a afișa calendarele dvs. în aplicația Calendar, Bulwark are nevoie de acces la calendarele de pe acest dispozitiv. Modifică doar calendarele propriului cont.",
-      "rationale_contacts": "Pentru a afișa agendele dvs. de adrese în aplicația Contacte, Bulwark are nevoie de acces la contactele de pe acest dispozitiv. Modifică doar contactele propriului cont.",
+      "rationale_calendar": "Pentru a afișa calendarele dvs. în aplicația Calendar, Cobbler Mail are nevoie de acces la calendarele de pe acest dispozitiv. Modifică doar calendarele propriului cont.",
+      "rationale_contacts": "Pentru a afișa agendele dvs. de adrese în aplicația Contacte, Cobbler Mail are nevoie de acces la contactele de pe acest dispozitiv. Modifică doar contactele propriului cont.",
       "rationale_title_calendar": "Permiteți accesul la calendare",
       "rationale_title_contacts": "Permiteți accesul la contacte",
       "read_only": "Doar citire",
-      "reminder_owner_bulwark": "Bulwark",
+      "reminder_owner_bulwark": "Cobbler Mail",
       "reminder_owner_device": "Aplicația Calendar",
-      "reminder_question_message": "Mementourile pentru evenimentele sincronizate pot veni din aplicația de calendar de pe acest dispozitiv sau din Bulwark. Alegeți una dintre ele ca să nu primiți mementouri de două ori. Puteți schimba ulterior.",
+      "reminder_question_message": "Mementourile pentru evenimentele sincronizate pot veni din aplicația de calendar de pe acest dispozitiv sau din Cobbler Mail. Alegeți una dintre ele ca să nu primiți mementouri de două ori. Puteți schimba ulterior.",
       "reminder_question_title": "Cine să vă trimită mementouri?",
       "reminders_desc": "Cine vă amintește de evenimentele sincronizate. Cealaltă aplicație rămâne silențioasă, ca să nu primiți mementouri de două ori.",
       "reminders_label": "Mementouri",
-      "reminders_nobody": "Notificările de evenimente din Bulwark sunt dezactivate, așa că nimic nu vă amintește de evenimentele sincronizate.",
+      "reminders_nobody": "Notificările de evenimente din Cobbler Mail sunt dezactivate, așa că nimic nu vă amintește de evenimentele sincronizate.",
       "remove": "Eliminați",
       "remove_from_device": "Eliminați de pe acest dispozitiv",
       "remove_message": "Contactele și calendarele contului vor fi eliminate de pe acest dispozitiv. Modificările făcute aici care nu au ajuns pe server se vor pierde.",
@@ -992,7 +992,7 @@
       "turn_off_failed_title": "Sincronizarea nu a putut fi dezactivată",
       "turn_off_pending": "{count, plural, one {# modificare făcută pe acest dispozitiv nu a ajuns încă pe server. Se va pierde dacă dezactivați acum sincronizarea.} few {# modificări făcute pe acest dispozitiv nu au ajuns încă pe server. Se vor pierde dacă dezactivați acum sincronizarea.} other {# de modificări făcute pe acest dispozitiv nu au ajuns încă pe server. Se vor pierde dacă dezactivați acum sincronizarea.}}",
       "turn_off_title": "Dezactivați totuși?",
-      "turn_off_unknown": "Bulwark nu a putut verifica dacă modificările făcute pe acest dispozitiv au ajuns pe server. Se vor pierde dacă dezactivați acum sincronizarea.",
+      "turn_off_unknown": "Cobbler Mail nu a putut verifica dacă modificările făcute pe acest dispozitiv au ajuns pe server. Se vor pierde dacă dezactivați acum sincronizarea.",
       "turning_off": "Se încarcă modificările, apoi se elimină datele de pe acest dispozitiv…",
       "turning_on": "Se configurează…"
     },
@@ -1374,8 +1374,8 @@
         "section_title": "Autentificare în doi pași",
         "disable_hint_code": "Introduceți parola și un cod din aplicația de autentificare pentru a dezactiva autentificarea în doi pași."
       },
-      "restricted": "Serverul dvs. permite doar aplicațiilor aprobate de administrator să schimbe parola, autentificarea în doi pași, parolele pentru aplicații și cheile API. Bulwark s-a autentificat fără această aprobare, așa că e-mailul, contactele, calendarele și fișierele funcționează, dar aceste setări nu. Modificați-le în interfața web a serverului sau în webmailul Bulwark.",
-      "restricted_sign_in_again": "Bulwark s-a autentificat înainte ca serverul dvs. să permită aplicațiilor să gestioneze aceste setări. Autentificați-vă din nou pentru a gestiona aici parola, autentificarea în doi pași, parolele pentru aplicații și cheile API.",
+      "restricted": "Serverul dvs. permite doar aplicațiilor aprobate de administrator să schimbe parola, autentificarea în doi pași, parolele pentru aplicații și cheile API. Cobbler Mail s-a autentificat fără această aprobare, așa că e-mailul, contactele, calendarele și fișierele funcționează, dar aceste setări nu. Modificați-le în interfața web a serverului sau în webmailul Bulwark.",
+      "restricted_sign_in_again": "Cobbler Mail s-a autentificat înainte ca serverul dvs. să permită aplicațiilor să gestioneze aceste setări. Autentificați-vă din nou pentru a gestiona aici parola, autentificarea în doi pași, parolele pentru aplicații și cheile API.",
       "screen_privacy": {
         "block_screenshots": "Blocați capturile de ecran",
         "block_screenshots_description": "Împiedică capturile și înregistrările de ecran ale aplicației și îi ascunde conținutul în lista aplicațiilor recente.",
@@ -1945,8 +1945,8 @@
       "error": "Acest widget nu a putut fi afișat",
       "loading": "Se încarcă…",
       "open_app": "Deschideți aplicația o dată dacă rămâne gol.",
-      "open_to_load": "Deschideți Bulwark pentru a încărca datele",
-      "signed_out": "Autentificați-vă în Bulwark"
+      "open_to_load": "Deschideți Cobbler Mail pentru a încărca datele",
+      "signed_out": "Autentificați-vă în Cobbler Mail"
     },
     "storage": {
       "no_limit": "Fără limită de stocare",
@@ -1989,5 +1989,14 @@
     "server_error": "{host} are probleme. Este posibil ca e-mailurile noi să nu sosească.",
     "rate_limited": "{host} limitează solicitările. E-mailurile noi pot întârzia.",
     "sign_in_failing": "Autentificarea la {host} nu poate fi reînnoită. E-mailurile noi nu vor sosi până nu este reînnoită."
+  },
+  "vacation_calendar": {
+    "no_calendar": "Calendarul nu poate fi blocat: Cobbler Mail nu a găsit un calendar în care să adauge evenimentul."
+  },
+  "recover_deleted": {
+    "restore_hint": "E-mailurile restabilite revin în Primite ca necitite, ordonate după data inițială, deci pot fi mult mai jos în listă. Serverul le restabilește în fundal. Dacă acolo nu reușește, mesajul se pierde și Cobbler Mail nu are cum să afle."
+  },
+  "uxs_login": {
+    "provider_unsupported": "{provider} nu oferă JMAP, modul în care Cobbler Mail comunică cu serverele de e-mail, așa că Cobbler Mail nu se poate conecta încă direct la el."
   }
 }

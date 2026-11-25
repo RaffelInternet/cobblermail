@@ -328,7 +328,7 @@
     "signing_out": "正在从此设备移除已同步的联系人和日历…"
   },
   "email_composer": {
-    "attach_bulwark_files": "Bulwark 文件",
+    "attach_bulwark_files": "Cobbler Mail 文件",
     "attach_camera": "相机",
     "attach_gallery": "图库",
     "attach_this_device": "此设备",
@@ -400,7 +400,7 @@
     "send_timeout_body": "邮件可能已经发出。再次发送前，请检查“已发送”文件夹。",
     "send_timeout_title": "服务器无响应",
     "submission_limit": "由于达到上限，服务器拒绝发送此邮件：{reason}",
-    "submission_quota": "服务器上此账户的已发送邮件记录过多。Bulwark 已删除了能删除的记录；如果问题仍然出现，请让管理员提高邮件提交数量上限。",
+    "submission_quota": "服务器上此账户的已发送邮件记录过多。Cobbler Mail 已删除了能删除的记录；如果问题仍然出现，请让管理员提高邮件提交数量上限。",
     "undo_send_label": "{seconds} 秒后发送…",
     "upload_failed_short": "上传失败",
     "uploading": "正在上传…",
@@ -654,7 +654,7 @@
       "add_title": "添加其他账户",
       "camera_allow": "允许访问相机",
       "camera_disabled": "相机访问已禁用。请在设置中启用，以扫描登录二维码。",
-      "camera_needed": "Bulwark Mail 需要访问相机才能扫描登录二维码。",
+      "camera_needed": "Cobbler Mail 需要访问相机才能扫描登录二维码。",
       "choose_subtitle": "请选择登录方式。",
       "confirm_check": "请确认信息无误",
       "confirm_found": "已找到您的邮件服务器",
@@ -745,7 +745,7 @@
       "paste_invalid": "这不是 Bulwark 登录链接",
       "paste_label": "登录链接",
       "paste_title": "粘贴登录链接",
-      "provider_detail": "您将在服务提供商的页面上输入密码。Bulwark 只存储登录令牌，您可以随时撤销。",
+      "provider_detail": "您将在服务提供商的页面上输入密码。Cobbler Mail 只存储登录令牌，您可以随时撤销。",
       "provider_title": "您的密码只保留在服务提供商处",
       "qr_hint": "“设置 → 安全 → 关联移动应用”中会显示一个二维码。请将相机对准它。",
       "qr_hint_title": "在电脑上打开 Bulwark",
@@ -765,7 +765,7 @@
       "username_label": "邮箱地址或用户名",
       "your_server": "您的服务器",
       "cancel_sign_in": "取消登录",
-      "err_client_rejected_detail": "服务器拒绝 Bulwark 作为登录客户端。请联系管理员允许它，或使用应用密码登录。",
+      "err_client_rejected_detail": "服务器拒绝 Cobbler Mail 作为登录客户端。请联系管理员允许它，或使用应用密码登录。",
       "err_client_rejected_title": "{host} 不接受此应用",
       "err_handoff_expired_detail": "浏览器交回登录信息时，登录已过期。请重新登录。",
       "err_handoff_expired_title": "登录耗时过长",
@@ -845,7 +845,7 @@
     "advanced": {
       "about": {
         "deprecated_update": "需要更新：{version}",
-        "mobile_title": "Bulwark Mobile",
+        "mobile_title": "Cobbler Mail",
         "security_update": "安全更新：{version}",
         "update_available": "更新：{version}",
         "update_store_hint": "可在 TestFlight / App Store 获取"
@@ -906,7 +906,7 @@
       "books_hint": "您自己的通讯录会同步，除非您将其关闭；共享的通讯录仅在您开启后同步。",
       "books_label": "通讯录",
       "calendars_default": "您自己的日历会同步；共享的日历仅在您选择后同步。",
-      "calendars_hint": "您自己的日历会同步，除非您将其关闭；共享的日历仅在您开启后同步。任务列表保留在 Bulwark 中。",
+      "calendars_hint": "您自己的日历会同步，除非您将其关闭；共享的日历仅在您开启后同步。任务列表保留在 Cobbler Mail 中。",
       "calendars_label": "日历",
       "choose": "选择",
       "choose_books_title": "要同步的通讯录",
@@ -917,8 +917,8 @@
       "deletions_message": "此设备上一次删除了许多项目，因此未在服务器上删除。请同时在服务器上删除它们，或在此设备上恢复它们。",
       "deletions_restore": "恢复",
       "deletions_title": "也在服务器上删除？",
-      "denied_calendar": "没有日历访问权限，Bulwark 无法将您的日历放到此设备上。",
-      "denied_contacts": "没有联系人访问权限，Bulwark 无法将您的通讯录放到此设备上。",
+      "denied_calendar": "没有日历访问权限，Cobbler Mail 无法将您的日历放到此设备上。",
+      "denied_contacts": "没有联系人访问权限，Cobbler Mail 无法将您的通讯录放到此设备上。",
       "denied_title": "同步保持关闭",
       "failed_title": "无法开启同步",
       "grant_access": "授予访问权限",
@@ -926,7 +926,7 @@
       "interval_1h": "每小时",
       "interval_30m": "每 30 分钟",
       "interval_6h": "每 6 小时",
-      "interval_desc": "Android 自动同步的频率。在 Bulwark 中的编辑和通过推送通知的更改会更快同步。",
+      "interval_desc": "Android 自动同步的频率。在 Cobbler Mail 中的编辑和通过推送通知的更改会更快同步。",
       "interval_label": "同步间隔",
       "interval_manual": "不进行定期同步",
       "keep_syncing": "继续同步",
@@ -943,18 +943,18 @@
       "ok": "确定",
       "open_app_settings": "打开应用设置",
       "own_collections": "您自己的",
-      "rationale_calendar": "要在日历应用中显示您的日历，Bulwark 需要访问此设备上的日历。它只会更改自己账户的日历。",
-      "rationale_contacts": "要在联系人应用中显示您的通讯录，Bulwark 需要访问此设备上的联系人。它只会更改自己账户的联系人。",
+      "rationale_calendar": "要在日历应用中显示您的日历，Cobbler Mail 需要访问此设备上的日历。它只会更改自己账户的日历。",
+      "rationale_contacts": "要在联系人应用中显示您的通讯录，Cobbler Mail 需要访问此设备上的联系人。它只会更改自己账户的联系人。",
       "rationale_title_calendar": "允许访问日历",
       "rationale_title_contacts": "允许访问联系人",
       "read_only": "只读",
-      "reminder_owner_bulwark": "Bulwark",
+      "reminder_owner_bulwark": "Cobbler Mail",
       "reminder_owner_device": "日历应用",
-      "reminder_question_message": "已同步活动的提醒可以来自此设备上的日历应用或 Bulwark。请选择其一，以免收到两次提醒。您之后可以更改。",
+      "reminder_question_message": "已同步活动的提醒可以来自此设备上的日历应用或 Cobbler Mail。请选择其一，以免收到两次提醒。您之后可以更改。",
       "reminder_question_title": "由谁来提醒您？",
       "reminders_desc": "由谁提醒您已同步的活动。另一方保持静默，这样您就不会收到两次提醒。",
       "reminders_label": "提醒",
-      "reminders_nobody": "Bulwark 的活动通知已关闭，因此已同步的活动不会有任何提醒。",
+      "reminders_nobody": "Cobbler Mail 的活动通知已关闭，因此已同步的活动不会有任何提醒。",
       "remove": "移除",
       "remove_from_device": "从此设备移除",
       "remove_message": "该账户的联系人和日历将从此设备移除。在此处所做但尚未到达服务器的更改将丢失。",
@@ -991,7 +991,7 @@
       "turn_off_failed_title": "无法关闭同步",
       "turn_off_pending": "{count, plural, other {在此设备上所做的 # 项更改尚未到达服务器。如果现在关闭同步，这些更改将丢失。}}",
       "turn_off_title": "仍要关闭？",
-      "turn_off_unknown": "Bulwark 无法确认在此设备上所做的更改是否已到达服务器。如果现在关闭同步，这些更改将丢失。",
+      "turn_off_unknown": "Cobbler Mail 无法确认在此设备上所做的更改是否已到达服务器。如果现在关闭同步，这些更改将丢失。",
       "turning_off": "正在上传更改，然后从此设备移除数据…",
       "turning_on": "正在设置…"
     },
@@ -1373,8 +1373,8 @@
         "section_title": "双因素身份验证",
         "disable_hint_code": "输入您的密码和身份验证器应用中的验证码，以关闭双因素身份验证。"
       },
-      "restricted": "您的服务器只允许管理员批准的应用更改密码、双因素身份验证、应用密码和 API 密钥。Bulwark 登录时未获此批准，因此邮件、联系人、日历和文件可以正常使用，但这些设置不行。请在服务器的网页界面或 Bulwark 网页邮箱中更改。",
-      "restricted_sign_in_again": "Bulwark 在您的服务器允许应用管理这些设置之前就已登录。请重新登录，以便在此管理密码、双因素身份验证、应用密码和 API 密钥。",
+      "restricted": "您的服务器只允许管理员批准的应用更改密码、双因素身份验证、应用密码和 API 密钥。Cobbler Mail 登录时未获此批准，因此邮件、联系人、日历和文件可以正常使用，但这些设置不行。请在服务器的网页界面或 Bulwark 网页邮箱中更改。",
+      "restricted_sign_in_again": "Cobbler Mail 在您的服务器允许应用管理这些设置之前就已登录。请重新登录，以便在此管理密码、双因素身份验证、应用密码和 API 密钥。",
       "screen_privacy": {
         "block_screenshots": "禁止截屏",
         "block_screenshots_description": "禁止对应用截屏和录屏，并在最近使用的应用视图中隐藏其内容。",
@@ -1944,8 +1944,8 @@
       "error": "无法显示此小组件",
       "loading": "加载中…",
       "open_app": "如果这里一直为空，请打开一次应用。",
-      "open_to_load": "打开 Bulwark 以加载",
-      "signed_out": "登录 Bulwark"
+      "open_to_load": "打开 Cobbler Mail 以加载",
+      "signed_out": "登录 Cobbler Mail"
     },
     "storage": {
       "no_limit": "无存储空间限制",
@@ -1988,5 +1988,14 @@
     "server_error": "{host} 出现问题。新邮件可能无法送达。",
     "rate_limited": "{host} 正在限制请求。新邮件可能会延迟。",
     "sign_in_failing": "无法续期您在 {host} 的登录。续期成功前不会收到新邮件。"
+  },
+  "vacation_calendar": {
+    "no_calendar": "无法占用你的日历：Cobbler Mail 找不到可以添加活动的日历。"
+  },
+  "recover_deleted": {
+    "restore_hint": "还原的邮件会以未读状态返回收件箱，并按原始日期排序，因此可能位于列表很靠下的位置。服务器会在后台进行还原。如果服务器端还原失败，邮件将会丢失，而 Cobbler Mail 无法得知。"
+  },
+  "uxs_login": {
+    "provider_unsupported": "{provider} 不支持 JMAP（Cobbler Mail 与邮件服务器通信的方式），所以 Cobbler Mail 暂时无法直接连接它。"
   }
 }

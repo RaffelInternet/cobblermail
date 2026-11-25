@@ -328,7 +328,7 @@
     "signing_out": "S'estan eliminant d'aquest dispositiu els contactes i calendaris sincronitzats…"
   },
   "email_composer": {
-    "attach_bulwark_files": "Fitxers de Bulwark",
+    "attach_bulwark_files": "Fitxers de Cobbler Mail",
     "attach_camera": "Càmera",
     "attach_gallery": "Galeria",
     "attach_this_device": "Aquest dispositiu",
@@ -401,7 +401,7 @@
     "send_timeout_body": "És possible que el missatge ja s'hagi enviat. Comproveu la carpeta Enviats abans de tornar-lo a enviar.",
     "send_timeout_title": "El servidor no respon",
     "submission_limit": "El servidor s'ha negat a enviar el missatge perquè s'ha arribat a un límit: {reason}",
-    "submission_quota": "El servidor té massa registres de missatges enviats per a aquest compte. Bulwark ha eliminat els que ha pogut; si torna a passar, demaneu a l'administrador que augmenti el límit d'enviaments de correu.",
+    "submission_quota": "El servidor té massa registres de missatges enviats per a aquest compte. Cobbler Mail ha eliminat els que ha pogut; si torna a passar, demaneu a l'administrador que augmenti el límit d'enviaments de correu.",
     "undo_send_label": "S'envia d'aquí a {seconds} s…",
     "upload_failed_short": "No s'ha pogut pujar",
     "uploading": "Pujant...",
@@ -655,7 +655,7 @@
       "add_title": "Afegeix un altre compte",
       "camera_allow": "Permet l'accés a la càmera",
       "camera_disabled": "L'accés a la càmera està desactivat. Activeu-lo a Configuració per escanejar un codi QR d'inici de sessió.",
-      "camera_needed": "El Bulwark Mail necessita accés a la càmera per escanejar un codi QR d'inici de sessió.",
+      "camera_needed": "El Cobbler Mail necessita accés a la càmera per escanejar un codi QR d'inici de sessió.",
       "choose_subtitle": "Trieu com voleu iniciar la sessió.",
       "confirm_check": "Comproveu que sigui correcte",
       "confirm_found": "Hem trobat el vostre servidor de correu",
@@ -746,7 +746,7 @@
       "paste_invalid": "Això no és un enllaç d'inici de sessió del Bulwark",
       "paste_label": "Enllaç d'inici de sessió",
       "paste_title": "Enganxa l'enllaç d'inici de sessió",
-      "provider_detail": "L'escriureu a la seva pàgina. El Bulwark només desa un testimoni d'inici de sessió, que podeu revocar en qualsevol moment.",
+      "provider_detail": "L'escriureu a la seva pàgina. El Cobbler Mail només desa un testimoni d'inici de sessió, que podeu revocar en qualsevol moment.",
       "provider_title": "La contrasenya es queda amb el vostre proveïdor",
       "qr_hint": "Configuració → Seguretat → Enllaça l'aplicació mòbil mostra un codi. Apunteu-hi la càmera.",
       "qr_hint_title": "Obriu el Bulwark a l'ordinador",
@@ -766,7 +766,7 @@
       "username_label": "Correu electrònic o nom d'usuari",
       "your_server": "el vostre servidor",
       "cancel_sign_in": "Cancel·la l'inici de sessió",
-      "err_client_rejected_detail": "El servidor ha rebutjat el Bulwark com a client d'inici de sessió. Demaneu a l'administrador que el permeti, o inicieu la sessió amb una contrasenya d'aplicació.",
+      "err_client_rejected_detail": "El servidor ha rebutjat el Cobbler Mail com a client d'inici de sessió. Demaneu a l'administrador que el permeti, o inicieu la sessió amb una contrasenya d'aplicació.",
       "err_client_rejected_title": "{host} no ha acceptat l'aplicació",
       "err_handoff_expired_detail": "El navegador ha retornat l'inici de sessió quan ja havia caducat. Torneu a iniciar la sessió.",
       "err_handoff_expired_title": "L'inici de sessió ha trigat massa",
@@ -846,7 +846,7 @@
     "advanced": {
       "about": {
         "deprecated_update": "Cal actualitzar: {version}",
-        "mobile_title": "Bulwark Mobile",
+        "mobile_title": "Cobbler Mail",
         "security_update": "Actualització de seguretat: {version}",
         "update_available": "Actualització: {version}",
         "update_store_hint": "disponible a TestFlight / App Store"
@@ -907,7 +907,7 @@
       "books_hint": "Les vostres llibretes d'adreces se sincronitzen tret que les desactiveu; les compartides, només si les activeu.",
       "books_label": "Llibretes d'adreces",
       "calendars_default": "Els vostres calendaris se sincronitzen; els compartits, només si els trieu.",
-      "calendars_hint": "Els vostres calendaris se sincronitzen tret que els desactiveu; els compartits, només si els activeu. Les llistes de tasques es queden al Bulwark.",
+      "calendars_hint": "Els vostres calendaris se sincronitzen tret que els desactiveu; els compartits, només si els activeu. Les llistes de tasques es queden al Cobbler Mail.",
       "calendars_label": "Calendaris",
       "choose": "Tria",
       "choose_books_title": "Llibretes d'adreces per sincronitzar",
@@ -918,8 +918,8 @@
       "deletions_message": "S'han suprimit molts elements alhora en aquest dispositiu, de manera que no s'han suprimit al servidor. Suprimiu-los també allà o recupereu-los en aquest dispositiu.",
       "deletions_restore": "Recupera'ls",
       "deletions_title": "Voleu suprimir-los també al servidor?",
-      "denied_calendar": "Sense accés als calendaris, el Bulwark no pot posar els vostres calendaris en aquest dispositiu.",
-      "denied_contacts": "Sense accés als contactes, el Bulwark no pot posar les vostres llibretes d'adreces en aquest dispositiu.",
+      "denied_calendar": "Sense accés als calendaris, el Cobbler Mail no pot posar els vostres calendaris en aquest dispositiu.",
+      "denied_contacts": "Sense accés als contactes, el Cobbler Mail no pot posar les vostres llibretes d'adreces en aquest dispositiu.",
       "denied_title": "La sincronització continua desactivada",
       "failed_title": "No s'ha pogut activar la sincronització",
       "grant_access": "Concedeix l'accés",
@@ -927,7 +927,7 @@
       "interval_1h": "Cada hora",
       "interval_30m": "Cada 30 minuts",
       "interval_6h": "Cada 6 hores",
-      "interval_desc": "Amb quina freqüència sincronitza Android pel seu compte. Els canvis fets al Bulwark i els que arriben per push se sincronitzen abans.",
+      "interval_desc": "Amb quina freqüència sincronitza Android pel seu compte. Els canvis fets al Cobbler Mail i els que arriben per push se sincronitzen abans.",
       "interval_label": "Interval de sincronització",
       "interval_manual": "Sense sincronització periòdica",
       "keep_syncing": "Continua sincronitzant",
@@ -944,18 +944,18 @@
       "ok": "D'acord",
       "open_app_settings": "Obre la configuració",
       "own_collections": "Personals",
-      "rationale_calendar": "Per mostrar els vostres calendaris a l'aplicació Calendari, el Bulwark necessita accés als calendaris d'aquest dispositiu. Només modifica els calendaris del seu propi compte.",
-      "rationale_contacts": "Per mostrar les vostres llibretes d'adreces a l'aplicació Contactes, el Bulwark necessita accés als contactes d'aquest dispositiu. Només modifica els contactes del seu propi compte.",
+      "rationale_calendar": "Per mostrar els vostres calendaris a l'aplicació Calendari, el Cobbler Mail necessita accés als calendaris d'aquest dispositiu. Només modifica els calendaris del seu propi compte.",
+      "rationale_contacts": "Per mostrar les vostres llibretes d'adreces a l'aplicació Contactes, el Cobbler Mail necessita accés als contactes d'aquest dispositiu. Només modifica els contactes del seu propi compte.",
       "rationale_title_calendar": "Permet l'accés als calendaris",
       "rationale_title_contacts": "Permet l'accés als contactes",
       "read_only": "Només lectura",
-      "reminder_owner_bulwark": "Bulwark",
+      "reminder_owner_bulwark": "Cobbler Mail",
       "reminder_owner_device": "Aplicació Calendari",
-      "reminder_question_message": "Els recordatoris dels esdeveniments sincronitzats poden venir de l'aplicació de calendari d'aquest dispositiu o del Bulwark. Trieu-ne un perquè no rebeu els recordatoris dues vegades. Ho podeu canviar més endavant.",
+      "reminder_question_message": "Els recordatoris dels esdeveniments sincronitzats poden venir de l'aplicació de calendari d'aquest dispositiu o del Cobbler Mail. Trieu-ne un perquè no rebeu els recordatoris dues vegades. Ho podeu canviar més endavant.",
       "reminder_question_title": "Qui us ha d'enviar els recordatoris?",
       "reminders_desc": "Qui us recorda els esdeveniments sincronitzats. L'altre no avisa, perquè no rebeu els recordatoris dues vegades.",
       "reminders_label": "Recordatoris",
-      "reminders_nobody": "Les notificacions d'esdeveniments del Bulwark estan desactivades, de manera que res no us recorda els esdeveniments sincronitzats.",
+      "reminders_nobody": "Les notificacions d'esdeveniments del Cobbler Mail estan desactivades, de manera que res no us recorda els esdeveniments sincronitzats.",
       "remove": "Elimina",
       "remove_from_device": "Elimina d'aquest dispositiu",
       "remove_message": "Els contactes i calendaris del compte s'eliminen d'aquest dispositiu. Els canvis fets aquí que no hagin arribat al servidor es perden.",
@@ -992,7 +992,7 @@
       "turn_off_failed_title": "No s'ha pogut desactivar la sincronització",
       "turn_off_pending": "{count, plural, one {# canvi fet en aquest dispositiu encara no ha arribat al servidor. Es perdrà si desactiveu la sincronització ara.} other {# canvis fets en aquest dispositiu encara no han arribat al servidor. Es perdran si desactiveu la sincronització ara.}}",
       "turn_off_title": "Voleu desactivar-la igualment?",
-      "turn_off_unknown": "El Bulwark no ha pogut comprovar si els canvis fets en aquest dispositiu han arribat al servidor. Es perdran si desactiveu la sincronització ara.",
+      "turn_off_unknown": "El Cobbler Mail no ha pogut comprovar si els canvis fets en aquest dispositiu han arribat al servidor. Es perdran si desactiveu la sincronització ara.",
       "turning_off": "S'estan pujant els canvis i després s'eliminaran les dades d'aquest dispositiu…",
       "turning_on": "S'està configurant…"
     },
@@ -1374,8 +1374,8 @@
         "section_title": "Autenticació de dos factors",
         "disable_hint_code": "Introduïu la contrasenya i un codi de l'aplicació d'autenticació per desactivar l'autenticació de dos factors."
       },
-      "restricted": "El vostre servidor només permet que les aplicacions aprovades per l'administrador canviïn la contrasenya, l'autenticació de dos factors, les contrasenyes d'aplicació i les claus d'API. El Bulwark ha iniciat la sessió sense aquesta aprovació, de manera que el correu, els contactes, els calendaris i els fitxers funcionen, però aquestes opcions no. Canvieu-les a la interfície web del servidor o al webmail del Bulwark.",
-      "restricted_sign_in_again": "El Bulwark va iniciar la sessió abans que el vostre servidor permetés a les aplicacions gestionar aquesta configuració. Torneu a iniciar la sessió per gestionar aquí la contrasenya, l'autenticació de dos factors, les contrasenyes d'aplicació i les claus d'API.",
+      "restricted": "El vostre servidor només permet que les aplicacions aprovades per l'administrador canviïn la contrasenya, l'autenticació de dos factors, les contrasenyes d'aplicació i les claus d'API. El Cobbler Mail ha iniciat la sessió sense aquesta aprovació, de manera que el correu, els contactes, els calendaris i els fitxers funcionen, però aquestes opcions no. Canvieu-les a la interfície web del servidor o al webmail del Bulwark.",
+      "restricted_sign_in_again": "El Cobbler Mail va iniciar la sessió abans que el vostre servidor permetés a les aplicacions gestionar aquesta configuració. Torneu a iniciar la sessió per gestionar aquí la contrasenya, l'autenticació de dos factors, les contrasenyes d'aplicació i les claus d'API.",
       "screen_privacy": {
         "block_screenshots": "Bloqueja les captures de pantalla",
         "block_screenshots_description": "Impedeix les captures i les gravacions de pantalla de l'aplicació i n'amaga el contingut a la vista d'aplicacions recents.",
@@ -1945,8 +1945,8 @@
       "error": "No s'ha pogut mostrar aquest giny",
       "loading": "Carregant…",
       "open_app": "Obriu l'aplicació un cop si això continua buit.",
-      "open_to_load": "Obriu el Bulwark per carregar-ho",
-      "signed_out": "Inicieu la sessió al Bulwark"
+      "open_to_load": "Obriu el Cobbler Mail per carregar-ho",
+      "signed_out": "Inicieu la sessió al Cobbler Mail"
     },
     "storage": {
       "no_limit": "Sense límit d'emmagatzematge",
@@ -1989,5 +1989,14 @@
     "server_error": "{host} té problemes. És possible que no arribi el correu nou.",
     "rate_limited": "{host} està limitant les sol·licituds. El correu nou pot arribar amb retard.",
     "sign_in_failing": "No es pot renovar l'inici de sessió a {host}. El correu nou no arribarà fins que es renovi."
+  },
+  "vacation_calendar": {
+    "no_calendar": "No es pot blocar el calendari: Cobbler Mail no ha trobat cap calendari on afegir l’esdeveniment."
+  },
+  "recover_deleted": {
+    "restore_hint": "El correu restaurat torna a la safata d'entrada com a no llegit, ordenat per la data original, així que pot quedar molt avall a la llista. El servidor el restaura en segon pla. Si allà falla, el missatge es perd i Cobbler Mail no ho pot saber."
+  },
+  "uxs_login": {
+    "provider_unsupported": "{provider} no ofereix JMAP, la manera com Cobbler Mail parla amb els servidors de correu, així que Cobbler Mail encara no s'hi pot connectar directament."
   }
 }

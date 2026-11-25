@@ -509,8 +509,8 @@ const emailKeyExtractor = rowKeyOf;
 /** Height of the undo bar plus a gap, for lifting the compose button. */
 const UNDO_BAR_CLEARANCE = 60;
 
-const LOGO_ON_LIGHT = require('../../assets/logos/Bulwark Logo Dark.png');
-const LOGO_ON_DARK = require('../../assets/logos/Bulwark Logo White.png');
+const LOGO_ON_LIGHT = require('../../assets/logos/Cobbler Mail Logo Color.png');
+const LOGO_ON_DARK = require('../../assets/logos/Cobbler Mail Logo White.png');
 
 interface EmailListScreenProps {
   onEmailPress?: (email: Email) => void;

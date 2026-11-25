@@ -63,7 +63,7 @@ class BulwarkAuthenticator(private val context: Context) : AbstractAccountAuthen
 
     private fun unsupported() = Bundle().apply {
         putInt(AccountManager.KEY_ERROR_CODE, AccountManager.ERROR_CODE_UNSUPPORTED_OPERATION)
-        putString(AccountManager.KEY_ERROR_MESSAGE, "Bulwark signs in from the app")
+        putString(AccountManager.KEY_ERROR_MESSAGE, "Cobbler Mail signs in from the app")
     }
 
     companion object {

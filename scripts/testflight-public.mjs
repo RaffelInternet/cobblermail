@@ -36,7 +36,7 @@ const keyPath = process.env.ASC_KEY_PATH || path.join(os.homedir(), 'private_key
 const privateKey = fs.readFileSync(keyPath, 'utf8');
 const bundleId = process.env.BUNDLE_ID || 'org.bulwarkmail.mobile';
 const groupName = process.env.TESTFLIGHT_GROUP || 'external';
-const repo = process.env.GITHUB_REPOSITORY || 'bulwarkmail/native';
+const repo = process.env.GITHUB_REPOSITORY || 'RaffelInternet/cobblermail';
 const whatsNew = process.env.WHATS_NEW || `Release notes: https://github.com/${repo}/releases/tag/${version}`;
 
 // Processing usually takes 5-30 minutes; give up well inside the job timeout.

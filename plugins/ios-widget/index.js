@@ -38,7 +38,7 @@ function infoPlist({ version, buildNumber }) {
   <key>CFBundleDevelopmentRegion</key>
   <string>$(DEVELOPMENT_LANGUAGE)</string>
   <key>CFBundleDisplayName</key>
-  <string>Bulwark Mail</string>
+  <string>Cobbler Mail</string>
   <key>CFBundleExecutable</key>
   <string>$(EXECUTABLE_NAME)</string>
   <key>CFBundleIdentifier</key>

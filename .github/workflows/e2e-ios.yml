@@ -168,13 +168,13 @@ jobs:
           # Xcode embeds the simulator entitlements the keychain needs. An
           # unsigned build has none, and every expo-secure-store call fails
           # with "A required entitlement isn't present".
-          APP_PATH=build/Build/Products/Release-iphonesimulator/BulwarkMobile.app
+          APP_PATH=build/Build/Products/Release-iphonesimulator/CobblerMail.app
           echo "Simulated entitlements:"
-          xcrun otool -X -s __TEXT __entitlements "$APP_PATH/BulwarkMobile" | head -20 || true
+          xcrun otool -X -s __TEXT __entitlements "$APP_PATH/CobblerMail" | head -20 || true
           codesign -d --entitlements - "$APP_PATH" 2>&1 | head -20 || true
           # Packed as a tar: artifacts drop the executable bit, which would
           # leave a reused app unable to launch.
-          tar -C build/Build/Products/Release-iphonesimulator -cf "$RUNNER_TEMP/simulator-app.tar" BulwarkMobile.app
+          tar -C build/Build/Products/Release-iphonesimulator -cf "$RUNNER_TEMP/simulator-app.tar" CobblerMail.app
           if [ -f "$RUNNER_TEMP/module-map.json" ]; then
             tar -C "$RUNNER_TEMP" -rf "$RUNNER_TEMP/simulator-app.tar" module-map.json
           else
@@ -325,7 +325,7 @@ jobs:
             mkdir -p "$RUNNER_TEMP/$side/app"
             tar -C "$RUNNER_TEMP/$side/app" -xzf "$RUNNER_TEMP/$side/simulator-app.tar.gz"
           done
-          echo "APP=$RUNNER_TEMP/cand/app/BulwarkMobile.app" >> "$GITHUB_ENV"
+          echo "APP=$RUNNER_TEMP/cand/app/CobblerMail.app" >> "$GITHUB_ENV"
 
       - name: Boot a simulator
         run: bash scripts/e2e/boot-sim.sh "$DEVICE" "$APPEARANCE" "$APP"
@@ -346,9 +346,9 @@ jobs:
 
       - name: Measure
         run: |
-          APPS=(--app "cand=$RUNNER_TEMP/cand/app/BulwarkMobile.app")
-          if [ -d "$RUNNER_TEMP/base/app/BulwarkMobile.app" ]; then
-            APPS=(--app "base=$RUNNER_TEMP/base/app/BulwarkMobile.app" "${APPS[@]}")
+          APPS=(--app "cand=$RUNNER_TEMP/cand/app/CobblerMail.app")
+          if [ -d "$RUNNER_TEMP/base/app/CobblerMail.app" ]; then
+            APPS=(--app "base=$RUNNER_TEMP/base/app/CobblerMail.app" "${APPS[@]}")
           fi
           node scripts/e2e/perf.mjs "${APPS[@]}" --rounds "${{ inputs.perf_rounds || 5 }}" --cold 5 \
             --flows "$(ls "$GITHUB_WORKSPACE"/.maestro/perf/[0-9]-*.yaml | paste -sd, -)" --out "$OUT"

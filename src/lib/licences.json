@@ -1,6 +1,6 @@
 {
   "app": {
-    "name": "bulwark-mobile",
+    "name": "cobbler-mail",
     "license": "AGPL-3.0-only"
   },
   "libraries": [

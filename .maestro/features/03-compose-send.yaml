@@ -34,7 +34,7 @@ tags:
     visible: "Photos & Videos"
     timeout: 10000
 - assertVisible: "Camera"
-# The phone's own files; a server with Files adds "Bulwark Files" below.
+# The phone's own files; a server with Files adds "Cobbler Mail Files" below.
 - assertVisible: "This device"
 - takeScreenshot: compose-02-attach-sheet
 - evalScript: ${output.pickPhoto = ORIENTATION != 'landscape'}

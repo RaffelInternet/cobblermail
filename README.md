@@ -1,23 +1,22 @@
 <div align="center">
 
 <picture>
-  <source media="(prefers-color-scheme: dark)" srcset="https://raw.githubusercontent.com/bulwarkmail/webmail/refs/heads/main/public/branding/Bulwark_Logo_with_Lettering_White_and_Color.svg" />
-  <source media="(prefers-color-scheme: light)" srcset="https://raw.githubusercontent.com/bulwarkmail/webmail/refs/heads/main/public/branding/Bulwark_Logo_with_Lettering_Dark_Color.svg" />
-  <img src="https://raw.githubusercontent.com/bulwarkmail/webmail/refs/heads/main/public/branding/Bulwark_Logo_with_Lettering_Dark_Color.svg" alt="Bulwark Webmail" width="280" />
+  <source media="(prefers-color-scheme: dark)" srcset="assets/logos/Cobbler%20Mail%20Logo%20White.png" />
+  <source media="(prefers-color-scheme: light)" srcset="assets/logos/Cobbler%20Mail%20Logo%20Color.png" />
+  <img src="assets/logos/Cobbler%20Mail%20Logo%20Color.png" alt="Cobbler Mail" width="160" />
 </picture>
 
 </div>
 
-# Bulwark Mobile
+# Cobbler Mail
 
 > **Beta - work in progress.** Many features are unfinished or rough. Expect bugs, missing functionality, and breaking changes between releases. Do not rely on this for primary email yet.
 
-React Native (Expo SDK 54) client for [Bulwark Webmail](https://github.com/bulwarkmail/webmail) - a JMAP-based mail, calendar, and contacts app.
+Cobbler Mail is a rebranded version of [Bulwark Mobile](https://github.com/bulwarkmail/native): a React Native (Expo SDK 54) client for [Bulwark Webmail](https://github.com/bulwarkmail/webmail), a JMAP-based mail, calendar, and contacts app. Its source code is at [RaffelInternet/cobblermail](https://github.com/RaffelInternet/cobblermail).
 
 ## Try it
 
-- **iPhone and iPad:** join the beta on TestFlight: https://testflight.apple.com/join/rumcjNSp. A new release shows up there once Apple has reviewed it, usually within a day.
-- **Android:** download the APK from the [latest release](https://github.com/bulwarkmail/native/releases/latest).
+There are no published builds of Cobbler Mail yet. See [Run locally](#run-locally).
 
 ## What works today
 
@@ -35,7 +34,7 @@ React Native (Expo SDK 54) client for [Bulwark Webmail](https://github.com/bulwa
 - iOS builds, but push notifications, client certificates and syncing with the phone's contacts and calendars are Android-only so far
 - S/MIME, plugins, themes - UI stubs only (filters & rules, the vacation responder and file storage are real implementations)
 - Calendar editing is partial; contacts editing is basic
-- No Play Store or App Store listing yet: Android is a sideloaded APK, iOS a TestFlight beta (see [Try it](#try-it))
+- No Play Store or App Store listing and no published builds yet (see [Try it](#try-it))
 
 ## Run locally
 
@@ -50,5 +49,7 @@ For release APK builds and signing see [docs/android-release.md](docs/android-re
 For iOS builds and TestFlight distribution see [docs/ios-release.md](docs/ios-release.md).
 
 ## License
+
+This project is a modified version of [Bulwark Mobile](https://github.com/bulwarkmail/native) (Copyright (C) 2026 Bulwark Project Authors), modified by Jesper Beltman / RaffelInternet in November 2026.
 
 AGPL-3.0-only, with an additional permission to distribute the app through app stores such as the Apple App Store and Google Play. See [LICENSE](LICENSE). Contributions are accepted under the same terms. The permission is provisional until every earlier contributor has agreed to it ([consent request](https://github.com/orgs/bulwarkmail/discussions/1113)); contributions made since 30 September 2026 are already covered.

@@ -7,8 +7,8 @@ import { getAccountInitials } from '../../lib/avatar-utils';
 import LoginFrame from './LoginFrame';
 
 // The white mark disappears on the light palette, so pick per theme.
-const LOGO_LIGHT = require('../../../assets/logos/Bulwark Logo Dark.png');
-const LOGO_DARK = require('../../../assets/logos/Bulwark Logo White.png');
+const LOGO_LIGHT = require('../../../assets/logos/Cobbler Mail Logo Color.png');
+const LOGO_DARK = require('../../../assets/logos/Cobbler Mail Logo White.png');
 
 export type SigningInPhase = 'browser' | 'connecting' | 'pairing';
 

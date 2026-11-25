@@ -2,10 +2,10 @@
 // app, and a prefilled GitHub issue. Kept free of React Native so it can be
 // unit-tested; the screen passes in the platform details.
 
-export const NATIVE_REPO_URL = 'https://github.com/bulwarkmail/native';
+export const NATIVE_REPO_URL = 'https://github.com/RaffelInternet/cobblermail';
 
-/** Public TestFlight link (README). There is no App Store listing yet. */
-export const IOS_TESTFLIGHT_URL = 'https://testflight.apple.com/join/rumcjNSp';
+/** Where iOS users get the app. Cobbler Mail has no TestFlight beta yet, so this is the release page. */
+export const IOS_TESTFLIGHT_URL = `${NATIVE_REPO_URL}/releases`;
 
 export interface DeviceInfo {
   os: string;
@@ -20,7 +20,8 @@ export interface DeviceInfo {
  * Where "Source code" points. A build can set `extra.sourceCodeUrl` in
  * app.config.js (SOURCE_CODE_URL at build time), like the webmail's
  * sourceCodeUrl: someone who ships a modified app links their own source
- * (AGPL §13). Anything that isn't an http(s) URL falls back to upstream.
+ * (AGPL §13). Anything that isn't an http(s) URL falls back to
+ * this fork's repository.
  */
 export function sourceCodeUrl(configured: unknown): string {
   if (typeof configured === 'string' && /^https?:\/\/\S+$/i.test(configured.trim())) return configured.trim();

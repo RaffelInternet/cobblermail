@@ -13,8 +13,8 @@ import { useLocaleStore } from '../../stores/locale-store';
 
 // The white mark disappears on the light palette, so pick per theme. `require`
 // can't take an expression, hence the pair.
-const LOGO_LIGHT = require('../../../assets/logos/Bulwark Logo Dark.png');
-const LOGO_DARK = require('../../../assets/logos/Bulwark Logo White.png');
+const LOGO_LIGHT = require('../../../assets/logos/Cobbler Mail Logo Color.png');
+const LOGO_DARK = require('../../../assets/logos/Cobbler Mail Logo White.png');
 
 interface ChooseStepProps {
   isAddMode: boolean;
@@ -86,7 +86,7 @@ export default function ChooseStep({
             style={styles.logo}
             resizeMode="contain"
           />
-          <Text style={styles.title}>Bulwark Mail</Text>
+          <Text style={styles.title}>Cobbler Mail</Text>
           <Text style={styles.subtitle}>{t('login.mobile.choose_subtitle', "Choose how you'd like to sign in.")}</Text>
         </View>
       )}

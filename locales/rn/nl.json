@@ -328,7 +328,7 @@
     "signing_out": "Gesynchroniseerde contacten en agenda's worden van dit apparaat verwijderd…"
   },
   "email_composer": {
-    "attach_bulwark_files": "Bulwark-bestanden",
+    "attach_bulwark_files": "Cobbler Mail-bestanden",
     "attach_camera": "Camera",
     "attach_gallery": "Galerij",
     "attach_this_device": "Dit apparaat",
@@ -401,7 +401,7 @@
     "send_timeout_body": "Het bericht is mogelijk al verzonden. Controleer je map Verzonden voordat je het opnieuw verstuurt.",
     "send_timeout_title": "Geen antwoord van de server",
     "submission_limit": "De server weigerde het bericht te verzenden omdat een limiet is bereikt: {reason}",
-    "submission_quota": "De server bewaart te veel records van verzonden berichten voor dit account. Bulwark heeft verwijderd wat kon; blijft dit gebeuren, vraag je beheerder dan de limiet voor e-mailverzendingen te verhogen.",
+    "submission_quota": "De server bewaart te veel records van verzonden berichten voor dit account. Cobbler Mail heeft verwijderd wat kon; blijft dit gebeuren, vraag je beheerder dan de limiet voor e-mailverzendingen te verhogen.",
     "undo_send_label": "Verzenden over {seconds} s…",
     "upload_failed_short": "Uploaden mislukt",
     "uploading": "Uploaden...",
@@ -655,7 +655,7 @@
       "add_title": "Nog een account toevoegen",
       "camera_allow": "Cameratoegang toestaan",
       "camera_disabled": "Cameratoegang is uitgeschakeld. Schakel deze in via Instellingen om een QR-inlogcode te scannen.",
-      "camera_needed": "Bulwark Mail heeft cameratoegang nodig om een QR-inlogcode te scannen.",
+      "camera_needed": "Cobbler Mail heeft cameratoegang nodig om een QR-inlogcode te scannen.",
       "choose_subtitle": "Kies hoe je wilt inloggen.",
       "confirm_check": "Controleer of dit klopt",
       "confirm_found": "Je mailserver is gevonden",
@@ -746,7 +746,7 @@
       "paste_invalid": "Dat is geen Bulwark-inloglink",
       "paste_label": "Inloglink",
       "paste_title": "Inloglink plakken",
-      "provider_detail": "Je typt het op hun pagina. Bulwark bewaart alleen een inlogtoken, dat je op elk moment kunt intrekken.",
+      "provider_detail": "Je typt het op hun pagina. Cobbler Mail bewaart alleen een inlogtoken, dat je op elk moment kunt intrekken.",
       "provider_title": "Je wachtwoord blijft bij je provider",
       "qr_hint": "Instellingen → Beveiliging → Mobiele app koppelen toont een code. Richt de camera erop.",
       "qr_hint_title": "Open Bulwark op je computer",
@@ -766,7 +766,7 @@
       "username_label": "E-mail of gebruikersnaam",
       "your_server": "je server",
       "cancel_sign_in": "Inloggen annuleren",
-      "err_client_rejected_detail": "De server weigerde Bulwark als inlogclient. Vraag je beheerder om het toe te staan, of log in met een app-wachtwoord.",
+      "err_client_rejected_detail": "De server weigerde Cobbler Mail als inlogclient. Vraag je beheerder om het toe te staan, of log in met een app-wachtwoord.",
       "err_client_rejected_title": "{host} heeft de app niet geaccepteerd",
       "err_handoff_expired_detail": "De browser gaf het inloggen pas terug toen het al verlopen was. Log opnieuw in.",
       "err_handoff_expired_title": "Het inloggen duurde te lang",
@@ -846,7 +846,7 @@
     "advanced": {
       "about": {
         "deprecated_update": "Update vereist: {version}",
-        "mobile_title": "Bulwark Mobile",
+        "mobile_title": "Cobbler Mail",
         "security_update": "Beveiligingsupdate: {version}",
         "update_available": "Update: {version}",
         "update_store_hint": "beschikbaar in TestFlight / App Store"
@@ -907,7 +907,7 @@
       "books_hint": "Je eigen adresboeken worden gesynchroniseerd, tenzij je ze uitzet; gedeelde alleen als je ze aanzet.",
       "books_label": "Adresboeken",
       "calendars_default": "Je eigen agenda's worden gesynchroniseerd; gedeelde alleen als je ze kiest.",
-      "calendars_hint": "Je eigen agenda's worden gesynchroniseerd, tenzij je ze uitzet; gedeelde alleen als je ze aanzet. Takenlijsten blijven in Bulwark.",
+      "calendars_hint": "Je eigen agenda's worden gesynchroniseerd, tenzij je ze uitzet; gedeelde alleen als je ze aanzet. Takenlijsten blijven in Cobbler Mail.",
       "calendars_label": "Agenda's",
       "choose": "Kiezen",
       "choose_books_title": "Te synchroniseren adresboeken",
@@ -918,8 +918,8 @@
       "deletions_message": "Er zijn op dit apparaat veel items tegelijk verwijderd, daarom zijn ze niet op de server verwijderd. Verwijder ze daar ook of zet ze terug op dit apparaat.",
       "deletions_restore": "Terugzetten",
       "deletions_title": "Ook op de server verwijderen?",
-      "denied_calendar": "Zonder toegang tot agenda's kan Bulwark je agenda's niet op dit apparaat zetten.",
-      "denied_contacts": "Zonder toegang tot contacten kan Bulwark je adresboeken niet op dit apparaat zetten.",
+      "denied_calendar": "Zonder toegang tot agenda's kan Cobbler Mail je agenda's niet op dit apparaat zetten.",
+      "denied_contacts": "Zonder toegang tot contacten kan Cobbler Mail je adresboeken niet op dit apparaat zetten.",
       "denied_title": "Synchronisatie blijft uit",
       "failed_title": "Synchronisatie kon niet worden aangezet",
       "grant_access": "Toegang geven",
@@ -927,7 +927,7 @@
       "interval_1h": "Elk uur",
       "interval_30m": "Elke 30 minuten",
       "interval_6h": "Elke 6 uur",
-      "interval_desc": "Hoe vaak Android uit zichzelf synchroniseert. Wijzigingen in Bulwark en via push gemelde wijzigingen worden eerder gesynchroniseerd.",
+      "interval_desc": "Hoe vaak Android uit zichzelf synchroniseert. Wijzigingen in Cobbler Mail en via push gemelde wijzigingen worden eerder gesynchroniseerd.",
       "interval_label": "Synchronisatie-interval",
       "interval_manual": "Geen regelmatige synchronisatie",
       "keep_syncing": "Blijven synchroniseren",
@@ -944,18 +944,18 @@
       "ok": "OK",
       "open_app_settings": "App-instellingen openen",
       "own_collections": "Je eigen",
-      "rationale_calendar": "Om je agenda's in de Agenda-app te tonen, heeft Bulwark toegang nodig tot de agenda's op dit apparaat. Bulwark wijzigt alleen de agenda's van zijn eigen account.",
-      "rationale_contacts": "Om je adresboeken in de Contacten-app te tonen, heeft Bulwark toegang nodig tot de contacten op dit apparaat. Bulwark wijzigt alleen de contacten van zijn eigen account.",
+      "rationale_calendar": "Om je agenda's in de Agenda-app te tonen, heeft Cobbler Mail toegang nodig tot de agenda's op dit apparaat. Cobbler Mail wijzigt alleen de agenda's van zijn eigen account.",
+      "rationale_contacts": "Om je adresboeken in de Contacten-app te tonen, heeft Cobbler Mail toegang nodig tot de contacten op dit apparaat. Cobbler Mail wijzigt alleen de contacten van zijn eigen account.",
       "rationale_title_calendar": "Toegang tot agenda's toestaan",
       "rationale_title_contacts": "Toegang tot contacten toestaan",
       "read_only": "Alleen lezen",
-      "reminder_owner_bulwark": "Bulwark",
+      "reminder_owner_bulwark": "Cobbler Mail",
       "reminder_owner_device": "Agenda-app",
-      "reminder_question_message": "Gesynchroniseerde evenementen kunnen je herinneren via de agenda-app op dit apparaat of via Bulwark. Kies er één, zodat je niet dubbel wordt herinnerd. Je kunt dit later wijzigen.",
+      "reminder_question_message": "Gesynchroniseerde evenementen kunnen je herinneren via de agenda-app op dit apparaat of via Cobbler Mail. Kies er één, zodat je niet dubbel wordt herinnerd. Je kunt dit later wijzigen.",
       "reminder_question_title": "Wie moet je herinneren?",
       "reminders_desc": "Wie je herinnert aan gesynchroniseerde evenementen. De andere blijft stil, zodat je niet dubbel wordt herinnerd.",
       "reminders_label": "Herinneringen",
-      "reminders_nobody": "De evenementmeldingen van Bulwark staan uit, dus niets herinnert je aan gesynchroniseerde evenementen.",
+      "reminders_nobody": "De evenementmeldingen van Cobbler Mail staan uit, dus niets herinnert je aan gesynchroniseerde evenementen.",
       "remove": "Verwijderen",
       "remove_from_device": "Verwijderen van dit apparaat",
       "remove_message": "De contacten en agenda's van het account worden van dit apparaat verwijderd. Wijzigingen die hier zijn gemaakt en de server nog niet hebben bereikt, gaan verloren.",
@@ -992,7 +992,7 @@
       "turn_off_failed_title": "Synchronisatie kon niet worden uitgezet",
       "turn_off_pending": "{count, plural, one {# wijziging op dit apparaat heeft de server nog niet bereikt. Die gaat verloren als je synchronisatie nu uitzet.} other {# wijzigingen op dit apparaat hebben de server nog niet bereikt. Die gaan verloren als je synchronisatie nu uitzet.}}",
       "turn_off_title": "Toch uitzetten?",
-      "turn_off_unknown": "Bulwark kon niet controleren of wijzigingen op dit apparaat de server hebben bereikt. Ze gaan verloren als je synchronisatie nu uitzet.",
+      "turn_off_unknown": "Cobbler Mail kon niet controleren of wijzigingen op dit apparaat de server hebben bereikt. Ze gaan verloren als je synchronisatie nu uitzet.",
       "turning_off": "Wijzigingen uploaden en daarna de gegevens van dit apparaat verwijderen…",
       "turning_on": "Instellen…"
     },
@@ -1375,8 +1375,8 @@
         "section_title": "Tweefactorauthenticatie",
         "disable_hint_code": "Voer je wachtwoord en een code uit je authenticator-app in om tweefactorauthenticatie uit te schakelen."
       },
-      "restricted": "Je server laat alleen apps die de beheerder heeft goedgekeurd het wachtwoord, tweefactorauthenticatie, app-wachtwoorden en API-sleutels wijzigen. Bulwark is zonder die goedkeuring ingelogd, dus e-mail, contacten, agenda's en bestanden werken, maar deze instellingen niet. Wijzig ze in de webinterface van je server of in de Bulwark-webmail.",
-      "restricted_sign_in_again": "Bulwark logde in voordat je server apps deze instellingen liet beheren. Log opnieuw in om hier het wachtwoord, tweefactorauthenticatie, app-wachtwoorden en API-sleutels te beheren.",
+      "restricted": "Je server laat alleen apps die de beheerder heeft goedgekeurd het wachtwoord, tweefactorauthenticatie, app-wachtwoorden en API-sleutels wijzigen. Cobbler Mail is zonder die goedkeuring ingelogd, dus e-mail, contacten, agenda's en bestanden werken, maar deze instellingen niet. Wijzig ze in de webinterface van je server of in de Bulwark-webmail.",
+      "restricted_sign_in_again": "Cobbler Mail logde in voordat je server apps deze instellingen liet beheren. Log opnieuw in om hier het wachtwoord, tweefactorauthenticatie, app-wachtwoorden en API-sleutels te beheren.",
       "screen_privacy": {
         "block_screenshots": "Schermafbeeldingen blokkeren",
         "block_screenshots_description": "Voorkomt schermafbeeldingen en schermopnamen van de app en verbergt de inhoud in het overzicht van recente apps.",
@@ -1946,8 +1946,8 @@
       "error": "Kan deze widget niet tonen",
       "loading": "Laden…",
       "open_app": "Open de app één keer als dit leeg blijft.",
-      "open_to_load": "Open Bulwark om dit te laden",
-      "signed_out": "Log in bij Bulwark"
+      "open_to_load": "Open Cobbler Mail om dit te laden",
+      "signed_out": "Log in bij Cobbler Mail"
     },
     "storage": {
       "no_limit": "Geen opslaglimiet",
@@ -1990,5 +1990,14 @@
     "server_error": "{host} heeft problemen. Nieuwe e-mail komt mogelijk niet aan.",
     "rate_limited": "{host} beperkt het aantal verzoeken. Nieuwe e-mail kan vertraagd binnenkomen.",
     "sign_in_failing": "De inlog bij {host} kan niet worden vernieuwd. Nieuwe e-mail komt pas binnen als dat lukt."
+  },
+  "vacation_calendar": {
+    "no_calendar": "Je agenda kan niet worden geblokkeerd: Cobbler Mail vond geen agenda om de afspraak in te zetten."
+  },
+  "recover_deleted": {
+    "restore_hint": "Herstelde e-mail komt ongelezen terug in je Postvak IN, gesorteerd op de oorspronkelijke datum, dus misschien ver onderaan de lijst. De server herstelt het op de achtergrond. Mislukt dat daar, dan is het bericht verloren en kan Cobbler Mail dat niet zien."
+  },
+  "uxs_login": {
+    "provider_unsupported": "{provider} biedt geen JMAP, de manier waarop Cobbler Mail met mailservers praat, dus Cobbler Mail kan er nog niet rechtstreeks mee verbinden."
   }
 }

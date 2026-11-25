@@ -768,7 +768,7 @@ async function showPlainNotification(
     emailId: '',
     threadId: '',
     groupKey: 'bulwark-mail:plain',
-    groupTitle: label || 'Bulwark',
+    groupTitle: label || 'Cobbler Mail',
   });
 }
 

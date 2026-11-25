@@ -133,7 +133,7 @@ describe('sendPhishingReport', () => {
     const raw = new TextDecoder().decode(bytes);
     expect(raw).toMatch(/^Date: .+\r\nFrom: User A <usera@example\.org>\r\nTo: soc@example\.org\r\nSubject: Phishing: You won {2}a prize\r\n/);
     expect(raw).toMatch(/Content-Type: multipart\/report; report-type=feedback-report;/);
-    expect(raw).toMatch(/Feedback-Type: fraud\r\nUser-Agent: Bulwark\/1\.2\.3\r\nVersion: 1\r\nArrival-Date: .+\r\nOriginal-Rcpt-To: usera@example\.org\r\nReported-Domain: evil\.example/);
+    expect(raw).toMatch(/Feedback-Type: fraud\r\nUser-Agent: CobblerMail\/1\.2\.3\r\nVersion: 1\r\nArrival-Date: .+\r\nOriginal-Rcpt-To: usera@example\.org\r\nReported-Domain: evil\.example/);
     expect(raw).toMatch(/Content-Transfer-Encoding: 7bit\r\n\r\nFrom: x@evil\.example\r\nSubject: Win\r\n\r\nclick\r\n--/);
     const [[create, submission]] = request.mock.calls[0];
     expect(create).toEqual(['Email/import', {

@@ -328,7 +328,7 @@
     "signing_out": "Fjerner synkroniserede kontakter og kalendere fra denne enhed…"
   },
   "email_composer": {
-    "attach_bulwark_files": "Bulwark-filer",
+    "attach_bulwark_files": "Cobbler Mail-filer",
     "attach_camera": "Kamera",
     "attach_gallery": "Galleri",
     "attach_this_device": "Denne enhed",
@@ -398,7 +398,7 @@
     "send_timeout_body": "Beskeden er muligvis allerede sendt. Tjek din Sendt-mappe, før du sender den igen.",
     "send_timeout_title": "Intet svar fra serveren",
     "submission_limit": "Serveren afviste at sende beskeden, fordi en grænse er nået: {reason}",
-    "submission_quota": "Serveren har for mange registreringer af sendte beskeder for denne konto. Bulwark har fjernet dem, den kunne; hvis det bliver ved med at ske, så bed din administrator om at hæve grænsen for afsendelse af e-mails.",
+    "submission_quota": "Serveren har for mange registreringer af sendte beskeder for denne konto. Cobbler Mail har fjernet dem, den kunne; hvis det bliver ved med at ske, så bed din administrator om at hæve grænsen for afsendelse af e-mails.",
     "undo_send_label": "Sender om {seconds} s…",
     "upload_failed_short": "Upload mislykkedes",
     "uploading": "Uploader...",
@@ -652,7 +652,7 @@
       "add_title": "Tilføj en anden konto",
       "camera_allow": "Tillad kameraadgang",
       "camera_disabled": "Kameraadgang er slået fra. Slå det til i Indstillinger for at scanne en QR-loginkode.",
-      "camera_needed": "Bulwark Mail skal have adgang til kameraet for at scanne en QR-loginkode.",
+      "camera_needed": "Cobbler Mail skal have adgang til kameraet for at scanne en QR-loginkode.",
       "choose_subtitle": "Vælg, hvordan du vil logge ind.",
       "confirm_check": "Tjek, at det ser rigtigt ud",
       "confirm_found": "Din mailserver er fundet",
@@ -743,7 +743,7 @@
       "paste_invalid": "Det er ikke et Bulwark-loginlink",
       "paste_label": "Loginlink",
       "paste_title": "Indsæt loginlink",
-      "provider_detail": "Du indtaster den på deres side. Bulwark gemmer kun et login-token, som du til enhver tid kan tilbagekalde.",
+      "provider_detail": "Du indtaster den på deres side. Cobbler Mail gemmer kun et login-token, som du til enhver tid kan tilbagekalde.",
       "provider_title": "Din adgangskode bliver hos din udbyder",
       "qr_hint": "Indstillinger → Sikkerhed → Tilknyt mobilapp viser en kode. Ret kameraet mod den.",
       "qr_hint_title": "Åbn Bulwark på din computer",
@@ -763,7 +763,7 @@
       "username_label": "E-mail eller brugernavn",
       "your_server": "din server",
       "cancel_sign_in": "Annullér login",
-      "err_client_rejected_detail": "Serveren afviste Bulwark som login-klient. Bed din administrator om at tillade den, eller log ind med en app-adgangskode.",
+      "err_client_rejected_detail": "Serveren afviste Cobbler Mail som login-klient. Bed din administrator om at tillade den, eller log ind med en app-adgangskode.",
       "err_client_rejected_title": "{host} accepterede ikke appen",
       "err_handoff_expired_detail": "Browseren sendte login tilbage, efter det var udløbet. Log ind igen.",
       "err_handoff_expired_title": "Login tog for lang tid",
@@ -843,7 +843,7 @@
     "advanced": {
       "about": {
         "deprecated_update": "Opdatering påkrævet: {version}",
-        "mobile_title": "Bulwark Mobile",
+        "mobile_title": "Cobbler Mail",
         "security_update": "Sikkerhedsopdatering: {version}",
         "update_available": "Opdatering: {version}",
         "update_store_hint": "tilgængelig i TestFlight / App Store"
@@ -904,7 +904,7 @@
       "books_hint": "Dine egne adressebøger synkroniseres, medmindre du slår dem fra; delte kun, når du slår dem til.",
       "books_label": "Adressebøger",
       "calendars_default": "Dine egne kalendere synkroniseres; delte kun, når du vælger dem.",
-      "calendars_hint": "Dine egne kalendere synkroniseres, medmindre du slår dem fra; delte kun, når du slår dem til. Opgavelister bliver i Bulwark.",
+      "calendars_hint": "Dine egne kalendere synkroniseres, medmindre du slår dem fra; delte kun, når du slår dem til. Opgavelister bliver i Cobbler Mail.",
       "calendars_label": "Kalendere",
       "choose": "Vælg",
       "choose_books_title": "Adressebøger, der skal synkroniseres",
@@ -915,8 +915,8 @@
       "deletions_message": "Mange elementer blev slettet på én gang på denne enhed, så de blev ikke slettet på serveren. Slet dem også der, eller hent dem tilbage på denne enhed.",
       "deletions_restore": "Hent dem tilbage",
       "deletions_title": "Vil du også slette dem på serveren?",
-      "denied_calendar": "Uden adgang til kalendere kan Bulwark ikke lægge dine kalendere på denne enhed.",
-      "denied_contacts": "Uden adgang til kontakter kan Bulwark ikke lægge dine adressebøger på denne enhed.",
+      "denied_calendar": "Uden adgang til kalendere kan Cobbler Mail ikke lægge dine kalendere på denne enhed.",
+      "denied_contacts": "Uden adgang til kontakter kan Cobbler Mail ikke lægge dine adressebøger på denne enhed.",
       "denied_title": "Synkronisering forbliver slået fra",
       "failed_title": "Synkronisering kunne ikke slås til",
       "grant_access": "Giv adgang",
@@ -924,7 +924,7 @@
       "interval_1h": "Hver time",
       "interval_30m": "Hvert 30. minut",
       "interval_6h": "Hver 6. time",
-      "interval_desc": "Hvor ofte Android synkroniserer af sig selv. Ændringer i Bulwark og ændringer, der meldes via push, synkroniseres hurtigere.",
+      "interval_desc": "Hvor ofte Android synkroniserer af sig selv. Ændringer i Cobbler Mail og ændringer, der meldes via push, synkroniseres hurtigere.",
       "interval_label": "Synkroniseringsinterval",
       "interval_manual": "Ingen regelmæssig synkronisering",
       "keep_syncing": "Fortsæt synkronisering",
@@ -941,18 +941,18 @@
       "ok": "OK",
       "open_app_settings": "Åbn appindstillinger",
       "own_collections": "Dine egne",
-      "rationale_calendar": "For at vise dine kalendere i Kalender-appen skal Bulwark have adgang til kalenderne på denne enhed. Bulwark ændrer kun kalenderne for sin egen konto.",
-      "rationale_contacts": "For at vise dine adressebøger i Kontakter-appen skal Bulwark have adgang til kontakterne på denne enhed. Bulwark ændrer kun kontakterne for sin egen konto.",
+      "rationale_calendar": "For at vise dine kalendere i Kalender-appen skal Cobbler Mail have adgang til kalenderne på denne enhed. Cobbler Mail ændrer kun kalenderne for sin egen konto.",
+      "rationale_contacts": "For at vise dine adressebøger i Kontakter-appen skal Cobbler Mail have adgang til kontakterne på denne enhed. Cobbler Mail ændrer kun kontakterne for sin egen konto.",
       "rationale_title_calendar": "Giv adgang til kalendere",
       "rationale_title_contacts": "Giv adgang til kontakter",
       "read_only": "Skrivebeskyttet",
-      "reminder_owner_bulwark": "Bulwark",
+      "reminder_owner_bulwark": "Cobbler Mail",
       "reminder_owner_device": "Kalender-app",
-      "reminder_question_message": "Påmindelser om synkroniserede begivenheder kan komme fra kalenderappen på denne enhed eller fra Bulwark. Vælg én af dem, så du ikke får to påmindelser. Du kan ændre det senere.",
+      "reminder_question_message": "Påmindelser om synkroniserede begivenheder kan komme fra kalenderappen på denne enhed eller fra Cobbler Mail. Vælg én af dem, så du ikke får to påmindelser. Du kan ændre det senere.",
       "reminder_question_title": "Hvem skal minde dig om begivenheder?",
       "reminders_desc": "Hvem der minder dig om synkroniserede begivenheder. Den anden forholder sig tavs, så du ikke får to påmindelser.",
       "reminders_label": "Påmindelser",
-      "reminders_nobody": "Bulwarks notifikationer om begivenheder er slået fra, så intet minder dig om synkroniserede begivenheder.",
+      "reminders_nobody": "Cobbler Mails notifikationer om begivenheder er slået fra, så intet minder dig om synkroniserede begivenheder.",
       "remove": "Fjern",
       "remove_from_device": "Fjern fra denne enhed",
       "remove_message": "Kontoens kontakter og kalendere fjernes fra denne enhed. Ændringer foretaget her, som ikke er nået frem til serveren, går tabt.",
@@ -989,7 +989,7 @@
       "turn_off_failed_title": "Synkronisering kunne ikke slås fra",
       "turn_off_pending": "{count, plural, one {# ændring foretaget på denne enhed er endnu ikke nået frem til serveren. Den går tabt, hvis du slår synkronisering fra nu.} other {# ændringer foretaget på denne enhed er endnu ikke nået frem til serveren. De går tabt, hvis du slår synkronisering fra nu.}}",
       "turn_off_title": "Vil du slå fra alligevel?",
-      "turn_off_unknown": "Bulwark kunne ikke kontrollere, om ændringer foretaget på denne enhed er nået frem til serveren. De går tabt, hvis du slår synkronisering fra nu.",
+      "turn_off_unknown": "Cobbler Mail kunne ikke kontrollere, om ændringer foretaget på denne enhed er nået frem til serveren. De går tabt, hvis du slår synkronisering fra nu.",
       "turning_off": "Uploader ændringer og fjerner derefter data fra denne enhed…",
       "turning_on": "Konfigurerer…"
     },
@@ -1371,8 +1371,8 @@
         "section_title": "To-faktor-godkendelse",
         "disable_hint_code": "Indtast din adgangskode og en kode fra din godkendelsesapp for at slå to-faktor-godkendelse fra."
       },
-      "restricted": "Din server lader kun apps, som administratoren har godkendt, ændre adgangskoden, to-faktor-godkendelse, app-adgangskoder og API-nøgler. Bulwark loggede ind uden den godkendelse, så mail, kontakter, kalendere og filer virker, men disse indstillinger gør ikke. Ændr dem i serverens webgrænseflade eller i Bulwark-webmailen.",
-      "restricted_sign_in_again": "Bulwark loggede ind, før din server lod apps administrere disse indstillinger. Log ind igen for at administrere adgangskoden, to-faktor-godkendelse, app-adgangskoder og API-nøgler her.",
+      "restricted": "Din server lader kun apps, som administratoren har godkendt, ændre adgangskoden, to-faktor-godkendelse, app-adgangskoder og API-nøgler. Cobbler Mail loggede ind uden den godkendelse, så mail, kontakter, kalendere og filer virker, men disse indstillinger gør ikke. Ændr dem i serverens webgrænseflade eller i Bulwark-webmailen.",
+      "restricted_sign_in_again": "Cobbler Mail loggede ind, før din server lod apps administrere disse indstillinger. Log ind igen for at administrere adgangskoden, to-faktor-godkendelse, app-adgangskoder og API-nøgler her.",
       "screen_privacy": {
         "block_screenshots": "Bloker skærmbilleder",
         "block_screenshots_description": "Forhindrer skærmbilleder og skærmoptagelser af appen og skjuler indholdet i oversigten over seneste apps.",
@@ -1942,8 +1942,8 @@
       "error": "Kunne ikke vise denne widget",
       "loading": "Indlæser…",
       "open_app": "Åbn appen én gang, hvis den bliver ved med at være tom.",
-      "open_to_load": "Åbn Bulwark for at indlæse dette",
-      "signed_out": "Log ind i Bulwark"
+      "open_to_load": "Åbn Cobbler Mail for at indlæse dette",
+      "signed_out": "Log ind i Cobbler Mail"
     },
     "storage": {
       "no_limit": "Ingen lagergrænse",
@@ -1986,5 +1986,14 @@
     "server_error": "{host} har problemer. Ny post kommer måske ikke frem.",
     "rate_limited": "{host} begrænser antallet af forespørgsler. Ny post kan blive forsinket.",
     "sign_in_failing": "Dit login til {host} kan ikke fornyes. Ny post kommer ikke frem, før det er fornyet."
+  },
+  "vacation_calendar": {
+    "no_calendar": "Din kalender kan ikke blokeres: Cobbler Mail fandt ingen kalender at tilføje begivenheden til."
+  },
+  "recover_deleted": {
+    "restore_hint": "Gendannet mail kommer tilbage i din indbakke som ulæst og sorteret efter den oprindelige dato, så den kan ligge langt nede på listen. Serveren gendanner den i baggrunden. Hvis det mislykkes der, er beskeden tabt, og Cobbler Mail kan ikke se det."
+  },
+  "uxs_login": {
+    "provider_unsupported": "{provider} tilbyder ikke JMAP, den måde Cobbler Mail taler med mailservere på, så Cobbler Mail kan endnu ikke forbinde direkte til det."
   }
 }

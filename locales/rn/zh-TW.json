@@ -328,7 +328,7 @@
     "signing_out": "正在從此裝置移除已同步的聯絡人和行事曆…"
   },
   "email_composer": {
-    "attach_bulwark_files": "Bulwark 檔案",
+    "attach_bulwark_files": "Cobbler Mail 檔案",
     "attach_camera": "相機",
     "attach_gallery": "圖庫",
     "attach_this_device": "此裝置",
@@ -400,7 +400,7 @@
     "send_timeout_body": "郵件可能已經寄出。再次傳送前，請先檢查「寄件備份」信件匣。",
     "send_timeout_title": "伺服器沒有回應",
     "submission_limit": "由於達到上限，伺服器拒絕傳送此郵件：{reason}",
-    "submission_quota": "伺服器上此帳戶的已寄出郵件記錄過多。Bulwark 已移除可以移除的記錄；如果問題持續發生，請要求管理員提高郵件提交數量上限。",
+    "submission_quota": "伺服器上此帳戶的已寄出郵件記錄過多。Cobbler Mail 已移除可以移除的記錄；如果問題持續發生，請要求管理員提高郵件提交數量上限。",
     "undo_send_label": "{seconds} 秒後傳送…",
     "upload_failed_short": "上傳失敗",
     "uploading": "正在上傳…",
@@ -654,7 +654,7 @@
       "add_title": "新增其他帳號",
       "camera_allow": "允許存取相機",
       "camera_disabled": "相機存取權已停用。請在「設定」中啟用，才能掃描登入 QR Code。",
-      "camera_needed": "Bulwark Mail 需要存取相機，才能掃描登入 QR Code。",
+      "camera_needed": "Cobbler Mail 需要存取相機，才能掃描登入 QR Code。",
       "choose_subtitle": "請選擇登入方式。",
       "confirm_check": "請確認資訊是否正確",
       "confirm_found": "已找到您的郵件伺服器",
@@ -745,7 +745,7 @@
       "paste_invalid": "這不是 Bulwark 登入連結",
       "paste_label": "登入連結",
       "paste_title": "貼上登入連結",
-      "provider_detail": "您會在服務供應商的頁面上輸入密碼。Bulwark 只會儲存登入權杖，您可以隨時撤銷。",
+      "provider_detail": "您會在服務供應商的頁面上輸入密碼。Cobbler Mail 只會儲存登入權杖，您可以隨時撤銷。",
       "provider_title": "您的密碼只會留在服務供應商端",
       "qr_hint": "「設定 → 安全 → 連結行動應用程式」會顯示代碼。請將相機對準代碼。",
       "qr_hint_title": "在電腦上開啟 Bulwark",
@@ -765,7 +765,7 @@
       "username_label": "電子郵件地址或使用者名稱",
       "your_server": "您的伺服器",
       "cancel_sign_in": "取消登入",
-      "err_client_rejected_detail": "伺服器拒絕讓 Bulwark 作為登入用戶端。請聯絡管理員允許，或改用應用程式密碼登入。",
+      "err_client_rejected_detail": "伺服器拒絕讓 Cobbler Mail 作為登入用戶端。請聯絡管理員允許，或改用應用程式密碼登入。",
       "err_client_rejected_title": "{host} 不接受此應用程式",
       "err_handoff_expired_detail": "瀏覽器交回登入資訊時，登入已過期。請重新登入。",
       "err_handoff_expired_title": "登入耗時過久",
@@ -845,7 +845,7 @@
     "advanced": {
       "about": {
         "deprecated_update": "需要更新：{version}",
-        "mobile_title": "Bulwark Mobile",
+        "mobile_title": "Cobbler Mail",
         "security_update": "安全性更新：{version}",
         "update_available": "更新：{version}",
         "update_store_hint": "可在 TestFlight / App Store 取得"
@@ -906,7 +906,7 @@
       "books_hint": "您自己的通訊錄會同步，除非您將其關閉；共用的通訊錄只有在您開啟後才會同步。",
       "books_label": "通訊錄",
       "calendars_default": "您自己的行事曆會同步；共用的行事曆只有在您選擇後才會同步。",
-      "calendars_hint": "您自己的行事曆會同步，除非您將其關閉；共用的行事曆只有在您開啟後才會同步。任務清單會保留在 Bulwark 中。",
+      "calendars_hint": "您自己的行事曆會同步，除非您將其關閉；共用的行事曆只有在您開啟後才會同步。任務清單會保留在 Cobbler Mail 中。",
       "calendars_label": "行事曆",
       "choose": "選擇",
       "choose_books_title": "要同步的通訊錄",
@@ -917,8 +917,8 @@
       "deletions_message": "此裝置上一次刪除了許多項目，因此未在伺服器上刪除。請同時在伺服器上刪除，或在此裝置上還原這些項目。",
       "deletions_restore": "還原",
       "deletions_title": "也要在伺服器上刪除嗎？",
-      "denied_calendar": "沒有行事曆存取權，Bulwark 就無法將您的行事曆放到此裝置上。",
-      "denied_contacts": "沒有聯絡人存取權，Bulwark 就無法將您的通訊錄放到此裝置上。",
+      "denied_calendar": "沒有行事曆存取權，Cobbler Mail 就無法將您的行事曆放到此裝置上。",
+      "denied_contacts": "沒有聯絡人存取權，Cobbler Mail 就無法將您的通訊錄放到此裝置上。",
       "denied_title": "同步維持關閉",
       "failed_title": "無法開啟同步",
       "grant_access": "授予存取權",
@@ -926,7 +926,7 @@
       "interval_1h": "每小時",
       "interval_30m": "每 30 分鐘",
       "interval_6h": "每 6 小時",
-      "interval_desc": "Android 自動同步的頻率。在 Bulwark 中的編輯和透過推送通知的變更會更快同步。",
+      "interval_desc": "Android 自動同步的頻率。在 Cobbler Mail 中的編輯和透過推送通知的變更會更快同步。",
       "interval_label": "同步間隔",
       "interval_manual": "不進行定期同步",
       "keep_syncing": "繼續同步",
@@ -943,18 +943,18 @@
       "ok": "確定",
       "open_app_settings": "開啟應用程式設定",
       "own_collections": "您自己的",
-      "rationale_calendar": "如要在日曆應用程式中顯示您的行事曆，Bulwark 需要存取此裝置上的行事曆。它只會變更自己帳號的行事曆。",
-      "rationale_contacts": "如要在聯絡人應用程式中顯示您的通訊錄，Bulwark 需要存取此裝置上的聯絡人。它只會變更自己帳號的聯絡人。",
+      "rationale_calendar": "如要在日曆應用程式中顯示您的行事曆，Cobbler Mail 需要存取此裝置上的行事曆。它只會變更自己帳號的行事曆。",
+      "rationale_contacts": "如要在聯絡人應用程式中顯示您的通訊錄，Cobbler Mail 需要存取此裝置上的聯絡人。它只會變更自己帳號的聯絡人。",
       "rationale_title_calendar": "允許存取行事曆",
       "rationale_title_contacts": "允許存取聯絡人",
       "read_only": "唯讀",
-      "reminder_owner_bulwark": "Bulwark",
+      "reminder_owner_bulwark": "Cobbler Mail",
       "reminder_owner_device": "日曆應用程式",
-      "reminder_question_message": "已同步活動的提醒可以來自此裝置上的日曆應用程式或 Bulwark。請擇一使用，以免收到兩次提醒。您之後可以變更。",
+      "reminder_question_message": "已同步活動的提醒可以來自此裝置上的日曆應用程式或 Cobbler Mail。請擇一使用，以免收到兩次提醒。您之後可以變更。",
       "reminder_question_title": "要由誰提醒您？",
       "reminders_desc": "由誰提醒您已同步的活動。另一方會保持靜音，您就不會收到兩次提醒。",
       "reminders_label": "提醒",
-      "reminders_nobody": "Bulwark 的活動通知已關閉，因此已同步的活動不會有任何提醒。",
+      "reminders_nobody": "Cobbler Mail 的活動通知已關閉，因此已同步的活動不會有任何提醒。",
       "remove": "移除",
       "remove_from_device": "從此裝置移除",
       "remove_message": "此帳號的聯絡人和行事曆將從此裝置移除。在此處所做但尚未傳送到伺服器的變更將會遺失。",
@@ -991,7 +991,7 @@
       "turn_off_failed_title": "無法關閉同步",
       "turn_off_pending": "{count, plural, other {在此裝置上所做的 # 項變更尚未傳送到伺服器。如果現在關閉同步，這些變更將會遺失。}}",
       "turn_off_title": "仍要關閉嗎？",
-      "turn_off_unknown": "Bulwark 無法確認在此裝置上所做的變更是否已傳送到伺服器。如果現在關閉同步，這些變更將會遺失。",
+      "turn_off_unknown": "Cobbler Mail 無法確認在此裝置上所做的變更是否已傳送到伺服器。如果現在關閉同步，這些變更將會遺失。",
       "turning_off": "正在上傳變更，然後從此裝置移除資料…",
       "turning_on": "正在設定…"
     },
@@ -1373,8 +1373,8 @@
         "section_title": "雙因素驗證",
         "disable_hint_code": "輸入您的密碼和驗證器應用程式中的驗證碼，以關閉雙因素驗證。"
       },
-      "restricted": "您的伺服器只允許管理員核准的應用程式變更密碼、雙因素驗證、應用程式密碼和 API 金鑰。Bulwark 登入時未獲得此核准，因此郵件、聯絡人、行事曆和檔案都能正常使用，但這些設定無法變更。請在伺服器的網頁介面或 Bulwark 網頁郵件中變更。",
-      "restricted_sign_in_again": "Bulwark 在您的伺服器允許應用程式管理這些設定之前就已登入。請重新登入，以便在此管理密碼、雙因素驗證、應用程式密碼和 API 金鑰。",
+      "restricted": "您的伺服器只允許管理員核准的應用程式變更密碼、雙因素驗證、應用程式密碼和 API 金鑰。Cobbler Mail 登入時未獲得此核准，因此郵件、聯絡人、行事曆和檔案都能正常使用，但這些設定無法變更。請在伺服器的網頁介面或 Bulwark 網頁郵件中變更。",
+      "restricted_sign_in_again": "Cobbler Mail 在您的伺服器允許應用程式管理這些設定之前就已登入。請重新登入，以便在此管理密碼、雙因素驗證、應用程式密碼和 API 金鑰。",
       "screen_privacy": {
         "block_screenshots": "封鎖螢幕截圖",
         "block_screenshots_description": "禁止對應用程式截圖和錄影，並在最近使用的應用程式畫面中隱藏其內容。",
@@ -1944,8 +1944,8 @@
       "error": "無法顯示此小工具",
       "loading": "載入中…",
       "open_app": "如果這裡一直是空的，請開啟一次應用程式。",
-      "open_to_load": "開啟 Bulwark 以載入",
-      "signed_out": "登入 Bulwark"
+      "open_to_load": "開啟 Cobbler Mail 以載入",
+      "signed_out": "登入 Cobbler Mail"
     },
     "storage": {
       "no_limit": "沒有儲存空間限制",
@@ -1988,5 +1988,14 @@
     "server_error": "{host} 發生問題。新郵件可能無法送達。",
     "rate_limited": "{host} 正在限制請求。新郵件可能會延遲。",
     "sign_in_failing": "無法續期您在 {host} 的登入。續期成功前不會收到新郵件。"
+  },
+  "vacation_calendar": {
+    "no_calendar": "無法佔用你的行事曆：Cobbler Mail 找不到可以新增活動的行事曆。"
+  },
+  "recover_deleted": {
+    "restore_hint": "還原的郵件會以未讀狀態回到收件匣，並依原始日期排序，因此可能位於清單很下方。伺服器會在背景中進行還原。如果伺服器端還原失敗，郵件將會遺失，而 Cobbler Mail 無法得知。"
+  },
+  "uxs_login": {
+    "provider_unsupported": "{provider} 不支援 JMAP（Cobbler Mail 與郵件伺服器溝通的方式），所以 Cobbler Mail 目前還無法直接連線。"
   }
 }

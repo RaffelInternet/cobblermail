@@ -14,11 +14,11 @@ tags:
     env:
       CALL: /pair?user=${ACCOUNT2}&deliver=openurl
 - extendedWaitUntil:
-    visible: "Open in .*Bulwark Mobile.*|Sign in with a link."
+    visible: "Open in .*Cobbler Mail.*|Sign in with a link."
     timeout: 60000
 - runFlow:
     when:
-      visible: "Open in .*Bulwark Mobile.*"
+      visible: "Open in .*Cobbler Mail.*"
     commands:
       - tapOn: "Open"
 - extendedWaitUntil:

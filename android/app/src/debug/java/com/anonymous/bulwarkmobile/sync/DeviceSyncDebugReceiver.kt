@@ -15,7 +15,7 @@ import kotlin.concurrent.thread
  * which only the shell and the system hold. Syncs themselves are triggered
  * with `adb shell requestsync`.
  *
- *     adb shell am broadcast -n com.anonymous.bulwarkmobile/.sync.DeviceSyncDebugReceiver \
+ *     adb shell am broadcast -n com.anonymous.cobblermail/com.anonymous.bulwarkmobile.sync.DeviceSyncDebugReceiver \
  *       --es cmd ensure --es name usera@example.org --es registry usera@example.org@10.0.2.2 \
  *       --es enable contacts,calendar
  *

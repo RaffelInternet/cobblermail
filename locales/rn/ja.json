@@ -328,7 +328,7 @@
     "signing_out": "同期した連絡先とカレンダーをこのデバイスから削除しています…"
   },
   "email_composer": {
-    "attach_bulwark_files": "Bulwark ファイル",
+    "attach_bulwark_files": "Cobbler Mail ファイル",
     "attach_camera": "カメラ",
     "attach_gallery": "ギャラリー",
     "attach_this_device": "このデバイス",
@@ -401,7 +401,7 @@
     "send_timeout_body": "メッセージはすでに送信されている可能性があります。再送信する前に送信済みフォルダーを確認してください。",
     "send_timeout_title": "サーバーから応答がありません",
     "submission_limit": "上限に達したため、サーバーがメッセージの送信を拒否しました: {reason}",
-    "submission_quota": "このアカウントの送信済みメッセージの記録がサーバー上に多すぎます。Bulwark は削除できる記録を削除しました。この状態が続く場合は、メール送信数の上限を引き上げるよう管理者に依頼してください。",
+    "submission_quota": "このアカウントの送信済みメッセージの記録がサーバー上に多すぎます。Cobbler Mail は削除できる記録を削除しました。この状態が続く場合は、メール送信数の上限を引き上げるよう管理者に依頼してください。",
     "undo_send_label": "{seconds}秒後に送信…",
     "upload_failed_short": "アップロードに失敗しました",
     "uploading": "アップロード中...",
@@ -655,7 +655,7 @@
       "add_title": "別のアカウントを追加",
       "camera_allow": "カメラへのアクセスを許可",
       "camera_disabled": "カメラへのアクセスが無効になっています。サインイン用の QR コードをスキャンするには、設定で有効にしてください。",
-      "camera_needed": "サインイン用の QR コードをスキャンするには、Bulwark Mail にカメラへのアクセスを許可する必要があります。",
+      "camera_needed": "サインイン用の QR コードをスキャンするには、Cobbler Mail にカメラへのアクセスを許可する必要があります。",
       "choose_subtitle": "サインイン方法を選択してください。",
       "confirm_check": "内容が正しいか確認してください",
       "confirm_found": "メールサーバーが見つかりました",
@@ -746,7 +746,7 @@
       "paste_invalid": "これは Bulwark のサインインリンクではありません",
       "paste_label": "サインインリンク",
       "paste_title": "サインインリンクを貼り付け",
-      "provider_detail": "パスワードはプロバイダーのページで入力します。Bulwark が保存するのはサインイントークンのみで、いつでも取り消すことができます。",
+      "provider_detail": "パスワードはプロバイダーのページで入力します。Cobbler Mail が保存するのはサインイントークンのみで、いつでも取り消すことができます。",
       "provider_title": "パスワードはプロバイダーにのみ送信されます",
       "qr_hint": "「設定 → セキュリティ → モバイルアプリを連携」でコードが表示されます。カメラをコードに向けてください。",
       "qr_hint_title": "パソコンで Bulwark を開いてください",
@@ -766,7 +766,7 @@
       "username_label": "メールアドレスまたはユーザー名",
       "your_server": "お使いのサーバー",
       "cancel_sign_in": "サインインをキャンセル",
-      "err_client_rejected_detail": "サーバーが Bulwark をサインインクライアントとして拒否しました。管理者に許可を依頼するか、アプリパスワードでサインインしてください。",
+      "err_client_rejected_detail": "サーバーが Cobbler Mail をサインインクライアントとして拒否しました。管理者に許可を依頼するか、アプリパスワードでサインインしてください。",
       "err_client_rejected_title": "{host} がアプリを受け付けませんでした",
       "err_handoff_expired_detail": "ブラウザーからサインインが戻されたときには、すでに期限切れでした。もう一度サインインしてください。",
       "err_handoff_expired_title": "サインインに時間がかかりすぎました",
@@ -846,7 +846,7 @@
     "advanced": {
       "about": {
         "deprecated_update": "アップデートが必要です：{version}",
-        "mobile_title": "Bulwark Mobile",
+        "mobile_title": "Cobbler Mail",
         "security_update": "セキュリティアップデート：{version}",
         "update_available": "アップデート：{version}",
         "update_store_hint": "TestFlight / App Store で入手可能"
@@ -907,7 +907,7 @@
       "books_hint": "自分のアドレス帳はオフにしない限り同期されます。共有されたアドレス帳はオンにした場合のみ同期されます。",
       "books_label": "アドレス帳",
       "calendars_default": "自分のカレンダーは同期されます。共有されたカレンダーは選択した場合のみ同期されます。",
-      "calendars_hint": "自分のカレンダーはオフにしない限り同期されます。共有されたカレンダーはオンにした場合のみ同期されます。タスクリストは Bulwark に残ります。",
+      "calendars_hint": "自分のカレンダーはオフにしない限り同期されます。共有されたカレンダーはオンにした場合のみ同期されます。タスクリストは Cobbler Mail に残ります。",
       "calendars_label": "カレンダー",
       "choose": "選択",
       "choose_books_title": "同期するアドレス帳",
@@ -918,8 +918,8 @@
       "deletions_message": "このデバイスで多数の項目が一度に削除されたため、サーバーでは削除されていません。サーバーでも削除するか、このデバイスに復元してください。",
       "deletions_restore": "復元",
       "deletions_title": "サーバーでも削除しますか？",
-      "denied_calendar": "カレンダーへのアクセスがないと、Bulwark はカレンダーをこのデバイスに追加できません。",
-      "denied_contacts": "連絡先へのアクセスがないと、Bulwark はアドレス帳をこのデバイスに追加できません。",
+      "denied_calendar": "カレンダーへのアクセスがないと、Cobbler Mail はカレンダーをこのデバイスに追加できません。",
+      "denied_contacts": "連絡先へのアクセスがないと、Cobbler Mail はアドレス帳をこのデバイスに追加できません。",
       "denied_title": "同期はオフのままです",
       "failed_title": "同期をオンにできませんでした",
       "grant_access": "アクセスを許可",
@@ -927,7 +927,7 @@
       "interval_1h": "1時間ごと",
       "interval_30m": "30分ごと",
       "interval_6h": "6時間ごと",
-      "interval_desc": "Android が自動で同期する頻度です。Bulwark での編集やプッシュで通知された変更は、より早く同期されます。",
+      "interval_desc": "Android が自動で同期する頻度です。Cobbler Mail での編集やプッシュで通知された変更は、より早く同期されます。",
       "interval_label": "同期の間隔",
       "interval_manual": "定期的に同期しない",
       "keep_syncing": "同期を続ける",
@@ -944,18 +944,18 @@
       "ok": "OK",
       "open_app_settings": "アプリの設定を開く",
       "own_collections": "自分のもの",
-      "rationale_calendar": "カレンダーアプリにカレンダーを表示するには、Bulwark にこのデバイスのカレンダーへのアクセスを許可する必要があります。Bulwark が変更するのは自分のアカウントのカレンダーだけです。",
-      "rationale_contacts": "連絡帳アプリにアドレス帳を表示するには、Bulwark にこのデバイスの連絡先へのアクセスを許可する必要があります。Bulwark が変更するのは自分のアカウントの連絡先だけです。",
+      "rationale_calendar": "カレンダーアプリにカレンダーを表示するには、Cobbler Mail にこのデバイスのカレンダーへのアクセスを許可する必要があります。Cobbler Mail が変更するのは自分のアカウントのカレンダーだけです。",
+      "rationale_contacts": "連絡帳アプリにアドレス帳を表示するには、Cobbler Mail にこのデバイスの連絡先へのアクセスを許可する必要があります。Cobbler Mail が変更するのは自分のアカウントの連絡先だけです。",
       "rationale_title_calendar": "カレンダーへのアクセスを許可",
       "rationale_title_contacts": "連絡先へのアクセスを許可",
       "read_only": "読み取り専用",
-      "reminder_owner_bulwark": "Bulwark",
+      "reminder_owner_bulwark": "Cobbler Mail",
       "reminder_owner_device": "カレンダーアプリ",
-      "reminder_question_message": "同期した予定のリマインダーは、このデバイスのカレンダーアプリか Bulwark のどちらかから通知できます。重複して通知されないよう、どちらか一方を選んでください。後で変更できます。",
+      "reminder_question_message": "同期した予定のリマインダーは、このデバイスのカレンダーアプリか Cobbler Mail のどちらかから通知できます。重複して通知されないよう、どちらか一方を選んでください。後で変更できます。",
       "reminder_question_title": "どちらから通知しますか？",
       "reminders_desc": "同期した予定のリマインダーを通知するアプリです。もう一方は通知しないため、重複して通知されません。",
       "reminders_label": "リマインダー",
-      "reminders_nobody": "Bulwark の予定の通知がオフになっているため、同期した予定のリマインダーは通知されません。",
+      "reminders_nobody": "Cobbler Mail の予定の通知がオフになっているため、同期した予定のリマインダーは通知されません。",
       "remove": "削除",
       "remove_from_device": "このデバイスから削除",
       "remove_message": "このアカウントの連絡先とカレンダーがこのデバイスから削除されます。ここで行った変更のうち、サーバーに届いていないものは失われます。",
@@ -992,7 +992,7 @@
       "turn_off_failed_title": "同期をオフにできませんでした",
       "turn_off_pending": "{count, plural, other {このデバイスで行った#件の変更がまだサーバーに届いていません。今同期をオフにすると失われます。}}",
       "turn_off_title": "それでもオフにしますか？",
-      "turn_off_unknown": "このデバイスで行った変更がサーバーに届いたかどうかを Bulwark で確認できませんでした。今同期をオフにすると失われます。",
+      "turn_off_unknown": "このデバイスで行った変更がサーバーに届いたかどうかを Cobbler Mail で確認できませんでした。今同期をオフにすると失われます。",
       "turning_off": "変更をアップロードしてから、このデバイスのデータを削除しています…",
       "turning_on": "設定しています…"
     },
@@ -1374,8 +1374,8 @@
         "section_title": "二要素認証",
         "disable_hint_code": "二要素認証をオフにするには、パスワードと認証アプリのコードを入力してください。"
       },
-      "restricted": "お使いのサーバーでは、パスワード、二要素認証、アプリパスワード、API キーを変更できるのは管理者が承認したアプリだけです。Bulwark はその承認なしでサインインしたため、メール、連絡先、カレンダー、ファイルは使えますが、これらの設定は使えません。サーバーのウェブ管理画面か Bulwark ウェブメールで変更してください。",
-      "restricted_sign_in_again": "Bulwark は、サーバーがアプリにこれらの設定の管理を許可する前にサインインしました。パスワード、二要素認証、アプリパスワード、API キーをここで管理するには、もう一度サインインしてください。",
+      "restricted": "お使いのサーバーでは、パスワード、二要素認証、アプリパスワード、API キーを変更できるのは管理者が承認したアプリだけです。Cobbler Mail はその承認なしでサインインしたため、メール、連絡先、カレンダー、ファイルは使えますが、これらの設定は使えません。サーバーのウェブ管理画面か Bulwark ウェブメールで変更してください。",
+      "restricted_sign_in_again": "Cobbler Mail は、サーバーがアプリにこれらの設定の管理を許可する前にサインインしました。パスワード、二要素認証、アプリパスワード、API キーをここで管理するには、もう一度サインインしてください。",
       "screen_privacy": {
         "block_screenshots": "スクリーンショットをブロック",
         "block_screenshots_description": "アプリのスクリーンショットと画面録画を防ぎ、最近使ったアプリの一覧で内容を隠します。",
@@ -1945,8 +1945,8 @@
       "error": "このウィジェットを表示できませんでした",
       "loading": "読み込み中…",
       "open_app": "空のままの場合は、一度アプリを開いてください。",
-      "open_to_load": "読み込むには Bulwark を開いてください",
-      "signed_out": "Bulwark にサインイン"
+      "open_to_load": "読み込むには Cobbler Mail を開いてください",
+      "signed_out": "Cobbler Mail にサインイン"
     },
     "storage": {
       "no_limit": "ストレージの上限なし",
@@ -1989,5 +1989,11 @@
     "server_error": "{host} で問題が発生しています。新着メールが届かない可能性があります。",
     "rate_limited": "{host} がリクエストを制限しています。新着メールが遅れる可能性があります。",
     "sign_in_failing": "{host} へのサインインを更新できません。更新されるまで新着メールは届きません。"
+  },
+  "recover_deleted": {
+    "restore_hint": "復元したメールは未読として受信トレイに戻り、元の日付順に並ぶため、一覧のかなり下にある場合があります。復元はサーバーがバックグラウンドで行います。そこで失敗した場合、メッセージは失われ、Cobbler Mail はそれを検知できません。"
+  },
+  "uxs_login": {
+    "provider_unsupported": "{provider} は Cobbler Mail がメールサーバーとやり取りする方式である JMAP に対応していないため、Cobbler Mail はまだ直接接続できません。"
   }
 }

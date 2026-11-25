@@ -69,11 +69,11 @@ function askReminderOwner(t: TranslateFn): Promise<ReminderOwner | null> {
       t('settings.device_sync.reminder_question_title', 'Who should remind you?'),
       t(
         'settings.device_sync.reminder_question_message',
-        'Synced events can remind you from the calendar app on this device or from Bulwark. Pick one so you are not reminded twice. You can change it later.',
+        'Synced events can remind you from the calendar app on this device or from Cobbler Mail. Pick one so you are not reminded twice. You can change it later.',
       ),
       [
         { text: t('common.cancel', 'Cancel'), style: 'cancel', onPress: () => answer(null) },
-        { text: t('settings.device_sync.reminder_owner_bulwark', 'Bulwark'), onPress: () => answer('bulwark') },
+        { text: t('settings.device_sync.reminder_owner_bulwark', 'Cobbler Mail'), onPress: () => answer('bulwark') },
         { text: t('settings.device_sync.reminder_owner_device', 'Calendar app'), onPress: () => answer('device') },
       ],
       { cancelable: true, onDismiss: () => answer(null) },
@@ -147,8 +147,8 @@ export function DeviceSyncAccountRow({ account, authority }: Props) {
     Alert.alert(
       t('settings.device_sync.denied_title', 'Sync stays off'),
       isContacts
-        ? t('settings.device_sync.denied_contacts', 'Without access to contacts, Bulwark cannot put your address books on this device.')
-        : t('settings.device_sync.denied_calendar', 'Without access to calendars, Bulwark cannot put your calendars on this device.'),
+        ? t('settings.device_sync.denied_contacts', 'Without access to contacts, Cobbler Mail cannot put your address books on this device.')
+        : t('settings.device_sync.denied_calendar', 'Without access to calendars, Cobbler Mail cannot put your calendars on this device.'),
       [{ text: t('settings.device_sync.ok', 'OK') }],
     );
   };
@@ -398,7 +398,7 @@ export function DeviceSyncAccountRow({ account, authority }: Props) {
               description={entry.reminderOwner === 'bulwark' && !calendarReminders
                 ? t(
                   'settings.device_sync.reminders_nobody',
-                  "Bulwark's event notifications are off, so nothing reminds you of synced events.",
+                  "Cobbler Mail's event notifications are off, so nothing reminds you of synced events.",
                 )
                 : t(
                   'settings.device_sync.reminders_desc',
@@ -410,7 +410,7 @@ export function DeviceSyncAccountRow({ account, authority }: Props) {
                 onChange={(v) => { void changeReminderOwner(account.id, v === 'bulwark' ? 'bulwark' : 'device'); }}
                 options={[
                   { value: 'device', label: t('settings.device_sync.reminder_owner_device', 'Calendar app') },
-                  { value: 'bulwark', label: t('settings.device_sync.reminder_owner_bulwark', 'Bulwark') },
+                  { value: 'bulwark', label: t('settings.device_sync.reminder_owner_bulwark', 'Cobbler Mail') },
                 ]}
               />
             </SettingItem>
@@ -420,7 +420,7 @@ export function DeviceSyncAccountRow({ account, authority }: Props) {
             label={t('settings.device_sync.interval_label', 'Sync interval')}
             description={t(
               'settings.device_sync.interval_desc',
-              'How often Android syncs on its own. Edits in Bulwark and pushed changes sync sooner.',
+              'How often Android syncs on its own. Edits in Cobbler Mail and pushed changes sync sooner.',
             )}
             noBorder
           >
@@ -471,11 +471,11 @@ export function DeviceSyncAccountRow({ account, authority }: Props) {
         message={isContacts
           ? t(
             'settings.device_sync.rationale_contacts',
-            'To show your address books in the Contacts app, Bulwark needs access to the contacts on this device. It only changes the contacts of its own account.',
+            'To show your address books in the Contacts app, Cobbler Mail needs access to the contacts on this device. It only changes the contacts of its own account.',
           )
           : t(
             'settings.device_sync.rationale_calendar',
-            'To show your calendars in the Calendar app, Bulwark needs access to the calendars on this device. It only changes the calendars of its own account.',
+            'To show your calendars in the Calendar app, Cobbler Mail needs access to the calendars on this device. It only changes the calendars of its own account.',
           )}
         confirmText={t('settings.device_sync.continue', 'Continue')}
         onConfirm={() => { void turnOn(); }}
@@ -514,7 +514,7 @@ export function DeviceSyncAccountRow({ account, authority }: Props) {
           )
           : t(
             'settings.device_sync.turn_off_unknown',
-            'Bulwark could not check whether changes made on this device reached the server. They are lost if you turn sync off now.',
+            'Cobbler Mail could not check whether changes made on this device reached the server. They are lost if you turn sync off now.',
           )}
         confirmText={t('settings.device_sync.turn_off_anyway', 'Turn off')}
         cancelText={t('settings.device_sync.keep_syncing', 'Keep syncing')}

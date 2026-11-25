@@ -6,7 +6,7 @@ import { describe, it, expect } from 'vitest';
 import { isForeignContentUri, shareAttachments } from '../share-intent';
 import { isComposeAttachmentUri } from '../email-export';
 
-const PKG = 'com.anonymous.bulwarkmobile';
+const PKG = 'com.anonymous.cobblermail';
 const PLAY_PKG = 'org.bulwarkmail.mobile';
 const CACHE = `file:///data/user/0/${PKG}/cache/`;
 
