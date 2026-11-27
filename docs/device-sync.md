@@ -1809,9 +1809,9 @@ The 2,000 + 2,000 scale run is in [Verification](#verification).
   builds create accounts without UI:
 
   ```
-  adb shell am broadcast -n nl.cobbler.mail/com.anonymous.bulwarkmobile.sync.DeviceSyncDebugReceiver \
+  adb shell am broadcast -n nl.anonymous.mail/com.anonymous.bulwarkmobile.sync.DeviceSyncDebugReceiver \
     --es cmd ensure --es name <name> --es registry <AccountEntry.id> --es enable contacts,calendar
-  adb shell requestsync -n <name> -t nl.cobbler.mail.account -a com.android.contacts --manual
+  adb shell requestsync -n <name> -t nl.anonymous.mail.account -a com.android.contacts --manual
   ```
 
 ## Decisions and limitations
