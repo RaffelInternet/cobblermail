@@ -16,7 +16,7 @@
  * the way the app's poll does. Set it to the test relay's base URL
  * (https://relay.internal.bulwarkmail.org); every subscription of the run
  * then points there too. `1` means the hosted relay
- * (https://notifications.relay.bulwarkmail.org), which test runs shouldn't
+ * (https://relay.cobbler.nl), which test runs shouldn't
  * use. It registers a throwaway record with the relay under a random
  * id and removes it again. Run it at least a minute after any other push
  * test against the same account: Stalwart sends one PushVerification per
@@ -343,7 +343,7 @@ live('live Stalwart push subscriptions', () => {
   }, 30_000);
 
   it('refuses push addresses that are not public: http and private IPs everywhere, local names on 1.0', async () => {
-    for (const url of ['http://notifications.relay.bulwarkmail.org/api/push/jmap/x', 'https://192.168.1.20/api/push/jmap/x', 'https://10.0.0.5:8443/api/push/jmap/x']) {
+    for (const url of ['http://relay.cobbler.nl/api/push/jmap/x', 'https://192.168.1.20/api/push/jmap/x', 'https://10.0.0.5:8443/api/push/jmap/x']) {
       const err = await refusal(create('private-ip', { url }));
       expect(err.type).toBe('invalidProperties');
       expect(err.properties).toEqual(['url']);

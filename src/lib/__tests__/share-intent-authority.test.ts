@@ -6,8 +6,8 @@ import { describe, it, expect } from 'vitest';
 import { isForeignContentUri, shareAttachments } from '../share-intent';
 import { isComposeAttachmentUri } from '../email-export';
 
-const PKG = 'com.anonymous.cobblermail';
-const PLAY_PKG = 'org.bulwarkmail.mobile';
+const PKG = 'nl.anonymous.mail';
+const PLAY_PKG = 'nl.cobbler.mail';
 const CACHE = `file:///data/user/0/${PKG}/cache/`;
 
 describe('the authority as Android resolves it', () => {

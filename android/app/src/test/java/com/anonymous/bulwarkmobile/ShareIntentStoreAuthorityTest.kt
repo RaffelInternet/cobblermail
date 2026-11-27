@@ -11,8 +11,8 @@ import org.junit.Test
 // "content://<own>\@other/..." is <own>. The same cases as
 // src/lib/__tests__/share-intent-authority.test.ts.
 class ShareIntentStoreAuthorityTest {
-    private val pkg = "com.anonymous.cobblermail"
-    private val playPkg = "org.bulwarkmail.mobile"
+    private val pkg = "nl.anonymous.mail"
+    private val playPkg = "nl.cobbler.mail"
 
     @Test
     fun `refuses an own provider followed by a backslash, which Android reads as the end of the authority`() {
