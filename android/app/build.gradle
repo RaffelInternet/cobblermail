@@ -150,7 +150,7 @@ android {
     // phone is the applicationId of each flavor.
     namespace 'com.anonymous.bulwarkmobile'
     defaultConfig {
-        applicationId 'com.anonymous.cobblermail'
+        applicationId 'nl.cobbler.mail'
         minSdkVersion rootProject.ext.minSdkVersion
         targetSdkVersion rootProject.ext.targetSdkVersion
         versionCode appVersionCode.toInteger()
@@ -174,7 +174,7 @@ android {
     productFlavors {
         github {
             dimension "distribution"
-            applicationId 'com.anonymous.cobblermail'
+            applicationId 'nl.cobbler.mail'
             buildConfigField "String", "DISTRIBUTION", '"github"'
         }
         play {

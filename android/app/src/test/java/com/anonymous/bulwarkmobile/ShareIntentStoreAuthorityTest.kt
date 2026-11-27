@@ -11,7 +11,7 @@ import org.junit.Test
 // "content://<own>\@other/..." is <own>. The same cases as
 // src/lib/__tests__/share-intent-authority.test.ts.
 class ShareIntentStoreAuthorityTest {
-    private val pkg = "com.anonymous.cobblermail"
+    private val pkg = "nl.cobbler.mail"
     private val playPkg = "org.bulwarkmail.mobile"
 
     @Test

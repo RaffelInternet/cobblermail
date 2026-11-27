@@ -16,7 +16,7 @@ import { isForeignContentUri, shareAttachments } from '../share-intent';
 import { shareToDeepLink } from '../../navigation/linking';
 import { copyPreviewFile, isComposeAttachmentUri } from '../email-export';
 
-const PKG = 'com.anonymous.cobblermail';
+const PKG = 'nl.cobbler.mail';
 const PLAY_PKG = 'org.bulwarkmail.mobile';
 
 function shared(uris: string[]) {
@@ -69,7 +69,7 @@ describe('files shared into the app', () => {
       'https://example.org/a.pdf',
       'data:text/plain;base64,QQ==',
       'javascript:alert(1)',
-      '/data/user/0/com.anonymous.cobblermail/databases/RKStorage',
+      '/data/user/0/nl.cobbler.mail/databases/RKStorage',
       '',
       `content:${PKG}.FileSystemFileProvider/x`,
       'content:///x',
@@ -99,7 +99,7 @@ describe('files shared into the app', () => {
       { uri: 'content://0@com.google.android.apps.photos.contentprovider/1/2/x', name: 'photo.jpg', type: 'image/jpeg', size: 6000 },
     ]);
     // A package whose name only starts like the app's is another app.
-    expect(isForeignContentUri('content://com.anonymous.cobblermailx.files/x')).toBe(true);
+    expect(isForeignContentUri('content://nl.cobbler.mailx.files/x')).toBe(true);
   });
 
   it('keeps the foreign file of a multiple share and drops the own one', () => {

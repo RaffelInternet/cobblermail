@@ -63,7 +63,7 @@ object ShareIntentStore {
     // The app's package names, the GitHub and the Play flavour. A provider of
     // either belongs to the app, whichever build is running. Keep in sync with
     // OWN_PACKAGES in src/lib/share-intent.ts.
-    private val OWN_PACKAGES = listOf("com.anonymous.cobblermail", "org.bulwarkmail.mobile")
+    private val OWN_PACKAGES = listOf("nl.cobbler.mail", "org.bulwarkmail.mobile")
 
     // Whether a shared stream may be attached: a `content:` URI whose provider
     // isn't one of the app's own. Anything else (`file:`, a bare path, other

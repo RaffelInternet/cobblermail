@@ -76,7 +76,7 @@ module.exports = {
       },
       edgeToEdgeEnabled: true,
       predictiveBackGestureEnabled: false,
-      package: 'com.anonymous.cobblermail',
+      package: 'nl.cobbler.mail',
       // The AsyncStorage database holds cached message bodies, the outbox and
       // the account registry; the platform backup would ship all of it to the
       // user's Google account. Credentials live in SecureStore (excluded by
