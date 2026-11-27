@@ -7,6 +7,25 @@
   "client": [
     {
       "client_info": {
+        "mobilesdk_app_id": "1:300589746454:android:28c56d490a6dcecd302837",
+        "android_client_info": {
+          "package_name": "nl.anonymous.mail"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyC1ElQEQ8Y6fh63U0sX7EtNIh-JEQMkIRc"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    },
+    {
+      "client_info": {
         "mobilesdk_app_id": "1:300589746454:android:71932d5984632357302837",
         "android_client_info": {
           "package_name": "nl.cobbler.mail"
